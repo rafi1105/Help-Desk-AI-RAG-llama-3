@@ -6,12 +6,12 @@ echo.
 
 REM Start backend server
 echo [1/2] Starting Backend Server (V2 Enhanced Chatbot)...
-start cmd /k "cd /d d:\VS Code\thesis-bot\chatbot\backend && python rag_api_server.py"
+start cmd /k "cd /d d:\VS Code\Help-Desk-AI-RAG-llama-3\backend && python rag_api_server.py"
 timeout /t 3 /nobreak >nul
 
 REM Start frontend development server
 echo [2/2] Starting Frontend React Server...
-start cmd /k "cd /d d:\VS Code\thesis-bot\chatbot\frontend-react && npm run dev"
+start cmd /k "cd /d d:\VS Code\Help-Desk-AI-RAG-llama-3\frontend-react && npm run dev"
 
 echo.
 echo ============================================
