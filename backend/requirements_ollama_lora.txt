@@ -1,0 +1,2 @@
+# Requirements for Ollama LoRA Fine-tuning
+requests>=2.25.0

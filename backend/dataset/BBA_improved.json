@@ -1,0 +1,240 @@
+[
+  {
+    "question": "What is the tuition fee for the BBA program?",
+    "answer": "The tuition fee for the Bachelor of Business Administration (BBA) program at Green University is BDT 60,000 per semester. The total program cost for 4 years (8 semesters) is approximately BDT 480,000 to 520,000, excluding admission fee and other charges.",
+    "keywords": ["tuition", "fee", "bba", "business", "administration", "cost", "semester", "bdt", "price", "payment", "total"],
+    "question_variations": [
+      "How much is the BBA program fee?",
+      "What is the cost of BBA?",
+      "BBA tuition fee per semester?",
+      "How much does BBA cost at Green University?",
+      "What is the semester fee for business administration?",
+      "BBA program total cost?",
+      "Business administration fee structure?",
+      "How much do I pay for BBA each semester?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "bba_program", "programs_courses"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What is the admission fee for the BBA program?",
+    "answer": "The admission fee for the Bachelor of Business Administration (BBA) program is BDT 15,000. This is a one-time, non-refundable payment made during enrollment.",
+    "keywords": ["admission", "fee", "bba", "business", "enrollment", "cost", "bdt", "one-time"],
+    "question_variations": [
+      "BBA admission fee amount?",
+      "How much is the admission fee for business?",
+      "One-time admission charge for BBA?",
+      "Enrollment fee for BBA?",
+      "What do I pay for BBA admission?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "bba_program"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What is the application fee for the BBA program?",
+    "answer": "The application fee for the Bachelor of Business Administration (BBA) program is BDT 500. This fee is non-refundable and must be paid when submitting your application online.",
+    "keywords": ["application", "fee", "bba", "apply", "cost", "bdt", "admission"],
+    "question_variations": [
+      "How much to apply for BBA?",
+      "BBA application charge?",
+      "Cost to submit BBA application?",
+      "Application fee for business administration program?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "application_process"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What are the eligibility requirements for the BBA program?",
+    "answer": "To be eligible for the Bachelor of Business Administration (BBA) program at Green University, applicants must have: 1) Minimum GPA of 2.5 in both SSC and HSC (or equivalent), 2) Completion of secondary education in any discipline, 3) Submission of academic transcripts. No entrance exam required - selection based on academic records and personal statements.",
+    "keywords": ["eligibility", "requirements", "bba", "business", "admission", "gpa", "ssc", "hsc", "qualifications", "criteria"],
+    "question_variations": [
+      "Who can apply for BBA?",
+      "BBA admission requirements?",
+      "What GPA needed for BBA?",
+      "Eligibility criteria for business administration?",
+      "Can I apply for BBA with 2.5 GPA?",
+      "Requirements to study BBA at Green University?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "eligibility", "bba_program"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "How long is the BBA program duration?",
+    "answer": "The Bachelor of Business Administration (BBA) program at Green University is a 4-year program consisting of 8 semesters. Each semester is approximately 4 months long. Students typically complete 130-140 credit hours to graduate.",
+    "keywords": ["duration", "bba", "business", "years", "semesters", "program", "length", "time", "credits"],
+    "question_variations": [
+      "How many years is BBA?",
+      "BBA program length?",
+      "Duration of business administration degree?",
+      "How long does it take to complete BBA?",
+      "Number of semesters in BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "bba_program", "academic_info"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What scholarships are available for BBA students?",
+    "answer": "BBA students at Green University can apply for: 1) Merit-based scholarships: 20-100% tuition waiver for high GPA, 2) Need-based financial aid: based on family income documentation, 3) Dean's List recognition: for top academic performers. Contact the Financial Aid Office for application details.",
+    "keywords": ["scholarship", "bba", "business", "financial aid", "waiver", "merit", "tuition", "discount"],
+    "question_variations": [
+      "BBA scholarships available?",
+      "Financial aid for business students?",
+      "How to get tuition waiver in BBA?",
+      "Merit scholarship for BBA?",
+      "Can I get fee discount for BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["scholarships", "financial_aid", "bba_program"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are included in the BBA curriculum?",
+    "answer": "The BBA curriculum includes: Core courses - Principles of Management, Financial Accounting, Business Mathematics, Marketing Management, Human Resource Management, Organizational Behavior, Business Law, Strategic Management, Business Ethics. Specializations - Finance, Marketing, Human Resources, Entrepreneurship. Practical - Internship (mandatory).",
+    "keywords": ["courses", "curriculum", "bba", "business", "subjects", "management", "syllabus", "what to study", "accounting", "marketing"],
+    "question_variations": [
+      "What subjects in BBA?",
+      "BBA curriculum details?",
+      "What do BBA students learn?",
+      "Courses in business administration?",
+      "List of BBA courses?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "bba_program"],
+    "department": "BBA",
+    "priority": "medium"
+  },
+  {
+    "question": "What are the career opportunities after completing BBA?",
+    "answer": "BBA graduates from Green University can pursue careers as: Business Analyst, Marketing Executive, HR Manager, Financial Analyst, Operations Manager, Bank Officer, Entrepreneur, Management Trainee, Sales Manager, Consultant. Average starting salary is BDT 25,000 to 40,000 per month.",
+    "keywords": ["career", "job", "bba", "business", "opportunities", "salary", "employment", "after graduation"],
+    "question_variations": [
+      "Jobs after BBA?",
+      "BBA career options?",
+      "What can I do after business administration?",
+      "BBA graduate salary?",
+      "Employment opportunities for BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["career_services", "bba_program", "alumni"],
+    "department": "BBA",
+    "priority": "medium"
+  },
+  {
+    "question": "How can I apply for the BBA program at Green University?",
+    "answer": "To apply for the BBA program: 1) Visit Green University website: https://green.edu.bd, 2) Complete the online application form, 3) Upload required documents (SSC/HSC transcripts, photos, NID, statement of purpose), 4) Pay application fee (BDT 500), 5) Wait for admission offer (no entrance exam). Contact: 01775234234 for assistance.",
+    "keywords": ["apply", "application", "bba", "business", "admission", "how to", "process", "enroll"],
+    "question_variations": [
+      "How to apply for BBA?",
+      "BBA application process?",
+      "Steps to enroll in business administration?",
+      "Online application for BBA?",
+      "How to get admission in BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "application_process", "bba_program"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What is the total cost of completing BBA at Green University?",
+    "answer": "The total cost to complete Bachelor of Business Administration (BBA) at Green University is approximately: Tuition Fee: BDT 480,000 (BDT 60,000 x 8 semesters), Admission Fee: BDT 15,000, Other Charges: BDT 25,000-35,000. Total: BDT 520,000 to 550,000 (without scholarships). With merit scholarships, costs can be reduced by 20-100%.",
+    "keywords": ["total cost", "bba", "business", "complete program", "full fee", "4 years", "entire program"],
+    "question_variations": [
+      "Total BBA program cost?",
+      "How much for full BBA degree?",
+      "Complete cost of business administration?",
+      "BBA 4 year fee?",
+      "Entire program cost for BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "bba_program", "programs_courses"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What documents are required for BBA admission?",
+    "answer": "Required documents for BBA admission at Green University: 1) SSC certificate and mark sheet (original + photocopy), 2) HSC certificate and mark sheet (original + photocopy), 3) Recent passport-sized photographs (4 copies), 4) National ID card or birth certificate copy, 5) Statement of purpose, 6) Application form (completed), 7) Application fee payment receipt.",
+    "keywords": ["documents", "required", "bba", "business", "admission", "papers", "certificates", "checklist"],
+    "question_variations": [
+      "What papers needed for BBA admission?",
+      "BBA admission documents list?",
+      "Required certificates for business administration?",
+      "Documents checklist for BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "documents", "bba_program"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "Is there an entrance exam for BBA admission?",
+    "answer": "No, there is no entrance exam required for BBA admission at Green University. Selection is based on academic records (SSC/HSC results) and personal statements. This makes the admission process straightforward for qualified applicants.",
+    "keywords": ["entrance", "exam", "test", "bba", "business", "admission", "no exam"],
+    "question_variations": [
+      "BBA entrance test required?",
+      "Do I need to take exam for BBA?",
+      "Admission test for business administration?",
+      "Is BBA exam-free admission?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "exams", "bba_program"],
+    "department": "BBA",
+    "priority": "high"
+  },
+  {
+    "question": "What is the seat capacity for BBA at Green University?",
+    "answer": "The Bachelor of Business Administration (BBA) program at Green University has a seat capacity of 200 to 300 students per intake. Admissions are offered in Fall (primary) and Spring (secondary) semesters.",
+    "keywords": ["seat", "capacity", "bba", "business", "intake", "students", "how many", "availability"],
+    "question_variations": [
+      "How many seats in BBA?",
+      "BBA intake capacity?",
+      "Number of students admitted to BBA?",
+      "Are seats available for BBA?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "programs_courses", "bba_program"],
+    "department": "BBA",
+    "priority": "medium"
+  },
+  {
+    "question": "Can international students apply for BBA?",
+    "answer": "Yes, international students can apply for the Bachelor of Business Administration (BBA) program at Green University. Requirements: 1) Equivalent academic qualifications, 2) Valid passport, 3) Student visa documentation, 4) Additional visa paperwork support available. Contact the International Office for guidance.",
+    "keywords": ["international", "students", "foreign", "bba", "business", "apply", "overseas", "visa"],
+    "question_variations": [
+      "Can foreigners apply for BBA?",
+      "BBA for international students?",
+      "Overseas student admission to BBA?",
+      "Requirements for foreign BBA applicants?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "international_students", "bba_program"],
+    "department": "BBA",
+    "priority": "medium"
+  },
+  {
+    "question": "What are the BBA department contact details?",
+    "answer": "BBA Department Contact at Green University: Department Office: 3rd Floor, Business Building. Phone: +880-2-9116774 (Ext: 130). Email: bba@green.edu.bd. Head of Department: Contact through department office. Office Hours: Sunday to Thursday, 9:00 AM to 5:00 PM.",
+    "keywords": ["contact", "bba", "business", "department", "phone", "email", "office", "address"],
+    "question_variations": [
+      "BBA department phone number?",
+      "How to contact BBA department?",
+      "BBA office email?",
+      "Where is BBA department located?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["contact_info", "bba_program", "departments"],
+    "department": "BBA",
+    "priority": "medium"
+  }
+]

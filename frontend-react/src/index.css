@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gradient-from: #10b981;
+  --primary-gradient-to: #059669;
+  --primary-color: #10b981;
+  --primary-hover: #059669;
+  --text-primary: #1a202c;
+  --text-secondary: #718096;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0fdf4;
+  --border-color: #d1fae5;
+  --shadow-sm: 0 1px 2px 0 rgba(16, 185, 129, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(16, 185, 129, 0.2);
+  --shadow-lg: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+  --animation-fast: 150ms;
+  --animation-normal: 300ms;
+  --animation-slow: 500ms;
+}
+
+.dark {
+  --text-primary: #f7fafc;
+  --text-secondary: #a0aec0;
+  --bg-primary: #1a202c;
+  --bg-secondary: #2d3748;
+  --border-color: #4a5568;
+}
+
+/* Green Gradient Animations */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-green-gradient {
+  background: linear-gradient(270deg, #ffffff, #f0fdf4, #d1fae5, #b6ffe2, #e0fff4, #d3fff0);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+/* Animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -30px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight var(--animation-normal) ease-out;
+}
+
+.animate-slide-out-right {
+  animation: slideOutRight var(--animation-normal) ease-in;
+}
+
+.message-appear {
+  animation: fadeIn var(--animation-normal) ease-out;
+}
+
+.animate-bounce {
+  animation: bounce 1.4s infinite ease-in-out;
+}
+
+/* Chat bubble styles */
+.chat-bubble-user {
+  background: linear-gradient(135deg, var(--primary-gradient-from), var(--primary-gradient-to));
+  color: white !important;
+  position: relative;
+}
+
+.chat-bubble-user * {
+  color: white !important;
+}
+
+.chat-bubble-user::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid var(--primary-gradient-to);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.chat-bubble-bot::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid var(--bg-secondary);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.dark .chat-bubble-bot::before {
+  border-right-color: #2d3748;
+}
+
+/* Sidebar styles */
+.sidebar-open {
+  transform: translateX(0) !important;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Modal styles */
+.modal.open {
+  display: flex !important;
+}
+
+/* Toggle switch */
+.toggle input:checked + .toggle-slider {
+  background-color: var(--primary-color);
+}
+
+.toggle input:checked + .toggle-slider::before {
+  transform: translateX(1.5rem);
+}

@@ -1,0 +1,255 @@
+[
+  {
+    "question": "What is the tuition fee for the BSc in Electrical and Electronic Engineering (EEE) program?",
+    "answer": "The tuition fee for the BSc in Electrical and Electronic Engineering (EEE) program at Green University is BDT 80,000 per semester. The total program cost for 4 years (8 semesters) is approximately BDT 640,000 to 700,000, excluding admission fee, lab fees, and other charges.",
+    "keywords": ["tuition", "fee", "eee", "electrical", "electronic", "engineering", "cost", "semester", "bdt", "price", "payment", "total"],
+    "question_variations": [
+      "How much is the EEE program fee?",
+      "What is the cost of BSc EEE?",
+      "EEE tuition fee per semester?",
+      "How much does EEE cost at Green University?",
+      "What is the semester fee for electrical engineering?",
+      "BSc EEE program total cost?",
+      "Electrical and electronic engineering fee structure?",
+      "How much do I pay for EEE each semester?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "eee_program", "programs_courses"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the admission fee for the EEE program?",
+    "answer": "The admission fee for the BSc in Electrical and Electronic Engineering (EEE) program is BDT 20,000. This is a one-time, non-refundable payment made during enrollment.",
+    "keywords": ["admission", "fee", "eee", "electrical", "electronic", "enrollment", "cost", "bdt", "one-time"],
+    "question_variations": [
+      "EEE admission fee amount?",
+      "How much is the admission fee for electrical engineering?",
+      "One-time admission charge for EEE?",
+      "Enrollment fee for BSc EEE?",
+      "What do I pay for EEE admission?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "eee_program"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the application fee for the EEE program?",
+    "answer": "The application fee for the BSc in Electrical and Electronic Engineering (EEE) program is BDT 1,000. This fee is non-refundable and must be paid when submitting your application through the university's online portal.",
+    "keywords": ["application", "fee", "eee", "electrical", "apply", "cost", "bdt", "admission"],
+    "question_variations": [
+      "How much to apply for EEE?",
+      "EEE application charge?",
+      "Cost to submit EEE application?",
+      "Application fee for electrical engineering program?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "application_process"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What are the eligibility requirements for the EEE program?",
+    "answer": "To be eligible for the BSc in Electrical and Electronic Engineering (EEE) program at Green University, applicants must have: 1) Minimum GPA of 3.5 in both SSC and HSC (or equivalent), 2) Strong grades in Mathematics and Physics at HSC level, 3) Science background required, 4) Pass the university entrance exam. International students need equivalent qualifications.",
+    "keywords": ["eligibility", "requirements", "eee", "electrical", "admission", "gpa", "ssc", "hsc", "qualifications", "criteria", "physics", "mathematics"],
+    "question_variations": [
+      "Who can apply for EEE?",
+      "EEE admission requirements?",
+      "What GPA needed for EEE?",
+      "Eligibility criteria for electrical engineering?",
+      "Can I apply for EEE with 3.5 GPA?",
+      "Requirements to study EEE at Green University?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "eligibility", "eee_program"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "How long is the EEE program duration?",
+    "answer": "The BSc in Electrical and Electronic Engineering (EEE) program at Green University is a 4-year program consisting of 8 semesters. Each semester is approximately 4 months long. Students typically complete 160-165 credit hours to graduate.",
+    "keywords": ["duration", "eee", "electrical", "years", "semesters", "program", "length", "time", "credits"],
+    "question_variations": [
+      "How many years is EEE?",
+      "EEE program length?",
+      "Duration of electrical engineering degree?",
+      "How long does it take to complete EEE?",
+      "Number of semesters in EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "eee_program", "academic_info"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What scholarships are available for EEE students?",
+    "answer": "EEE students at Green University can apply for: 1) Merit-based scholarships: BDT 20,000 to 200,000 annually for academic excellence, 2) Need-based financial aid: up to BDT 50,000 for financially challenged students, 3) Research scholarships: up to BDT 100,000 for research projects in electrical engineering. Contact the Financial Aid Office for details.",
+    "keywords": ["scholarship", "eee", "electrical", "financial aid", "waiver", "merit", "tuition", "discount", "research"],
+    "question_variations": [
+      "EEE scholarships available?",
+      "Financial aid for electrical engineering students?",
+      "How to get tuition waiver in EEE?",
+      "Merit scholarship for EEE?",
+      "Can I get fee discount for EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["scholarships", "financial_aid", "eee_program"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are included in the EEE curriculum?",
+    "answer": "The EEE curriculum includes: Core courses - Circuit Theory, Electronics, Digital Logic Design, Signals and Systems, Electromagnetic Theory, Power Systems, Control Systems, Microprocessors. Specializations - Renewable Energy, Telecommunications, Power Electronics, VLSI Design. Labs - Electronics Lab, Power Lab, Microprocessor Lab, Communication Lab.",
+    "keywords": ["courses", "curriculum", "eee", "electrical", "subjects", "electronics", "syllabus", "what to study", "power systems"],
+    "question_variations": [
+      "What subjects in EEE?",
+      "EEE curriculum details?",
+      "What do EEE students learn?",
+      "Courses in electrical engineering?",
+      "List of EEE courses?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "eee_program"],
+    "department": "EEE",
+    "priority": "medium"
+  },
+  {
+    "question": "What are the career opportunities after completing EEE?",
+    "answer": "EEE graduates from Green University can pursue careers as: Electrical Engineer, Electronics Engineer, Power Systems Engineer, Telecommunications Engineer, Control Systems Engineer, Embedded Systems Developer, Renewable Energy Specialist, Research Engineer. Average starting salary is BDT 40,000 to 60,000 per month.",
+    "keywords": ["career", "job", "eee", "electrical", "opportunities", "salary", "employment", "after graduation"],
+    "question_variations": [
+      "Jobs after EEE?",
+      "EEE career options?",
+      "What can I do after electrical engineering?",
+      "EEE graduate salary?",
+      "Employment opportunities for EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["career_services", "eee_program", "alumni"],
+    "department": "EEE",
+    "priority": "medium"
+  },
+  {
+    "question": "How can I apply for the EEE program at Green University?",
+    "answer": "To apply for the EEE program: 1) Visit Green University website: https://green.edu.bd, 2) Complete the online application form, 3) Upload required documents (SSC/HSC transcripts with Math/Physics grades, photos, NID), 4) Pay application fee (BDT 1,000), 5) Attend entrance exam (Math, Physics, Aptitude), 6) Wait for admission offer. Contact: 01775234234 for assistance.",
+    "keywords": ["apply", "application", "eee", "electrical", "admission", "how to", "process", "enroll"],
+    "question_variations": [
+      "How to apply for EEE?",
+      "EEE application process?",
+      "Steps to enroll in electrical engineering?",
+      "Online application for EEE?",
+      "How to get admission in EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "application_process", "eee_program"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the total cost of completing EEE at Green University?",
+    "answer": "The total cost to complete BSc in Electrical and Electronic Engineering (EEE) at Green University is approximately: Tuition Fee: BDT 640,000 (BDT 80,000 x 8 semesters), Admission Fee: BDT 20,000, Lab Fee: BDT 50,000-60,000, Other Charges: BDT 40,000-50,000. Total: BDT 750,000 to 800,000 (without scholarships). With merit scholarships, costs can be significantly reduced.",
+    "keywords": ["total cost", "eee", "electrical", "complete program", "full fee", "4 years", "entire program"],
+    "question_variations": [
+      "Total EEE program cost?",
+      "How much for full EEE degree?",
+      "Complete cost of electrical engineering?",
+      "EEE 4 year fee?",
+      "Entire program cost for EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "eee_program", "programs_courses"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What documents are required for EEE admission?",
+    "answer": "Required documents for EEE admission at Green University: 1) SSC certificate and mark sheet (original + photocopy), 2) HSC certificate and mark sheet with Math and Physics grades (original + photocopy), 3) Recent passport-sized photographs (4 copies), 4) National ID card or passport copy, 5) Application form (completed), 6) Entrance exam results, 7) Application fee payment receipt.",
+    "keywords": ["documents", "required", "eee", "electrical", "admission", "papers", "certificates", "checklist"],
+    "question_variations": [
+      "What papers needed for EEE admission?",
+      "EEE admission documents list?",
+      "Required certificates for electrical engineering?",
+      "Documents checklist for EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "documents", "eee_program"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "Is there an entrance exam for EEE admission?",
+    "answer": "Yes, the BSc in Electrical and Electronic Engineering (EEE) program requires applicants to pass a university-specific entrance exam. The exam tests: Mathematics (40%), Physics (40%), and General Aptitude (20%). Minimum passing score is 50%. Prepare well as competition is high.",
+    "keywords": ["entrance", "exam", "test", "eee", "electrical", "admission", "mathematics", "physics", "aptitude"],
+    "question_variations": [
+      "EEE entrance test required?",
+      "Do I need to take exam for EEE?",
+      "Admission test for electrical engineering?",
+      "What is tested in EEE entrance exam?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "exams", "eee_program"],
+    "department": "EEE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the seat capacity for EEE at Green University?",
+    "answer": "The BSc in Electrical and Electronic Engineering (EEE) program at Green University has a seat capacity of approximately 100 students per academic year. Admissions are offered in Fall (primary) and Spring (secondary) semesters. Apply early as seats are limited.",
+    "keywords": ["seat", "capacity", "eee", "electrical", "intake", "students", "how many", "availability"],
+    "question_variations": [
+      "How many seats in EEE?",
+      "EEE intake capacity?",
+      "Number of students admitted to EEE?",
+      "Are seats available for EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "programs_courses", "eee_program"],
+    "department": "EEE",
+    "priority": "medium"
+  },
+  {
+    "question": "Can international students apply for EEE?",
+    "answer": "Yes, international students can apply for the BSc in Electrical and Electronic Engineering (EEE) program at Green University. Requirements: 1) Equivalent academic qualifications with strong Math and Physics background, 2) English proficiency proof (IELTS 5.5+ or TOEFL 60+), 3) Valid passport, 4) Student visa documentation. Contact the International Office for guidance.",
+    "keywords": ["international", "students", "foreign", "eee", "electrical", "apply", "overseas", "visa"],
+    "question_variations": [
+      "Can foreigners apply for EEE?",
+      "EEE for international students?",
+      "Overseas student admission to EEE?",
+      "Requirements for foreign EEE applicants?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "international_students", "eee_program"],
+    "department": "EEE",
+    "priority": "medium"
+  },
+  {
+    "question": "What are the EEE department contact details?",
+    "answer": "EEE Department Contact at Green University: Department Office: 2nd Floor, Engineering Building. Phone: +880-2-9116774 (Ext: 125). Email: eee@green.edu.bd. Head of Department: Contact through department office. Office Hours: Sunday to Thursday, 9:00 AM to 5:00 PM.",
+    "keywords": ["contact", "eee", "electrical", "department", "phone", "email", "office", "address"],
+    "question_variations": [
+      "EEE department phone number?",
+      "How to contact EEE department?",
+      "EEE office email?",
+      "Where is EEE department located?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["contact_info", "eee_program", "departments"],
+    "department": "EEE",
+    "priority": "medium"
+  },
+  {
+    "question": "What labs are available for EEE students?",
+    "answer": "EEE students at Green University have access to: 1) Electronics Lab - circuits, components, measurement, 2) Power Systems Lab - transformers, motors, generators, 3) Microprocessor Lab - embedded systems, 4) Communication Lab - signals, telecommunications, 5) Control Systems Lab - automation, 6) Renewable Energy Lab - solar, wind systems. Lab fee is approximately BDT 6,000-7,500 per semester.",
+    "keywords": ["lab", "laboratory", "eee", "electrical", "facilities", "electronics", "power", "research"],
+    "question_variations": [
+      "EEE lab facilities?",
+      "What labs for electrical engineering?",
+      "EEE laboratory equipment?",
+      "Research facilities in EEE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["campus_facilities", "eee_program", "labs"],
+    "department": "EEE",
+    "priority": "medium"
+  }
+]

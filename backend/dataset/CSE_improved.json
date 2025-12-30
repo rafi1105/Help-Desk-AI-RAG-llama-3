@@ -1,0 +1,240 @@
+[
+  {
+    "question": "What is the tuition fee for the BSc in Computer Science and Engineering (CSE) program?",
+    "answer": "The tuition fee for the BSc in Computer Science and Engineering (CSE) program at Green University is BDT 70,000 per semester. The total program cost for 4 years (8 semesters) is approximately BDT 560,000 to 600,000, excluding admission fee and other charges.",
+    "keywords": ["tuition", "fee", "cse", "computer science", "engineering", "cost", "semester", "bdt", "price", "payment", "total"],
+    "question_variations": [
+      "How much is the CSE program fee?",
+      "What is the cost of BSc CSE?",
+      "CSE tuition fee per semester?",
+      "How much does CSE cost at Green University?",
+      "What is the semester fee for computer science?",
+      "BSc CSE program total cost?",
+      "Computer science engineering fee structure?",
+      "How much do I pay for CSE each semester?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "cse_program", "programs_courses"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the admission fee for the CSE program?",
+    "answer": "The admission fee for the BSc in Computer Science and Engineering (CSE) program is BDT 20,000. This is a one-time, non-refundable payment made during enrollment.",
+    "keywords": ["admission", "fee", "cse", "computer science", "enrollment", "cost", "bdt", "one-time"],
+    "question_variations": [
+      "CSE admission fee amount?",
+      "How much is the admission fee for computer science?",
+      "One-time admission charge for CSE?",
+      "Enrollment fee for BSc CSE?",
+      "What do I pay for CSE admission?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "cse_program"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the application fee for the CSE program?",
+    "answer": "The application fee for the BSc in Computer Science and Engineering (CSE) program is BDT 500 to 1,000 depending on the admission session. This fee is non-refundable and must be paid when submitting your application.",
+    "keywords": ["application", "fee", "cse", "apply", "cost", "bdt", "admission"],
+    "question_variations": [
+      "How much to apply for CSE?",
+      "CSE application charge?",
+      "Cost to submit CSE application?",
+      "Application fee for computer science program?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "application_process"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What are the eligibility requirements for the CSE program?",
+    "answer": "To be eligible for the BSc in Computer Science and Engineering (CSE) program at Green University, applicants must have: 1) Minimum GPA of 2.5 in both SSC and HSC (or equivalent), 2) Mathematics as a compulsory subject at HSC level, 3) Science background preferred but not mandatory. International students need equivalent qualifications and English proficiency proof.",
+    "keywords": ["eligibility", "requirements", "cse", "admission", "gpa", "ssc", "hsc", "qualifications", "criteria"],
+    "question_variations": [
+      "Who can apply for CSE?",
+      "CSE admission requirements?",
+      "What GPA needed for CSE?",
+      "Eligibility criteria for computer science?",
+      "Can I apply for CSE with 2.5 GPA?",
+      "Requirements to study CSE at Green University?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "eligibility", "cse_program"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "How long is the CSE program duration?",
+    "answer": "The BSc in Computer Science and Engineering (CSE) program at Green University is a 4-year program consisting of 8 semesters. Each semester is approximately 4 months long. Students typically complete 160 credit hours to graduate.",
+    "keywords": ["duration", "cse", "years", "semesters", "program", "length", "time", "credits"],
+    "question_variations": [
+      "How many years is CSE?",
+      "CSE program length?",
+      "Duration of computer science degree?",
+      "How long does it take to complete CSE?",
+      "Number of semesters in CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "cse_program", "academic_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What scholarships are available for CSE students?",
+    "answer": "CSE students at Green University can apply for: 1) Merit-based scholarships: 20-100% tuition waiver for GPA 3.5 and above, 2) Need-based financial aid: up to 50% waiver based on family income, 3) Dean's List Award: recognition and financial benefits for top performers. Contact the Financial Aid Office for application details.",
+    "keywords": ["scholarship", "cse", "financial aid", "waiver", "merit", "tuition", "discount"],
+    "question_variations": [
+      "CSE scholarships available?",
+      "Financial aid for computer science students?",
+      "How to get tuition waiver in CSE?",
+      "Merit scholarship for CSE?",
+      "Can I get fee discount for CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["scholarships", "financial_aid", "cse_program"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are included in the CSE curriculum?",
+    "answer": "The CSE curriculum includes: Core courses - Programming (C, C++, Java, Python), Data Structures, Algorithms, Database Systems, Operating Systems, Computer Networks, Software Engineering, Web Development. Specializations - Artificial Intelligence, Machine Learning, Cybersecurity, Cloud Computing. Labs - Programming Labs, Hardware Labs, Networking Labs.",
+    "keywords": ["courses", "curriculum", "cse", "subjects", "programming", "syllabus", "what to study"],
+    "question_variations": [
+      "What subjects in CSE?",
+      "CSE curriculum details?",
+      "What do CSE students learn?",
+      "Programming languages in CSE?",
+      "List of CSE courses?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "cse_program"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What are the career opportunities after completing CSE?",
+    "answer": "CSE graduates from Green University can pursue careers as: Software Developer/Engineer, Web Developer, Mobile App Developer, Data Analyst/Scientist, Network Engineer, Cybersecurity Analyst, Database Administrator, AI/ML Engineer, System Administrator, IT Consultant. Average starting salary is BDT 30,000 to 50,000 per month.",
+    "keywords": ["career", "job", "cse", "opportunities", "salary", "employment", "after graduation"],
+    "question_variations": [
+      "Jobs after CSE?",
+      "CSE career options?",
+      "What can I do after computer science?",
+      "CSE graduate salary?",
+      "Employment opportunities for CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["career_services", "cse_program", "alumni"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How can I apply for the CSE program at Green University?",
+    "answer": "To apply for the CSE program: 1) Visit Green University website: https://green.edu.bd, 2) Complete the online application form, 3) Upload required documents (SSC/HSC transcripts, photos, NID), 4) Pay application fee (BDT 500-1000), 5) Attend admission test if required, 6) Wait for admission offer. Contact: 01775234234 for assistance.",
+    "keywords": ["apply", "application", "cse", "admission", "how to", "process", "enroll"],
+    "question_variations": [
+      "How to apply for CSE?",
+      "CSE application process?",
+      "Steps to enroll in computer science?",
+      "Online application for CSE?",
+      "How to get admission in CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "application_process", "cse_program"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the total cost of completing CSE at Green University?",
+    "answer": "The total cost to complete BSc in Computer Science and Engineering (CSE) at Green University is approximately: Tuition Fee: BDT 560,000 (BDT 70,000 x 8 semesters), Admission Fee: BDT 20,000, Lab Fee: BDT 40,000-50,000, Other Charges: BDT 30,000-40,000. Total: BDT 650,000 to 700,000 (without scholarships). With merit scholarships, costs can be reduced by 20-100%.",
+    "keywords": ["total cost", "cse", "complete program", "full fee", "4 years", "entire program"],
+    "question_variations": [
+      "Total CSE program cost?",
+      "How much for full CSE degree?",
+      "Complete cost of computer science?",
+      "CSE 4 year fee?",
+      "Entire program cost for CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "cse_program", "programs_courses"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What documents are required for CSE admission?",
+    "answer": "Required documents for CSE admission at Green University: 1) SSC certificate and mark sheet (original + photocopy), 2) HSC certificate and mark sheet (original + photocopy), 3) Recent passport-sized photographs (4 copies), 4) National ID card or birth certificate copy, 5) Application form (completed), 6) Application fee payment receipt.",
+    "keywords": ["documents", "required", "cse", "admission", "papers", "certificates", "checklist"],
+    "question_variations": [
+      "What papers needed for CSE admission?",
+      "CSE admission documents list?",
+      "Required certificates for computer science?",
+      "Documents checklist for CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "documents", "cse_program"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Is there an entrance exam for CSE admission?",
+    "answer": "Some applicants may be required to take an admission test for the CSE program. The test typically covers: Mathematics, English, and General Knowledge. High-performing SSC/HSC students may be exempted. Check the current admission notice on the Green University website for specific requirements.",
+    "keywords": ["entrance", "exam", "test", "cse", "admission", "mathematics", "english"],
+    "question_variations": [
+      "CSE entrance test required?",
+      "Do I need to take exam for CSE?",
+      "Admission test for computer science?",
+      "What is tested in CSE entrance exam?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "exams", "cse_program"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What is the seat capacity for CSE at Green University?",
+    "answer": "The BSc in Computer Science and Engineering (CSE) program at Green University has a seat capacity of 150 to 250 students per intake. Admissions are offered in Fall (primary) and Spring (secondary) semesters. Apply early as seats fill quickly for this popular program.",
+    "keywords": ["seat", "capacity", "cse", "intake", "students", "how many", "availability"],
+    "question_variations": [
+      "How many seats in CSE?",
+      "CSE intake capacity?",
+      "Number of students admitted to CSE?",
+      "Are seats available for CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "programs_courses", "cse_program"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Can international students apply for CSE?",
+    "answer": "Yes, international students can apply for the BSc in Computer Science and Engineering (CSE) program at Green University. Requirements: 1) Equivalent academic qualifications (O-level/A-level or equivalent), 2) English proficiency proof (IELTS 5.5+ or TOEFL 60+), 3) Valid passport, 4) Student visa documentation. Contact the International Office for guidance.",
+    "keywords": ["international", "students", "foreign", "cse", "apply", "overseas", "visa"],
+    "question_variations": [
+      "Can foreigners apply for CSE?",
+      "CSE for international students?",
+      "Overseas student admission to CSE?",
+      "Requirements for foreign CSE applicants?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "international_students", "cse_program"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What are the CSE department contact details?",
+    "answer": "CSE Department Contact at Green University: Department Office: Ground Floor, Academic Building. Phone: +880-2-9116774 (Ext: 123). Email: cse@green.edu.bd. Head of Department: Contact through department office. Office Hours: Sunday to Thursday, 9:00 AM to 5:00 PM.",
+    "keywords": ["contact", "cse", "department", "phone", "email", "office", "address"],
+    "question_variations": [
+      "CSE department phone number?",
+      "How to contact CSE department?",
+      "CSE office email?",
+      "Where is CSE department located?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["contact_info", "cse_program", "departments"],
+    "department": "CSE",
+    "priority": "medium"
+  }
+]

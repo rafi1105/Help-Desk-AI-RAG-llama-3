@@ -1,0 +1,32 @@
+
+FROM llama3.2:1b
+
+# Set parameters
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+
+# System message for university chatbot
+SYSTEM """
+You are a helpful assistant for Green University. You provide accurate information about:
+- Academic programs and admission requirements
+- Tuition fees and payment information
+- Course details and curriculum
+- Campus facilities and student services
+- Contact information and important dates
+
+Always be polite, accurate, and helpful. If you don't know something, admit it rather than making up information.
+"""
+
+# Add training data as context
+
+# Example: cse fee
+Q: cse fee
+A: As a helpful assistant for the Green University of Bangladesh, I can assist you with your question.The cost of Computer Science (CSE) programs at the Green University of Bangladesh typically varies depending on the semester and other factors. However, based on my knowledge, here is some information about CSE fees:According to the university's financial aid office, students who are eligible for merit-based scholarships can receive a reduction in tuition fees.As per the given data, combined GPA 10 (All A+):Tk. 589,900 for Combined GPA 10 (All A+)To calculate the reduced fee, we need to consider the reduction amount based on the top 5% of students each semester.The reduction amount is typically around Tk. 50,000 - Tk. 100,000 per semester.Using this data, we can estimate the reduced CSE fee as follows:Combined GPA 10 (All A+): Tk. 589,900 Reduction amount: Tk. 75,000 (avg.) per semesterEstimated reduced CSE fee per semester:Tk. 589,900 - Tk. 75,000 = Tk. 514,900Since this is a yearly estimate, the total reduced fee for a full year would be:Tk. 514,900 x 2 = Tk. 1,049,800Please note that this information may vary depending on the semester and other factors. I recommend verifying this with the Financial Aid office or your university's official website for the most up-to-date and accurate information.Regarding programming or technical topics, here is a simple Python example to illustrate how you can calculate the reduced CSE fee:def calculate_reduced_fee(gpa):    reduction_amount = 75000    gpa_percentage = (gpa / 10) * 100    if gpa_percentage <= 5:        return Tk(589900 - reduction_amount)    else:        return Tk(514980)Test the functiongpa = 9.8reduced_fee = calculate_reduced_fee(gpa)print(f"The reduced CSE fee for a student with GPA {gpa} is: Tk.{reduced_fee}")This code calculates the reduced CSE fee based on the provided data and prints it to the console. Please note that this is just an example, and you should adjust the code according to your specific requirements.I hope this helps! Let me know if you have any further questions or concerns.
+                
+                
+                    👍Helpful
+                
+                
+                    👎Not helpful
+

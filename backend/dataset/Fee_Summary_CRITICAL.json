@@ -1,0 +1,189 @@
+[
+  {
+    "question": "What is the fee structure for all programs at Green University?",
+    "answer": "Fee structure at Green University (per semester): CSE (Computer Science): BDT 70,000/semester, EEE (Electrical Engineering): BDT 80,000/semester, BBA (Business Administration): BDT 60,000/semester, BA English: BDT 50,000/semester, LLB Law: BDT 55,000/semester, Textile Engineering: BDT 65,000/semester. Admission fee (one-time): BDT 15,000-20,000. Application fee: BDT 500-1,000.",
+    "keywords": ["fee", "structure", "all programs", "tuition", "cost", "university", "semester", "bdt"],
+    "question_variations": [
+      "Fee structure of all departments?",
+      "All program fees at Green University?",
+      "Compare tuition fees?",
+      "Department wise fee?",
+      "How much are the fees for different programs?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "programs_courses", "general_info"],
+    "priority": "critical"
+  },
+  {
+    "question": "What is the CSE department fee?",
+    "answer": "The BSc in Computer Science and Engineering (CSE) fee at Green University: Tuition Fee: BDT 70,000 per semester. Total for 4 years (8 semesters): BDT 560,000. Admission Fee: BDT 20,000 (one-time). Application Fee: BDT 500-1,000. Lab Fee: Included in tuition. Total estimated cost: BDT 600,000-650,000 for complete program.",
+    "keywords": ["cse", "fee", "computer science", "tuition", "cost", "semester", "bdt", "70000", "total"],
+    "question_variations": [
+      "CSE tuition fee?",
+      "How much is CSE?",
+      "Computer science fee?",
+      "CSE cost per semester?",
+      "CSE program total cost?",
+      "BSc CSE fee structure?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "cse_program"],
+    "department": "CSE",
+    "priority": "critical"
+  },
+  {
+    "question": "What is the EEE department fee?",
+    "answer": "The BSc in Electrical and Electronic Engineering (EEE) fee at Green University: Tuition Fee: BDT 80,000 per semester. Total for 4 years (8 semesters): BDT 640,000. Admission Fee: BDT 20,000 (one-time). Application Fee: BDT 1,000. Lab Fee: Included in tuition. Total estimated cost: BDT 700,000-750,000 for complete program.",
+    "keywords": ["eee", "fee", "electrical", "electronic", "engineering", "tuition", "cost", "semester", "bdt", "80000", "total"],
+    "question_variations": [
+      "EEE tuition fee?",
+      "How much is EEE?",
+      "Electrical engineering fee?",
+      "EEE cost per semester?",
+      "EEE program total cost?",
+      "BSc EEE fee structure?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "eee_program"],
+    "department": "EEE",
+    "priority": "critical"
+  },
+  {
+    "question": "What is the BBA department fee?",
+    "answer": "The Bachelor of Business Administration (BBA) fee at Green University: Tuition Fee: BDT 60,000 per semester. Total for 4 years (8 semesters): BDT 480,000. Admission Fee: BDT 15,000 (one-time). Application Fee: BDT 500. Total estimated cost: BDT 520,000-550,000 for complete program.",
+    "keywords": ["bba", "fee", "business", "administration", "tuition", "cost", "semester", "bdt", "60000", "total"],
+    "question_variations": [
+      "BBA tuition fee?",
+      "How much is BBA?",
+      "Business administration fee?",
+      "BBA cost per semester?",
+      "BBA program total cost?",
+      "BBA fee structure?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "bba_program"],
+    "department": "BBA",
+    "priority": "critical"
+  },
+  {
+    "question": "What is the BA English department fee?",
+    "answer": "The BA (Hons) in English fee at Green University: Tuition Fee: BDT 50,000 per semester. Total for 4 years (8 semesters): BDT 400,000. Admission Fee: BDT 15,000 (one-time). Application Fee: BDT 500. Total estimated cost: BDT 430,000-460,000 for complete program.",
+    "keywords": ["ba", "english", "fee", "tuition", "cost", "semester", "bdt", "50000", "total", "hons"],
+    "question_variations": [
+      "English department fee?",
+      "BA English tuition?",
+      "How much is English program?",
+      "English cost per semester?",
+      "BA English total cost?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "english_program"],
+    "department": "English",
+    "priority": "critical"
+  },
+  {
+    "question": "What is the LLB Law department fee?",
+    "answer": "The LLB (Hons) Law fee at Green University: Tuition Fee: BDT 55,000 per semester. Total for 4 years (8 semesters): BDT 440,000. Admission Fee: BDT 15,000 (one-time). Application Fee: BDT 500. Total estimated cost: BDT 470,000-500,000 for complete program.",
+    "keywords": ["llb", "law", "fee", "tuition", "cost", "semester", "bdt", "55000", "total", "hons"],
+    "question_variations": [
+      "Law department fee?",
+      "LLB tuition?",
+      "How much is law program?",
+      "Law cost per semester?",
+      "LLB total cost?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "law_program"],
+    "department": "Law",
+    "priority": "critical"
+  },
+  {
+    "question": "What is the Textile Engineering department fee?",
+    "answer": "The BSc in Textile Engineering fee at Green University: Tuition Fee: BDT 65,000 per semester. Total for 4 years (8 semesters): BDT 520,000. Admission Fee: BDT 18,000 (one-time). Application Fee: BDT 500. Lab Fee: Included in tuition. Total estimated cost: BDT 560,000-600,000 for complete program.",
+    "keywords": ["textile", "engineering", "fee", "tuition", "cost", "semester", "bdt", "65000", "total"],
+    "question_variations": [
+      "Textile engineering fee?",
+      "How much is textile program?",
+      "Textile cost per semester?",
+      "BSc Textile total cost?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "textile_program"],
+    "department": "Textile",
+    "priority": "critical"
+  },
+  {
+    "question": "What is the admission fee at Green University?",
+    "answer": "The admission fee at Green University varies by program: Engineering programs (CSE, EEE, Textile): BDT 20,000 (one-time, non-refundable). Business and Arts programs (BBA, English, Law): BDT 15,000 (one-time, non-refundable). This fee is paid once during enrollment and is separate from tuition fees.",
+    "keywords": ["admission", "fee", "enrollment", "cost", "bdt", "one-time", "non-refundable"],
+    "question_variations": [
+      "Admission fee amount?",
+      "How much is admission?",
+      "Enrollment fee?",
+      "One-time admission charge?",
+      "Is admission fee refundable?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission"],
+    "priority": "critical"
+  },
+  {
+    "question": "What is the application fee at Green University?",
+    "answer": "The application fee at Green University: Standard application fee: BDT 500. Engineering programs may charge: BDT 1,000. This fee is non-refundable and must be paid when submitting your application online or at the admission office.",
+    "keywords": ["application", "fee", "apply", "cost", "bdt", "form", "500", "1000"],
+    "question_variations": [
+      "Application fee amount?",
+      "How much to apply?",
+      "Cost to submit application?",
+      "Application form fee?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "admission", "application_process"],
+    "priority": "critical"
+  },
+  {
+    "question": "Which program has the highest fee at Green University?",
+    "answer": "The BSc in Electrical and Electronic Engineering (EEE) has the highest tuition fee at Green University at BDT 80,000 per semester. Fee ranking (highest to lowest per semester): 1. EEE: BDT 80,000, 2. CSE: BDT 70,000, 3. Textile: BDT 65,000, 4. BBA: BDT 60,000, 5. Law: BDT 55,000, 6. English: BDT 50,000.",
+    "keywords": ["highest", "fee", "expensive", "compare", "ranking", "cost", "program"],
+    "question_variations": [
+      "Most expensive program?",
+      "Which department has highest fee?",
+      "Compare program fees?",
+      "Fee comparison?",
+      "Cheapest program?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "programs_courses", "comparison"],
+    "priority": "critical"
+  },
+  {
+    "question": "What is the total cost for 4 years at Green University?",
+    "answer": "Total 4-year program costs at Green University (approximate): CSE: BDT 600,000-650,000, EEE: BDT 700,000-750,000, Textile: BDT 560,000-600,000, BBA: BDT 520,000-550,000, Law: BDT 470,000-500,000, English: BDT 430,000-460,000. These include tuition (8 semesters), admission fee, and other charges. Scholarships can reduce costs by 20-100%.",
+    "keywords": ["total", "cost", "4 years", "complete", "program", "full", "entire", "all"],
+    "question_variations": [
+      "Total program cost?",
+      "Full degree cost?",
+      "Complete program fee?",
+      "How much for entire degree?",
+      "4 year total fee?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "programs_courses"],
+    "priority": "critical"
+  },
+  {
+    "question": "Is there any fee waiver at Green University?",
+    "answer": "Yes, Green University offers fee waivers: Merit-based waiver: 20-100% tuition waiver for GPA 3.5 and above. Need-based waiver: Up to 50% for financially disadvantaged students. Freedom Fighter quota: Special consideration. Sports scholarship: For talented athletes. Contact the Financial Aid Office for eligibility and application.",
+    "keywords": ["waiver", "discount", "scholarship", "reduction", "merit", "need", "financial aid"],
+    "question_variations": [
+      "Fee waiver available?",
+      "Tuition discount?",
+      "How to get fee reduction?",
+      "Scholarship for fee waiver?",
+      "Can I get discount on fees?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["fees_tuition", "scholarships", "financial_aid"],
+    "priority": "high"
+  }
+]

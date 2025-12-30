@@ -1,0 +1,11 @@
+# Requirements for LoRA Fine-tuning with Llama 3.2
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+accelerate>=0.25.0
+scipy
+protobuf
+sentencepiece
+tokenizers>=0.15.0
