@@ -1,0 +1,13 @@
+Flask==3.0.0
+flask-cors==4.0.0
+Werkzeug==3.0.0
+numpy
+scikit-learn
+nltk==3.8.1
+langchain==0.1.0
+langchain-core>=0.1.7,<0.2
+langchain-community==0.0.13
+python-dotenv==1.0.0
+pandas
+joblib
+threadpoolctl
