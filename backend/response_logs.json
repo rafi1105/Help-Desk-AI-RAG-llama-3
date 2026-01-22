@@ -1,0 +1,402 @@
+[
+  {
+    "timestamp": "2026-01-13T03:37:58.898145",
+    "question": "When is the next semester starting?",
+    "answer": "The next semester starts in January 2026.",
+    "response_time": 1.8650352477688774,
+    "source": "rag",
+    "confidence": 0.6555538995013676
+  },
+  {
+    "timestamp": "2026-01-12T07:46:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "Students need good grades in SSC and HSC to get admission.",
+    "response_time": 3.175325728767783,
+    "source": "llm",
+    "confidence": 0.5297246000186473
+  },
+  {
+    "timestamp": "2026-01-13T20:25:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 1.0820206418612492,
+    "source": "rag",
+    "confidence": 0.6033897547703546
+  },
+  {
+    "timestamp": "2026-01-14T02:37:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",
+    "response_time": 0.47228200167776435,
+    "source": "dataset",
+    "confidence": 0.9323506519630019
+  },
+  {
+    "timestamp": "2026-01-15T23:13:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 1.6015955905005457,
+    "source": "rag",
+    "confidence": 0.663173156744214
+  },
+  {
+    "timestamp": "2026-01-15T07:07:58.898145",
+    "question": "When is the next semester starting?",
+    "answer": "The next semester starts in January 2026.",
+    "response_time": 1.1068377695748268,
+    "source": "rag",
+    "confidence": 0.689716556636282
+  },
+  {
+    "timestamp": "2026-01-13T08:24:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",
+    "response_time": 0.11668085951729862,
+    "source": "dataset",
+    "confidence": 0.9686662889036478
+  },
+  {
+    "timestamp": "2026-01-17T09:27:58.898145",
+    "question": "When is the next semester starting?",
+    "answer": "The next semester starts in January 2026.",
+    "response_time": 1.4503775838345478,
+    "source": "rag",
+    "confidence": 0.6255086672415255
+  },
+  {
+    "timestamp": "2026-01-17T00:22:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 2.2451212741581594,
+    "source": "rag",
+    "confidence": 0.6284443816539085
+  },
+  {
+    "timestamp": "2026-01-11T14:56:58.898145",
+    "question": "When is the next semester starting?",
+    "answer": "The next semester starts in January 2026.",
+    "response_time": 2.0456494570631434,
+    "source": "rag",
+    "confidence": 0.7438204934515076
+  },
+  {
+    "timestamp": "2026-01-12T20:17:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 1.4995180614025208,
+    "source": "rag",
+    "confidence": 0.6893232008585
+  },
+  {
+    "timestamp": "2026-01-12T18:48:58.898145",
+    "question": "When is the next semester starting?",
+    "answer": "The next semester starts in January 2026.",
+    "response_time": 2.432720525775535,
+    "source": "rag",
+    "confidence": 0.7291576151346711
+  },
+  {
+    "timestamp": "2026-01-12T01:58:58.898145",
+    "question": "What programs does the university offer?",
+    "answer": "The university offers programs in CSE, EEE, BBA, Law, and Journalism.",
+    "response_time": 2.5018949539522604,
+    "source": "llm",
+    "confidence": 0.7623897278125408
+  },
+  {
+    "timestamp": "2026-01-15T19:32:58.898145",
+    "question": "What is the duration of the CSE program?",
+    "answer": "It's a 4 years undergraduate program.",
+    "response_time": 4.192136506417823,
+    "source": "llm",
+    "confidence": 0.8811333142642576
+  },
+  {
+    "timestamp": "2026-01-16T10:17:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",
+    "response_time": 3.744460545876643,
+    "source": "llm",
+    "confidence": 0.8004271767553617
+  },
+  {
+    "timestamp": "2026-01-15T01:49:58.898145",
+    "question": "What is the address of the university?",
+    "answer": "66 Mohakhali, Dhaka-1212, Bangladesh",
+    "response_time": 0.10739098199024269,
+    "source": "dataset",
+    "confidence": 0.9089966017307982
+  },
+  {
+    "timestamp": "2026-01-15T15:25:58.898145",
+    "question": "What is the address of the university?",
+    "answer": "66 Mohakhali, Dhaka-1212, Bangladesh",
+    "response_time": 0.4482362961067893,
+    "source": "dataset",
+    "confidence": 0.9300553884687704
+  },
+  {
+    "timestamp": "2026-01-11T17:27:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 2.54633280813267,
+    "source": "rag",
+    "confidence": 0.6828842790482507
+  },
+  {
+    "timestamp": "2026-01-16T14:34:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",
+    "response_time": 2.034261562775556,
+    "source": "llm",
+    "confidence": 0.8387465859746833
+  },
+  {
+    "timestamp": "2026-01-10T21:04:58.898145",
+    "question": "What is the duration of the CSE program?",
+    "answer": "It's a 4 years undergraduate program.",
+    "response_time": 4.033722202906658,
+    "source": "llm",
+    "confidence": 0.8262505398761334
+  },
+  {
+    "timestamp": "2026-01-15T04:23:58.898145",
+    "question": "What is the duration of the CSE program?",
+    "answer": "It's a 4 years undergraduate program.",
+    "response_time": 3.2606231877814924,
+    "source": "llm",
+    "confidence": 0.8985008019728841
+  },
+  {
+    "timestamp": "2026-01-16T17:24:58.898145",
+    "question": "When is the next semester starting?",
+    "answer": "The next semester starts in January 2026.",
+    "response_time": 1.903564691343787,
+    "source": "rag",
+    "confidence": 0.6818789131769143
+  },
+  {
+    "timestamp": "2026-01-10T15:41:58.898145",
+    "question": "What programs does the university offer?",
+    "answer": "The university offers programs in CSE, EEE, BBA, Law, and Journalism.",
+    "response_time": 3.5597618877799917,
+    "source": "llm",
+    "confidence": 0.7585185245415599
+  },
+  {
+    "timestamp": "2026-01-16T01:55:58.898145",
+    "question": "What is the address of the university?",
+    "answer": "66 Mohakhali, Dhaka-1212, Bangladesh",
+    "response_time": 0.2152210864468553,
+    "source": "dataset",
+    "confidence": 0.9517132502250345
+  },
+  {
+    "timestamp": "2026-01-15T17:22:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 2.077798578434302,
+    "source": "rag",
+    "confidence": 0.6068933368521625
+  },
+  {
+    "timestamp": "2026-01-15T18:41:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 1.980982769893513,
+    "source": "rag",
+    "confidence": 0.6770591594370399
+  },
+  {
+    "timestamp": "2026-01-15T14:00:58.898145",
+    "question": "What programs does the university offer?",
+    "answer": "The university offers programs in CSE, EEE, BBA, Law, and Journalism.",
+    "response_time": 4.841248251197423,
+    "source": "llm",
+    "confidence": 0.7690828404025288
+  },
+  {
+    "timestamp": "2026-01-16T01:01:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 1.9748664947852443,
+    "source": "rag",
+    "confidence": 0.6960201873048234
+  },
+  {
+    "timestamp": "2026-01-12T01:35:58.898145",
+    "question": "What programs does the university offer?",
+    "answer": "The university offers programs in CSE, EEE, BBA, Law, and Journalism.",
+    "response_time": 4.690352273689329,
+    "source": "llm",
+    "confidence": 0.8644184111947596
+  },
+  {
+    "timestamp": "2026-01-11T11:08:58.898145",
+    "question": "What programs does the university offer?",
+    "answer": "The university offers programs in CSE, EEE, BBA, Law, and Journalism.",
+    "response_time": 3.627455723404964,
+    "source": "llm",
+    "confidence": 0.8030836848903203
+  },
+  {
+    "timestamp": "2026-01-11T12:55:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 1.8553579679168193,
+    "source": "rag",
+    "confidence": 0.6936337681715268
+  },
+  {
+    "timestamp": "2026-01-15T15:09:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 2.307172431428027,
+    "source": "rag",
+    "confidence": 0.6516888829015388
+  },
+  {
+    "timestamp": "2026-01-14T15:09:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 2.434394428923456,
+    "source": "rag",
+    "confidence": 0.6129398138863018
+  },
+  {
+    "timestamp": "2026-01-10T20:10:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "Students need good grades in SSC and HSC to get admission.",
+    "response_time": 3.374144512626187,
+    "source": "llm",
+    "confidence": 0.5784352297810734
+  },
+  {
+    "timestamp": "2026-01-15T18:15:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",
+    "response_time": 0.1657727975784286,
+    "source": "dataset",
+    "confidence": 0.9620052490276403
+  },
+  {
+    "timestamp": "2026-01-16T03:28:58.898145",
+    "question": "What programs does the university offer?",
+    "answer": "The university offers programs in CSE, EEE, BBA, Law, and Journalism.",
+    "response_time": 4.4482726772285135,
+    "source": "llm",
+    "confidence": 0.8184036288271375
+  },
+  {
+    "timestamp": "2026-01-12T09:51:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 2.2749050211005377,
+    "source": "rag",
+    "confidence": 0.6959585184707687
+  },
+  {
+    "timestamp": "2026-01-17T10:00:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "For CSE program, the tuition is Tk. 589,900 for top GPA students.",
+    "response_time": 1.6220438573994826,
+    "source": "rag",
+    "confidence": 0.6258280067400652
+  },
+  {
+    "timestamp": "2026-01-12T04:21:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",
+    "response_time": 0.21118428515876794,
+    "source": "dataset",
+    "confidence": 0.9494707788350841
+  },
+  {
+    "timestamp": "2026-01-15T15:42:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "Students need good grades in SSC and HSC to get admission.",
+    "response_time": 4.218847855280417,
+    "source": "llm",
+    "confidence": 0.47614161552771805
+  },
+  {
+    "timestamp": "2026-01-12T21:29:58.898145",
+    "question": "What is the duration of the CSE program?",
+    "answer": "It's a 4 years undergraduate program.",
+    "response_time": 2.0293663305963134,
+    "source": "llm",
+    "confidence": 0.7868839303597059
+  },
+  {
+    "timestamp": "2026-01-12T00:48:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 1.0711988067672096,
+    "source": "rag",
+    "confidence": 0.6441406067882229
+  },
+  {
+    "timestamp": "2026-01-14T20:21:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 1.9854297703125219,
+    "source": "rag",
+    "confidence": 0.6848636524904674
+  },
+  {
+    "timestamp": "2026-01-15T03:01:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "Students need good grades in SSC and HSC to get admission.",
+    "response_time": 2.105887945965582,
+    "source": "llm",
+    "confidence": 0.5807564723687867
+  },
+  {
+    "timestamp": "2026-01-11T03:28:58.898145",
+    "question": "What is the duration of the CSE program?",
+    "answer": "It's a 4 years undergraduate program.",
+    "response_time": 4.2027483409474655,
+    "source": "llm",
+    "confidence": 0.8841345380847829
+  },
+  {
+    "timestamp": "2026-01-17T01:00:58.898145",
+    "question": "What is the tuition fee for CSE?",
+    "answer": "The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",
+    "response_time": 0.17225520492989133,
+    "source": "dataset",
+    "confidence": 0.9205943029857785
+  },
+  {
+    "timestamp": "2026-01-14T16:32:58.898145",
+    "question": "How can I contact the admissions office?",
+    "answer": "You can reach admissions at admissions@university.edu or phone +880-2-123456",
+    "response_time": 1.2091662310572544,
+    "source": "rag",
+    "confidence": 0.6036601706914166
+  },
+  {
+    "timestamp": "2026-01-12T21:51:58.898145",
+    "question": "What is the address of the university?",
+    "answer": "The campus is in Mohakhali area of Dhaka city.",
+    "response_time": 2.5314947596693242,
+    "source": "rag",
+    "confidence": 0.5698515756343082
+  },
+  {
+    "timestamp": "2026-01-14T20:31:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "Students need good grades in SSC and HSC to get admission.",
+    "response_time": 2.20266161743771,
+    "source": "llm",
+    "confidence": 0.5604134923747195
+  },
+  {
+    "timestamp": "2026-01-15T16:30:58.898145",
+    "question": "What are the admission requirements?",
+    "answer": "Students need good grades in SSC and HSC to get admission.",
+    "response_time": 4.257202819603818,
+    "source": "llm",
+    "confidence": 0.5390302136895831
+  }
+]

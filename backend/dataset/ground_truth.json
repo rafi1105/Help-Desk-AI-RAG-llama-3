@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the tuition fee for CSE?",
+    "answer": "The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10."
+  },
+  {
+    "question": "What are the admission requirements?",
+    "answer": "Minimum GPA of 3.5 in SSC and HSC combined is required for admission."
+  },
+  {
+    "question": "What is the address of the university?",
+    "answer": "66 Mohakhali, Dhaka-1212, Bangladesh"
+  },
+  {
+    "question": "What is the duration of the CSE program?",
+    "answer": "4 years undergraduate program"
+  },
+  {
+    "question": "How can I contact the admissions office?",
+    "answer": "Contact: admissions@university.edu or +880-2-123456"
+  }
+]

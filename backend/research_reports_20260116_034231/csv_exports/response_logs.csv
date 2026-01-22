@@ -1,0 +1,51 @@
+timestamp,question,answer,response_time,source,confidence
+2026-01-12T16:31:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.3819012680389253,dataset,0.7308200515445902
+2026-01-11T11:35:51.335771,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,2.90872642033906,rag,0.9454994542488999
+2026-01-15T12:20:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.4636783025079593,dataset,0.6119209106841442
+2026-01-10T06:30:51.335771,What is the duration of the CSE program?,The CSE program is a 4-year undergraduate degree program.,0.1585904154801137,dataset,0.6058743053075919
+2026-01-14T02:56:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.4835604078456188,dataset,0.9020824148127247
+2026-01-09T12:28:51.335771,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",4.119395561935418,llm,0.8122369359440231
+2026-01-09T09:09:51.335771,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",0.16471689694784689,dataset,0.7928777608862101
+2026-01-13T09:40:51.335771,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",3.9533304018412916,llm,0.6951936422633824
+2026-01-16T02:43:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,4.836424348498797,llm,0.7880332419320415
+2026-01-15T17:38:51.335771,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.227112749229528,llm,0.8486621648462782
+2026-01-15T02:34:51.335771,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",0.20708234716278598,dataset,0.9068700464447863
+2026-01-11T14:33:51.335771,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",4.734289830301541,llm,0.7310278991752781
+2026-01-10T09:55:51.335771,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,2.7315583017218583,rag,0.6860346341630471
+2026-01-12T22:27:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,3.3030389237760565,llm,0.6882573474704506
+2026-01-10T07:22:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.11901276171957519,dataset,0.6534893519612217
+2026-01-14T20:22:51.335771,What is the duration of the CSE program?,The CSE program is a 4-year undergraduate degree program.,0.3569611412355118,dataset,0.8499081932698307
+2026-01-12T07:26:51.335771,How can I contact the admissions office?,You can contact admissions at admissions@university.edu or call +880-2-123456.,0.31088225174638695,dataset,0.7083738759827161
+2026-01-11T15:21:51.335771,What is the duration of the CSE program?,The CSE program is a 4-year undergraduate degree program.,0.13856454588946604,dataset,0.6367616354558462
+2026-01-12T00:11:51.335771,How can I contact the admissions office?,You can contact admissions at admissions@university.edu or call +880-2-123456.,0.10898231326873416,dataset,0.9408400244821952
+2026-01-15T15:39:51.335771,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,2.5045565689966898,rag,0.609744841776825
+2026-01-11T22:06:51.335771,What is the duration of the CSE program?,The CSE program is a 4-year undergraduate degree program.,0.2127896890961739,dataset,0.9076948581865958
+2026-01-13T19:13:51.335771,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.846900524944112,llm,0.9437309695798647
+2026-01-11T21:21:51.335771,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",3.71593599359121,llm,0.6077290313914883
+2026-01-12T02:28:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,2.8937117199901494,llm,0.7440682657812386
+2026-01-13T10:16:51.335771,When is the next semester starting?,The next semester starts in January 2026.,2.9922240268032705,rag,0.6818489344068013
+2026-01-11T14:58:51.335771,When is the next semester starting?,The next semester starts in January 2026.,1.264570168968521,rag,0.9031546190494206
+2026-01-09T09:12:51.335771,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,2.043371869387032,rag,0.8396611219762056
+2026-01-15T01:04:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,3.5856356606448254,llm,0.9476242966891719
+2026-01-11T21:36:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.29187176151531913,dataset,0.8725747861854672
+2026-01-14T08:22:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.25250309266185433,dataset,0.7752109878951046
+2026-01-14T08:16:51.335771,How can I contact the admissions office?,You can contact admissions at admissions@university.edu or call +880-2-123456.,0.28330237093450017,dataset,0.6226235069024664
+2026-01-12T15:52:51.335771,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,2.6432613018001554,rag,0.7445869199071273
+2026-01-11T10:34:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,3.2130665382037513,llm,0.9164403383539281
+2026-01-09T20:59:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,2.989090798255815,llm,0.9406392677311057
+2026-01-12T02:52:51.335771,How can I contact the admissions office?,You can contact admissions at admissions@university.edu or call +880-2-123456.,0.25465208337064743,dataset,0.8204074108887554
+2026-01-15T13:29:51.335771,What is the address of the university?,"The university is located at 66 Mohakhali, Dhaka-1212, Bangladesh.",0.24037771662817314,dataset,0.7288768748549703
+2026-01-15T06:17:51.335771,What are the admission requirements?,Admission requirements include minimum GPA of 3.5 in SSC and HSC combined.,3.0011044348977824,llm,0.6457421441617748
+2026-01-15T17:26:51.335771,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,2.541316665923203,rag,0.745663944037491
+2026-01-15T16:32:51.335771,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.646128009694423,llm,0.8668804149664613
+2026-01-15T11:23:51.335771,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",2.4039648046091373,llm,0.8037174653831669
+2026-01-09T21:47:51.335771,What is the duration of the CSE program?,The CSE program is a 4-year undergraduate degree program.,0.32513078613741053,dataset,0.6684226643076482
+2026-01-15T03:33:51.335771,What is the duration of the CSE program?,The CSE program is a 4-year undergraduate degree program.,0.2876914050361792,dataset,0.8733073680653483
+2026-01-10T13:52:51.335771,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.9140248882229502,llm,0.9068219579365341
+2026-01-10T10:04:51.335771,How can I contact the admissions office?,You can contact admissions at admissions@university.edu or call +880-2-123456.,0.4239031365646757,dataset,0.7187050821667041
+2026-01-11T02:29:51.335771,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,1.3766803778721322,rag,0.6291421782113761
+2026-01-12T12:01:51.335771,When is the next semester starting?,The next semester starts in January 2026.,1.0599049353863998,rag,0.6475784403019409
+2026-01-14T02:51:51.335771,When is the next semester starting?,The next semester starts in January 2026.,2.503630586854852,rag,0.860574844039625
+2026-01-15T23:34:51.335771,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",3.2168008067665657,llm,0.8685569926970398
+2026-01-10T20:03:51.335771,When is the next semester starting?,The next semester starts in January 2026.,1.6037649941905048,rag,0.8740752309943672
+2026-01-11T03:01:51.335771,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",0.2718623863482095,dataset,0.7440033189210904

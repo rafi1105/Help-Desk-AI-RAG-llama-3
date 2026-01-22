@@ -1,0 +1,51 @@
+timestamp,question,answer,response_time,source,confidence
+2026-01-03T22:05:25.338004,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",4.13726458,llm,0.439513074
+2026-01-01T01:05:25.338033,How long is the CSE program?,The BSc in CSE is a 4-year undergraduate program consisting of 8 semesters.,3.430665289,rag,0.642154579
+2026-01-04T08:05:25.338043,What are the admission requirements?,"Admission requires minimum GPA in SSC and HSC, performance in admission test, and English proficiency.",3.765320677,llm,0.849018553
+2026-01-09T01:05:25.338049,What programs does Green University offer?,"Green University offers CSE, EEE, BBA, Textile Engineering, English, Law, and more.",0.972021765,dataset_formatted,0.719737868
+2026-01-15T01:05:25.338055,How can I get a scholarship?,Merit-based scholarships are available for top 5% students each semester based on GPA.,4.478431349,dataset,0.41681869
+2026-01-07T16:05:25.338062,What is the BBA program fee?,The BBA program fee varies. Merit-based scholarships are available to reduce costs.,2.727952574,dataset,0.884447154
+2026-01-06T03:05:25.338068,What facilities does the university have?,"The university has modern labs, computer facilities, library, sports facilities, and cafeteria.",4.245125882,dataset,0.776488588
+2025-12-31T23:05:25.338077,When does admission start?,Please check the website or contact admission office at 01775234234 for admission dates.,3.728915741,dataset_formatted,0.755963645
+2026-01-15T09:05:25.338083,What is the fee for EEE department?,The EEE program fee varies. Merit-based scholarships are available for top performers.,1.245554704,rag,0.60479748
+2026-01-08T07:05:25.338090,What is the textile engineering fee?,"The Textile Engineering fee is BDT 70,000 per semester.",1.403195059,llm,0.470150117
+2025-12-30T02:05:25.338096,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",4.525095103,dataset_formatted,0.682637183
+2025-12-16T19:05:25.338102,How long is the CSE program?,The BSc in CSE is a 4-year undergraduate program consisting of 8 semesters.,2.663315332,dataset,0.489139829
+2025-12-25T05:05:25.338108,What are the admission requirements?,"Admission requires minimum GPA in SSC and HSC, performance in admission test, and English proficiency.",2.850273265,dataset,0.55619994
+2026-01-15T05:05:25.338114,What programs does Green University offer?,"Green University offers CSE, EEE, BBA, Textile Engineering, English, Law, and more.",3.603043755,dataset_formatted,0.368804996
+2025-12-23T08:05:25.338119,How can I get a scholarship?,Merit-based scholarships are available for top 5% students each semester based on GPA.,1.096889597,dataset,0.801930527
+2025-12-18T12:05:25.338125,What is the BBA program fee?,The BBA program fee varies. Merit-based scholarships are available to reduce costs.,0.889200011,llm,0.680031466
+2025-12-23T08:05:25.338131,What facilities does the university have?,"The university has modern labs, computer facilities, library, sports facilities, and cafeteria.",1.361612159,rag,0.56576867
+2026-01-04T15:05:25.338137,When does admission start?,Please check the website or contact admission office at 01775234234 for admission dates.,4.564224364,llm,0.215344716
+2025-12-31T09:05:25.338143,What is the fee for EEE department?,The EEE program fee varies. Merit-based scholarships are available for top performers.,3.222584088,dataset_formatted,0.227054276
+2026-01-07T18:05:25.338148,What is the textile engineering fee?,"The Textile Engineering fee is BDT 70,000 per semester.",0.613021525,dataset_formatted,0.897211685
+2025-12-25T19:05:25.338154,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",1.426325688,dataset,0.917511628
+2025-12-20T14:05:25.338160,How long is the CSE program?,The BSc in CSE is a 4-year undergraduate program consisting of 8 semesters.,2.723920334,llm,0.931725953
+2026-01-11T11:05:25.338165,What are the admission requirements?,"Admission requires minimum GPA in SSC and HSC, performance in admission test, and English proficiency.",3.820302115,dataset,0.455351102
+2026-01-01T09:05:25.338171,What programs does Green University offer?,"Green University offers CSE, EEE, BBA, Textile Engineering, English, Law, and more.",0.972155087,rag,0.557150754
+2025-12-28T03:05:25.338176,How can I get a scholarship?,Merit-based scholarships are available for top 5% students each semester based on GPA.,1.011098199,dataset_formatted,0.73898076
+2025-12-30T22:05:25.338182,What is the BBA program fee?,The BBA program fee varies. Merit-based scholarships are available to reduce costs.,1.548985613,rag,0.920979725
+2025-12-24T11:05:25.338188,What facilities does the university have?,"The university has modern labs, computer facilities, library, sports facilities, and cafeteria.",1.017922096,dataset,0.785452927
+2025-12-27T15:05:25.338193,When does admission start?,Please check the website or contact admission office at 01775234234 for admission dates.,1.612958409,dataset,0.913090628
+2025-12-18T01:05:25.338200,What is the fee for EEE department?,The EEE program fee varies. Merit-based scholarships are available for top performers.,4.075177431,llm,0.893979082
+2025-12-28T09:05:25.338206,What is the textile engineering fee?,"The Textile Engineering fee is BDT 70,000 per semester.",2.745510097,dataset_formatted,0.763527094
+2026-01-10T01:05:25.338212,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",1.798988319,rag,0.715568131
+2026-01-07T02:05:25.338218,How long is the CSE program?,The BSc in CSE is a 4-year undergraduate program consisting of 8 semesters.,4.746218774,llm,0.810001144
+2025-12-22T08:05:25.338225,What are the admission requirements?,"Admission requires minimum GPA in SSC and HSC, performance in admission test, and English proficiency.",4.26362442,dataset_formatted,0.720707031
+2025-12-20T20:05:25.338232,What programs does Green University offer?,"Green University offers CSE, EEE, BBA, Textile Engineering, English, Law, and more.",0.605160988,dataset,0.853477953
+2025-12-31T16:05:25.338237,How can I get a scholarship?,Merit-based scholarships are available for top 5% students each semester based on GPA.,1.561469394,dataset_formatted,0.565789246
+2026-01-04T03:05:25.338244,What is the BBA program fee?,The BBA program fee varies. Merit-based scholarships are available to reduce costs.,3.464221833,llm,0.443763923
+2025-12-18T05:05:25.338251,What facilities does the university have?,"The university has modern labs, computer facilities, library, sports facilities, and cafeteria.",1.338698151,dataset,0.90894894
+2026-01-03T07:05:25.338257,When does admission start?,Please check the website or contact admission office at 01775234234 for admission dates.,1.875420397,llm,0.571321127
+2026-01-05T04:05:25.338264,What is the fee for EEE department?,The EEE program fee varies. Merit-based scholarships are available for top performers.,0.815426952,dataset,0.9023077
+2025-12-22T20:05:25.338271,What is the textile engineering fee?,"The Textile Engineering fee is BDT 70,000 per semester.",2.358851216,rag,0.86539855
+2026-01-05T20:05:25.338278,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10 (All A+).",3.318914005,llm,0.832916709
+2026-01-11T19:05:25.338284,How long is the CSE program?,The BSc in CSE is a 4-year undergraduate program consisting of 8 semesters.,3.229918746,dataset,0.787135848
+2026-01-05T16:05:25.338290,What are the admission requirements?,"Admission requires minimum GPA in SSC and HSC, performance in admission test, and English proficiency.",1.655837756,dataset,0.662813569
+2026-01-09T05:05:25.338295,What programs does Green University offer?,"Green University offers CSE, EEE, BBA, Textile Engineering, English, Law, and more.",2.668431371,dataset,0.805546252
+2025-12-26T20:05:25.338301,How can I get a scholarship?,Merit-based scholarships are available for top 5% students each semester based on GPA.,0.927446905,rag,0.876890282
+2025-12-18T18:05:25.338306,What is the BBA program fee?,The BBA program fee varies. Merit-based scholarships are available to reduce costs.,4.13924526,dataset_formatted,0.806465499
+2025-12-31T21:05:25.338312,What facilities does the university have?,"The university has modern labs, computer facilities, library, sports facilities, and cafeteria.",2.697449084,llm,0.717708795
+2026-01-10T11:05:25.338318,When does admission start?,Please check the website or contact admission office at 01775234234 for admission dates.,4.881576242,llm,0.656817852
+2025-12-26T18:05:25.338325,What is the fee for EEE department?,The EEE program fee varies. Merit-based scholarships are available for top performers.,4.944559737,dataset,0.621201243
+2026-01-11T10:05:25.338331,What is the textile engineering fee?,"The Textile Engineering fee is BDT 70,000 per semester.",3.77074852,dataset_formatted,0.282767566

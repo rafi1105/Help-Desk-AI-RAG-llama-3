@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Analysis Visualizations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .stat-card h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .stat-card p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .chart {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .chart h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        .chart img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #999;
+        }
+        .timestamp {
+            background: #ffeaa7;
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Research Analysis Report</h1>
+        <p class="subtitle">Comprehensive Data Visualization for Academic Research</p>
+        
+        <div style="text-align: center;">
+            <span class="timestamp">🕐 Generated: 2026-01-17 11:49:29</span>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <h3>50</h3>
+                <p>Total Responses</p>
+            </div>
+            <div class="stat-card">
+                <h3>30</h3>
+                <p>Feedback Entries</p>
+            </div>
+            <div class="stat-card">
+                <h3>10</h3>
+                <p>Visualizations</p>
+            </div>
+        </div>
+        
+        <div class="chart">
+            <h2>📈 Response Time Timeline</h2>
+            <img src="response_time_timeline.png" alt="Response Time Timeline">
+            <p style="margin-top: 15px; color: #666;">Shows response times over the collection period with trend analysis.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>📊 Response Time Distribution</h2>
+            <img src="response_time_distribution.png" alt="Response Time Distribution">
+            <p style="margin-top: 15px; color: #666;">Histogram showing the frequency distribution of response times.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>📦 Response Time Box Plot</h2>
+            <img src="response_time_boxplot.png" alt="Response Time Box Plot">
+            <p style="margin-top: 15px; color: #666;">Statistical summary with quartiles and outliers.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>🔄 Response Time by Source</h2>
+            <img src="response_time_by_source.png" alt="Response Time by Source">
+            <p style="margin-top: 15px; color: #666;">Comparison of response times across different sources (Dataset, LLM, RAG).</p>
+        </div>
+        
+        <div class="chart">
+            <h2>🎯 Accuracy Metrics</h2>
+            <img src="accuracy_metrics.png" alt="Accuracy Metrics">
+            <p style="margin-top: 15px; color: #666;">Model performance metrics including BLEU, semantic similarity, and F1 scores.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>😊 User Satisfaction</h2>
+            <img src="user_satisfaction_pie.png" alt="User Satisfaction">
+            <p style="margin-top: 15px; color: #666;">Distribution of positive vs negative user feedback.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>⏰ Feedback Timeline</h2>
+            <img src="feedback_timeline.png" alt="Feedback Timeline">
+            <p style="margin-top: 15px; color: #666;">Temporal distribution of user feedback over time.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>🎲 Confidence vs Response Time</h2>
+            <img src="confidence_vs_time.png" alt="Confidence vs Time">
+            <p style="margin-top: 15px; color: #666;">Correlation analysis between confidence scores and response times.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>🕐 Hourly Activity Distribution</h2>
+            <img src="hourly_activity.png" alt="Hourly Activity">
+            <p style="margin-top: 15px; color: #666;">User activity patterns throughout the day.</p>
+        </div>
+        
+        <div class="chart">
+            <h2>📚 Source Distribution</h2>
+            <img src="source_distribution.png" alt="Source Distribution">
+            <p style="margin-top: 15px; color: #666;">Breakdown of responses by source type.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Generated by Research Visualization System</p>
+            <p>Green University Help Desk AI - RAG System</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">📄 For statistical analysis, use the CSV files in the research_reports folder</p>
+        </div>
+    </div>
+</body>
+</html>

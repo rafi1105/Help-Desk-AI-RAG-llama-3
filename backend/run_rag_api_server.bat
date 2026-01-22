@@ -2,7 +2,18 @@
 echo 🚀 Starting LLaMA 3.2 RAG API Server...
 echo.
 
-cd /d "d:\VS Code\thesis-bot\chatbot\backend"
+cd /d "%~dp0"
+
+REM Activate virtual environment if it exists
+if exist "..\..\.venv\Scripts\activate.bat" (
+    echo Activating virtual environment...
+    call "..\..\.venv\Scripts\activate.bat"
+    echo.
+) else (
+    echo Warning: Virtual environment not found at .venv
+    echo Using system Python...
+    echo.
+)
 
 REM Check if Ollama is running
 echo 🔍 Checking if Ollama is running...
@@ -34,7 +45,7 @@ echo ✅ Ollama and model are ready!
 echo.
 
 REM Start the RAG API server
-echo 🌐 Starting RAG API Server on port 8000...
+echo 🌐 Starting RAG API Server on port 5000...
 python rag_api_server.py
 
 pause

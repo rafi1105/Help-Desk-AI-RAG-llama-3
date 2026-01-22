@@ -11,12 +11,16 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 import json
+import time
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from datetime import datetime
 import re
 import requests
+
+# Import evaluation middleware
+from evaluation_middleware import log_chat_interaction, get_live_statistics, generate_report_api
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:3000", "http://127.0.0.1:5173"])
@@ -299,6 +303,7 @@ Reformatted Answer:"""
 @app.route('/chat', methods=['POST'])
 def chat():
     """Main chat endpoint - searches dataset first"""
+    start_time = time.time()  # Track response time
     try:
         data = request.get_json()
         if not data or 'message' not in data:
@@ -345,6 +350,16 @@ def chat():
             print(f"   {formatted_answer[:200]}..." if len(formatted_answer) > 200 else f"   {formatted_answer}")
             print("="*80 + "\n")
             
+            # Log interaction for research
+            response_time = time.time() - start_time
+            log_chat_interaction(
+                question=user_message,
+                answer=formatted_answer,
+                response_time=response_time,
+                source='dataset_formatted',
+                confidence=best['score']
+            )
+            
             return jsonify({
                 'answer': formatted_answer,
                 'confidence': best['score'],
@@ -352,7 +367,8 @@ def chat():
                 'source': item['source_file'],
                 'department': item.get('department', ''),
                 'is_from_dataset': True,
-                'llm_formatted': True
+                'llm_formatted': True,
+                'response_time': response_time
             })
         
         # LOW CONFIDENCE (< 55%) - Use LLM with context
@@ -371,13 +387,24 @@ def chat():
                 print(f"   {llm_answer[:200]}...")
                 print("="*80 + "\n")
                 
+                # Log interaction for research
+                response_time = time.time() - start_time
+                log_chat_interaction(
+                    question=user_message,
+                    answer=llm_answer,
+                    response_time=response_time,
+                    source='llm_with_context',
+                    confidence=best_score
+                )
+                
                 return jsonify({
                     'answer': llm_answer,
                     'confidence': best_score,
                     'method': 'LLM_WITH_CONTEXT',
                     'source': item['source_file'],
                     'is_from_dataset': False,
-                    'llm_used': True
+                    'llm_used': True,
+                    'response_time': response_time
                 })
         
         # NO MATCH - Use LLM without context
@@ -389,12 +416,23 @@ def chat():
             print(f"   {llm_answer[:200]}...")
             print("="*80 + "\n")
             
+            # Log interaction for research
+            response_time = time.time() - start_time
+            log_chat_interaction(
+                question=user_message,
+                answer=llm_answer,
+                response_time=response_time,
+                source='llm_only',
+                confidence=0
+            )
+            
             return jsonify({
-                'answer': llm_answer ,
+                'answer': llm_answer,
                 'confidence': 0,
                 'method': 'LLM_ONLY',
                 'is_from_dataset': False,
-                'llm_used': True
+                'llm_used': True,
+                'response_time': response_time
             })
         
         # Fallback
@@ -407,6 +445,51 @@ def chat():
     
     except Exception as e:
         print(f"❌ Error: {e}")
+
+# ============================================================================
+# RESEARCH & EVALUATION ENDPOINTS
+# ============================================================================
+
+@app.route('/analytics/live', methods=['GET'])
+def analytics_live():
+    """Get live analytics and statistics for research"""
+    try:
+        stats = get_live_statistics()
+        return jsonify({
+            'status': 'success',
+            'data': stats,
+            'timestamp': datetime.now().isoformat()
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/analytics/report', methods=['GET'])
+def analytics_report():
+    """Generate comprehensive research report"""
+    try:
+        report = generate_report_api()
+        return jsonify({
+            'status': 'success',
+            'report': report
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/analytics/export', methods=['GET'])
+def analytics_export():
+    """Export research data to CSV files"""
+    try:
+        from evaluation_analytics import ChatbotEvaluator
+        evaluator = ChatbotEvaluator()
+        evaluator.export_to_csv('research_exports')
+        
+        return jsonify({
+            'status': 'success',
+            'message': 'Data exported to research_exports/ folder',
+            'files': ['response_logs.csv', 'feedback_data.csv']
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
         return jsonify({'error': str(e), 'answer': 'An error occurred. Please try again.'}), 500
 
 @app.route('/health', methods=['GET'])

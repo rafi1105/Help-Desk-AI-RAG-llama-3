@@ -26,6 +26,9 @@ import pickle
 # from enhanced_ollama_chatbot import EnhancedOllamaChatbot
 from enhanced_ollama_chatbot_v2 import EnhancedOllamaChatbotV2, get_chatbot_instance
 
+# Import evaluation middleware for research
+from evaluation_middleware import log_chat_interaction, get_live_statistics, generate_report_api
+
 # Load environment variables
 load_dotenv()
 
@@ -1275,6 +1278,7 @@ def initialize_on_first_request():
 @app.route('/chat', methods=['POST'])
 def chat():
     """Handle chat requests with integrated JSON processing (offline/online)"""
+    start_time = time.time()  # Track response time for research
     try:
         # Ensure system is initialized - try multiple approaches
         global llm, search_system, enhanced_chatbot
@@ -1329,6 +1333,18 @@ def chat():
                 result = search_system.integrated_search(user_message)
                 print(f"✅ Search result: method={result.get('method', 'MISSING')}, confidence={result.get('confidence', 0)}")
 
+                # Calculate response time and log for research
+                response_time = time.time() - start_time
+                
+                # Log interaction for research analysis
+                log_chat_interaction(
+                    question=user_message,
+                    answer=result.get('answer', ''),
+                    response_time=response_time,
+                    source=result.get('method', 'unknown'),
+                    confidence=result.get('confidence', 0)
+                )
+
                 return jsonify({
                     'answer': result.get('answer', 'No answer generated'),
                     'method': result.get('method', 'unknown_method'),
@@ -1337,7 +1353,8 @@ def chat():
                     'processing_time': result.get('processing_time', 0),
                     'model': 'offline_json' if OFFLINE_MODE else 'integrated_llama3.2_json',
                     'source': result.get('source', 'unknown_source'),
-                    'offline_mode': OFFLINE_MODE
+                    'offline_mode': OFFLINE_MODE,
+                    'response_time': response_time
                 })
             except Exception as search_error:
                 print(f"❌ Search system error: {search_error}")
@@ -1429,6 +1446,51 @@ def feedback():
         print(f"❌ Feedback endpoint error: {e}")
         return jsonify({'error': str(e)}), 500
 
+# ============================================================================
+# RESEARCH & EVALUATION ENDPOINTS
+# ============================================================================
+
+@app.route('/analytics/live', methods=['GET'])
+def analytics_live():
+    """Get live analytics and statistics for research"""
+    try:
+        stats = get_live_statistics()
+        return jsonify({
+            'status': 'success',
+            'data': stats,
+            'timestamp': datetime.datetime.now().isoformat()
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/analytics/report', methods=['GET'])
+def analytics_report():
+    """Generate comprehensive research report"""
+    try:
+        report = generate_report_api()
+        return jsonify({
+            'status': 'success',
+            'report': report
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/analytics/export', methods=['GET'])
+def analytics_export():
+    """Export research data to CSV files"""
+    try:
+        from evaluation_analytics import ChatbotEvaluator
+        evaluator = ChatbotEvaluator()
+        evaluator.export_to_csv('research_exports')
+        
+        return jsonify({
+            'status': 'success',
+            'message': 'Data exported to research_exports/ folder',
+            'files': ['response_logs.csv', 'feedback_data.csv']
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/', methods=['GET'])
 def root():
     """Root endpoint"""
@@ -1444,7 +1506,10 @@ def root():
             'GET /health': 'Health check',
             'GET /stats': 'System statistics',
             'POST /chat': 'Chat with AI',
-            'POST /feedback': 'Submit feedback with learning'
+            'POST /feedback': 'Submit feedback with learning',
+            'GET /analytics/live': 'Live analytics and statistics',
+            'GET /analytics/report': 'Generate research report',
+            'GET /analytics/export': 'Export data to CSV'
         },
         'features': [
             'JSON data analysis' + (' (Offline Only)' if OFFLINE_MODE else ' with Enhanced Chatbot'),

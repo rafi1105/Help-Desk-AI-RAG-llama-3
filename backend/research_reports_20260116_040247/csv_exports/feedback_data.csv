@@ -1,0 +1,31 @@
+timestamp,question,answer,feedback
+2026-01-13T20:04:16.071071,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",like
+2026-01-14T20:00:16.071071,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,dislike
+2026-01-13T22:14:16.071071,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,like
+2026-01-11T17:34:16.071071,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",like
+2026-01-10T06:02:16.071071,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",like
+2026-01-12T07:55:16.071071,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",like
+2026-01-13T06:20:16.071071,What is the duration of the CSE program?,It's a 4 years undergraduate program.,like
+2026-01-09T05:13:16.071071,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,dislike
+2026-01-15T08:09:16.071071,What is the duration of the CSE program?,It's a 4 years undergraduate program.,like
+2026-01-13T19:19:16.071071,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",dislike
+2026-01-10T10:18:16.071071,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,like
+2026-01-13T05:27:16.071071,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,dislike
+2026-01-14T15:07:16.071071,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",like
+2026-01-12T15:37:16.071071,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",like
+2026-01-11T08:48:16.071071,What is the address of the university?,The campus is in Mohakhali area of Dhaka city.,like
+2026-01-12T12:29:16.071071,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",like
+2026-01-13T11:52:16.071071,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",like
+2026-01-12T07:59:16.071071,When is the next semester starting?,The next semester starts in January 2026.,dislike
+2026-01-12T16:31:16.071071,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",dislike
+2026-01-09T07:01:16.071071,What is the duration of the CSE program?,It's a 4 years undergraduate program.,like
+2026-01-10T20:20:16.071071,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",dislike
+2026-01-09T07:01:16.071071,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",like
+2026-01-09T07:16:16.071071,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",like
+2026-01-09T14:23:16.071071,What is the address of the university?,The campus is in Mohakhali area of Dhaka city.,like
+2026-01-12T04:50:16.071071,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",like
+2026-01-14T22:40:16.071071,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,dislike
+2026-01-12T11:37:16.071071,When is the next semester starting?,The next semester starts in January 2026.,dislike
+2026-01-12T16:12:16.071071,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",dislike
+2026-01-14T05:27:16.071071,When is the next semester starting?,The next semester starts in January 2026.,like
+2026-01-12T13:56:16.071071,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",like

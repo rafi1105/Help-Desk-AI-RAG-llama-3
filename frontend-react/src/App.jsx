@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import ChatContainer from './components/ChatContainer';
 import InputArea from './components/InputArea';
 import AnalyticsModal from './components/AnalyticsModal';
+import ResearchModal from './components/ResearchModal';
 import SettingsModal from './components/SettingsModal';
 import Toast from './components/Toast';
 import { chatService } from './services/api';
@@ -15,6 +16,7 @@ function App() {
   const [isTyping, setIsTyping] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isAnalyticsOpen, setIsAnalyticsOpen] = useState(false);
+  const [isResearchOpen, setIsResearchOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [connectionStatus, setConnectionStatus] = useState('offline');
   const [toasts, setToasts] = useState([]);
@@ -206,6 +208,7 @@ function App() {
           stats={stats}
           onNavigate={(section) => {
             if (section === 'analytics') setIsAnalyticsOpen(true);
+            if (section === 'research') setIsResearchOpen(true);
             if (section === 'settings') setIsSettingsOpen(true);
             if (section === 'chat') setIsSidebarOpen(false);
           }}
@@ -241,6 +244,11 @@ function App() {
         isOpen={isAnalyticsOpen}
         onClose={() => setIsAnalyticsOpen(false)}
         stats={stats}
+      />
+
+      <ResearchModal
+        isOpen={isResearchOpen}
+        onClose={() => setIsResearchOpen(false)}
       />
 
       <SettingsModal

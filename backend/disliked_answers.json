@@ -58,5 +58,11 @@
     "answer": "Based on the provided data and rules, I will respond to your question about CSE (Computer Science) fee.\n\nThe CSE department in Green University of Bangladesh charges BDT 70,000 per semester. This information is specifically provided for CSE departments within the university's RAG context.",
     "timestamp": "2025-12-30T02:16:16.708676",
     "blocked_permanently": true
+  },
+  {
+    "question": "introduction about cse main course",
+    "answer": "I am unable to provide information on the specific courses offered by the Computer Science (CSE) department at Green University of Bangladesh. My previous response provided a general overview of CSE as a whole, but I should not have mentioned \"main course\" since that would imply a specific program or curriculum.\n\nCan I assist you with any other questions about CSE or Green University of Bangladesh?",
+    "timestamp": "2026-01-16T03:08:57.084286",
+    "blocked_permanently": true
   }
 ]

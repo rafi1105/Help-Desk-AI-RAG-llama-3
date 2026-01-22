@@ -1,0 +1,51 @@
+timestamp,question,answer,response_time,source,confidence
+2026-01-14T19:32:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,2.00368183405075,llm,0.7700260395456957
+2026-01-12T22:23:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",3.1631027672222487,llm,0.8438398787783881
+2026-01-09T18:20:04.429469,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,4.02081754785592,llm,0.5205071297657425
+2026-01-10T16:57:04.429469,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",2.111185398438186,llm,0.7866878204691173
+2026-01-10T19:42:04.429469,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,2.775923021554104,rag,0.620809333616862
+2026-01-15T18:53:04.429469,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,1.6477455044929772,rag,0.7169427074671896
+2026-01-14T03:46:04.429469,What is the address of the university?,The campus is in Mohakhali area of Dhaka city.,2.059879787861166,rag,0.5659788315152693
+2026-01-12T01:23:04.429469,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.40840332169277804,dataset,0.9337285659136428
+2026-01-11T17:45:04.429469,When is the next semester starting?,The next semester starts in January 2026.,1.162502444772895,rag,0.6256056947857188
+2026-01-11T20:20:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,3.774166245413304,llm,0.7997764669781193
+2026-01-14T12:37:04.429469,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",2.459102297852662,rag,0.7476519437911094
+2026-01-12T17:55:04.429469,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,2.976640800806338,rag,0.623452217494939
+2026-01-13T00:54:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",4.038212507367332,llm,0.810961767606478
+2026-01-12T21:18:04.429469,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",1.6266721273854832,rag,0.6621961046519255
+2026-01-13T04:59:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,3.638668940231195,llm,0.8964225001509507
+2026-01-10T17:24:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,3.6188453668087353,llm,0.886769266528384
+2026-01-14T11:08:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,3.687324444387542,llm,0.8522458209314072
+2026-01-15T19:22:04.429469,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,1.003424420461507,rag,0.6287663584772417
+2026-01-12T00:33:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,3.6493493932980803,llm,0.7666967245786762
+2026-01-12T21:52:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",3.332867495615516,llm,0.8924856227112431
+2026-01-15T20:32:04.429469,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.45566328962087854,dataset,0.9641572059964912
+2026-01-09T12:02:04.429469,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.21836278547042662,dataset,0.9320623530230878
+2026-01-14T22:13:04.429469,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,3.2648582769086043,llm,0.5992480486287417
+2026-01-12T20:12:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",2.040394302475052,llm,0.8284431526815086
+2026-01-09T09:07:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",4.9556813663194434,llm,0.824024349986635
+2026-01-13T22:18:04.429469,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.4541059943323983,dataset,0.9640896825711367
+2026-01-14T03:26:04.429469,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",2.649787492641622,rag,0.7180800578079243
+2026-01-11T18:07:04.429469,When is the next semester starting?,The next semester starts in January 2026.,2.118886449157899,rag,0.7092487245816907
+2026-01-11T18:06:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,2.2935802692601968,llm,0.8783572606348153
+2026-01-14T00:39:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",4.320148939048375,llm,0.8109450251779677
+2026-01-13T23:03:04.429469,When is the next semester starting?,The next semester starts in January 2026.,2.1128441937503717,rag,0.6212265466045359
+2026-01-13T09:53:04.429469,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",4.2522525550058585,llm,0.8106077825846938
+2026-01-10T08:52:04.429469,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.19222278537832352,dataset,0.9793850400426288
+2026-01-15T10:20:04.429469,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.107400418854914,llm,0.8661493530113137
+2026-01-14T08:55:04.429469,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",1.4518017916285446,rag,0.6003530884173135
+2026-01-16T01:39:04.429469,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.734587508456797,llm,0.7817878256065489
+2026-01-13T08:59:04.429469,What are the admission requirements?,"For admission, minimum GPA of 3.5 in SSC and HSC combined is required.",3.3358001776586983,llm,0.7955916136794396
+2026-01-16T01:24:04.429469,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,2.8262887264452123,llm,0.4584851428506164
+2026-01-09T08:26:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,2.2425897950024587,llm,0.8672780586490962
+2026-01-13T18:18:04.429469,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.16299510732143152,dataset,0.9720291567357304
+2026-01-15T13:41:04.429469,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.4552199765776038,dataset,0.901221072848415
+2026-01-13T08:59:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,3.069008627893998,llm,0.7784576534976159
+2026-01-13T06:26:04.429469,What is the duration of the CSE program?,It's a 4 years undergraduate program.,4.793943686699476,llm,0.8307509865696361
+2026-01-12T21:46:04.429469,When is the next semester starting?,The next semester starts in January 2026.,1.3975891083306233,rag,0.6649983407165746
+2026-01-12T05:26:04.429469,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.12355635385018388,dataset,0.9224732353877759
+2026-01-16T01:31:04.429469,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,2.9832053672009624,rag,0.6215760116932505
+2026-01-09T16:26:04.429469,What is the tuition fee for CSE?,"For CSE program, the tuition is Tk. 589,900 for top GPA students.",2.1068794889441826,rag,0.7480705658928906
+2026-01-15T04:57:04.429469,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,3.9022359193412606,llm,0.5438276366497607
+2026-01-09T14:22:04.429469,How can I contact the admissions office?,You can reach admissions at admissions@university.edu or phone +880-2-123456,1.8713962879518722,rag,0.6349005479245096
+2026-01-11T06:31:04.429469,What are the admission requirements?,Students need good grades in SSC and HSC to get admission.,4.933061672207622,llm,0.5203659272690289

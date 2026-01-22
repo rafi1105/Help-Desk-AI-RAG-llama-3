@@ -1,0 +1,949 @@
+{
+  "report_generated": "2026-01-16T03:42:31.270366",
+  "data_period": {
+    "start": "2026-01-12T16:31:51.335771",
+    "end": "2026-01-11T03:01:51.335771"
+  },
+  "accuracy_evaluation": {
+    "total_evaluated": 28,
+    "overall_metrics": {
+      "mean_accuracy": 0.3941866149285528,
+      "median_accuracy": 0.378170941054875,
+      "std_accuracy": 0.11063242004983777,
+      "min_accuracy": 0.24834979838096743,
+      "max_accuracy": 0.6357508327997261
+    },
+    "semantic_similarity": {
+      "mean": 0.6193911841031716,
+      "median": 0.647328633751388
+    },
+    "bleu_score": {
+      "mean": 0.0,
+      "median": 0.0
+    },
+    "f1_score": {
+      "mean": 0.48810047095761383,
+      "median": 0.46153846153846156
+    },
+    "grade_distribution": {
+      "F (Very Poor)": 25,
+      "C (Acceptable)": 3
+    },
+    "detailed_results": [
+      {
+        "timestamp": "2026-01-12T16:31:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T12:20:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-10T06:30:51.335771",
+        "question": "What is the duration of the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.3901052651831878,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.24834979838096743,
+        "matched_keywords": [
+          "program",
+          "undergraduate"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-14T02:56:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-09T09:09:51.335771",
+        "question": "What is the tuition fee for CSE?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.9465199391421726,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.9230769230769231,
+        "f1_score": 0.8571428571428571,
+        "overall_accuracy": 0.6357508327997261,
+        "matched_keywords": [
+          "for",
+          "combined",
+          "tk.",
+          "with",
+          "cse",
+          "students",
+          "589,900",
+          "gpa",
+          "is",
+          "tuition",
+          "the",
+          "fee"
+        ],
+        "accuracy_grade": "C (Acceptable)"
+      },
+      {
+        "timestamp": "2026-01-16T02:43:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T02:34:51.335771",
+        "question": "What is the tuition fee for CSE?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.9465199391421726,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.9230769230769231,
+        "f1_score": 0.8571428571428571,
+        "overall_accuracy": 0.6357508327997261,
+        "matched_keywords": [
+          "for",
+          "combined",
+          "tk.",
+          "with",
+          "cse",
+          "students",
+          "589,900",
+          "gpa",
+          "is",
+          "tuition",
+          "the",
+          "fee"
+        ],
+        "accuracy_grade": "C (Acceptable)"
+      },
+      {
+        "timestamp": "2026-01-12T22:27:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-10T07:22:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-14T20:22:51.335771",
+        "question": "What is the duration of the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.3901052651831878,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.24834979838096743,
+        "matched_keywords": [
+          "program",
+          "undergraduate"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-12T07:26:51.335771",
+        "question": "How can I contact the admissions office?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.7146581218679566,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.378170941054875,
+        "matched_keywords": [
+          "or",
+          "admissions@university.edu"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T15:21:51.335771",
+        "question": "What is the duration of the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.3901052651831878,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.24834979838096743,
+        "matched_keywords": [
+          "program",
+          "undergraduate"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-12T00:11:51.335771",
+        "question": "How can I contact the admissions office?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.7146581218679566,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.378170941054875,
+        "matched_keywords": [
+          "or",
+          "admissions@university.edu"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T22:06:51.335771",
+        "question": "What is the duration of the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.3901052651831878,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.24834979838096743,
+        "matched_keywords": [
+          "program",
+          "undergraduate"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-12T02:28:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T01:04:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T21:36:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-14T08:22:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-14T08:16:51.335771",
+        "question": "How can I contact the admissions office?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.7146581218679566,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.378170941054875,
+        "matched_keywords": [
+          "or",
+          "admissions@university.edu"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T10:34:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-09T20:59:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-12T02:52:51.335771",
+        "question": "How can I contact the admissions office?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.7146581218679566,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.378170941054875,
+        "matched_keywords": [
+          "or",
+          "admissions@university.edu"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T13:29:51.335771",
+        "question": "What is the address of the university?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5797386715376658,
+        "bleu_score": 0.0,
+        "precision": 0.3333333333333333,
+        "recall": 0.75,
+        "f1_score": 0.46153846153846156,
+        "overall_accuracy": 0.3703570070766048,
+        "matched_keywords": [
+          "mohakhali,",
+          "66",
+          "dhaka-1212,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T06:17:51.335771",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.647328633751388,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.64,
+        "overall_accuracy": 0.45093145350055525,
+        "matched_keywords": [
+          "of",
+          "and",
+          "hsc",
+          "minimum",
+          "3.5",
+          "in",
+          "gpa",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-09T21:47:51.335771",
+        "question": "What is the duration of the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.3901052651831878,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.24834979838096743,
+        "matched_keywords": [
+          "program",
+          "undergraduate"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T03:33:51.335771",
+        "question": "What is the duration of the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.3901052651831878,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.24834979838096743,
+        "matched_keywords": [
+          "program",
+          "undergraduate"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-10T10:04:51.335771",
+        "question": "How can I contact the admissions office?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.7146581218679566,
+        "bleu_score": 0.0,
+        "precision": 0.2222222222222222,
+        "recall": 0.5,
+        "f1_score": 0.30769230769230765,
+        "overall_accuracy": 0.378170941054875,
+        "matched_keywords": [
+          "or",
+          "admissions@university.edu"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T03:01:51.335771",
+        "question": "What is the tuition fee for CSE?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.9465199391421726,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.9230769230769231,
+        "f1_score": 0.8571428571428571,
+        "overall_accuracy": 0.6357508327997261,
+        "matched_keywords": [
+          "for",
+          "combined",
+          "tk.",
+          "with",
+          "cse",
+          "students",
+          "589,900",
+          "gpa",
+          "is",
+          "tuition",
+          "the",
+          "fee"
+        ],
+        "accuracy_grade": "C (Acceptable)"
+      }
+    ]
+  },
+  "response_time_analysis": {
+    "total_responses": 50,
+    "average_response_time": 1.850230785875662,
+    "median_response_time": 1.8235684317887686,
+    "min_response_time": 0.10898231326873416,
+    "max_response_time": 4.836424348498797,
+    "std_deviation": 1.5348168991268416,
+    "total_time": 92.5115392937831,
+    "percentiles": {
+      "p50": 1.8235684317887686,
+      "p75": 3.1600760123772593,
+      "p90": 3.853612961271996,
+      "p95": 4.04466623989306,
+      "p99": 4.786378434582141
+    },
+    "distribution": {
+      "under_1s": 21,
+      "1s_to_2s": 4,
+      "2s_to_5s": 25,
+      "5s_to_10s": 0,
+      "over_10s": 0
+    },
+    "by_source": {
+      "dataset": {
+        "count": 21,
+        "average": 0.27323890857790795,
+        "median": 0.2718623863482095
+      },
+      "rag": {
+        "count": 12,
+        "average": 2.1811305181869733,
+        "median": 2.504093577925771
+      },
+      "llm": {
+        "count": 17,
+        "average": 3.564703293847256,
+        "median": 3.5856356606448254
+      }
+    },
+    "trends": {
+      "2026-01-09 09:00": {
+        "count": 2,
+        "average": 1.1040443831674396,
+        "median": 1.1040443831674396
+      },
+      "2026-01-09 12:00": {
+        "count": 1,
+        "average": 4.119395561935418,
+        "median": 4.119395561935418
+      },
+      "2026-01-09 20:00": {
+        "count": 1,
+        "average": 2.989090798255815,
+        "median": 2.989090798255815
+      },
+      "2026-01-09 21:00": {
+        "count": 1,
+        "average": 0.32513078613741053,
+        "median": 0.32513078613741053
+      },
+      "2026-01-10 06:00": {
+        "count": 1,
+        "average": 0.1585904154801137,
+        "median": 0.1585904154801137
+      },
+      "2026-01-10 07:00": {
+        "count": 1,
+        "average": 0.11901276171957519,
+        "median": 0.11901276171957519
+      },
+      "2026-01-10 09:00": {
+        "count": 1,
+        "average": 2.7315583017218583,
+        "median": 2.7315583017218583
+      },
+      "2026-01-10 10:00": {
+        "count": 1,
+        "average": 0.4239031365646757,
+        "median": 0.4239031365646757
+      },
+      "2026-01-10 13:00": {
+        "count": 1,
+        "average": 3.9140248882229502,
+        "median": 3.9140248882229502
+      },
+      "2026-01-10 20:00": {
+        "count": 1,
+        "average": 1.6037649941905048,
+        "median": 1.6037649941905048
+      },
+      "2026-01-11 02:00": {
+        "count": 1,
+        "average": 1.3766803778721322,
+        "median": 1.3766803778721322
+      },
+      "2026-01-11 03:00": {
+        "count": 1,
+        "average": 0.2718623863482095,
+        "median": 0.2718623863482095
+      },
+      "2026-01-11 10:00": {
+        "count": 1,
+        "average": 3.2130665382037513,
+        "median": 3.2130665382037513
+      },
+      "2026-01-11 11:00": {
+        "count": 1,
+        "average": 2.90872642033906,
+        "median": 2.90872642033906
+      },
+      "2026-01-11 14:00": {
+        "count": 2,
+        "average": 2.999429999635031,
+        "median": 2.999429999635031
+      },
+      "2026-01-11 15:00": {
+        "count": 1,
+        "average": 0.13856454588946604,
+        "median": 0.13856454588946604
+      },
+      "2026-01-11 21:00": {
+        "count": 2,
+        "average": 2.0039038775532645,
+        "median": 2.0039038775532645
+      },
+      "2026-01-11 22:00": {
+        "count": 1,
+        "average": 0.2127896890961739,
+        "median": 0.2127896890961739
+      },
+      "2026-01-12 00:00": {
+        "count": 1,
+        "average": 0.10898231326873416,
+        "median": 0.10898231326873416
+      },
+      "2026-01-12 02:00": {
+        "count": 2,
+        "average": 1.5741819016803984,
+        "median": 1.5741819016803984
+      },
+      "2026-01-12 07:00": {
+        "count": 1,
+        "average": 0.31088225174638695,
+        "median": 0.31088225174638695
+      },
+      "2026-01-12 12:00": {
+        "count": 1,
+        "average": 1.0599049353863998,
+        "median": 1.0599049353863998
+      },
+      "2026-01-12 15:00": {
+        "count": 1,
+        "average": 2.6432613018001554,
+        "median": 2.6432613018001554
+      },
+      "2026-01-12 16:00": {
+        "count": 1,
+        "average": 0.3819012680389253,
+        "median": 0.3819012680389253
+      },
+      "2026-01-12 22:00": {
+        "count": 1,
+        "average": 3.3030389237760565,
+        "median": 3.3030389237760565
+      },
+      "2026-01-13 09:00": {
+        "count": 1,
+        "average": 3.9533304018412916,
+        "median": 3.9533304018412916
+      },
+      "2026-01-13 10:00": {
+        "count": 1,
+        "average": 2.9922240268032705,
+        "median": 2.9922240268032705
+      },
+      "2026-01-13 19:00": {
+        "count": 1,
+        "average": 3.846900524944112,
+        "median": 3.846900524944112
+      },
+      "2026-01-14 02:00": {
+        "count": 2,
+        "average": 1.4935954973502354,
+        "median": 1.4935954973502354
+      },
+      "2026-01-14 08:00": {
+        "count": 2,
+        "average": 0.26790273179817725,
+        "median": 0.26790273179817725
+      },
+      "2026-01-14 20:00": {
+        "count": 1,
+        "average": 0.3569611412355118,
+        "median": 0.3569611412355118
+      },
+      "2026-01-15 01:00": {
+        "count": 1,
+        "average": 3.5856356606448254,
+        "median": 3.5856356606448254
+      },
+      "2026-01-15 02:00": {
+        "count": 1,
+        "average": 0.20708234716278598,
+        "median": 0.20708234716278598
+      },
+      "2026-01-15 03:00": {
+        "count": 1,
+        "average": 0.2876914050361792,
+        "median": 0.2876914050361792
+      },
+      "2026-01-15 06:00": {
+        "count": 1,
+        "average": 3.0011044348977824,
+        "median": 3.0011044348977824
+      },
+      "2026-01-15 11:00": {
+        "count": 1,
+        "average": 2.4039648046091373,
+        "median": 2.4039648046091373
+      },
+      "2026-01-15 12:00": {
+        "count": 1,
+        "average": 0.4636783025079593,
+        "median": 0.4636783025079593
+      },
+      "2026-01-15 13:00": {
+        "count": 1,
+        "average": 0.24037771662817314,
+        "median": 0.24037771662817314
+      },
+      "2026-01-15 15:00": {
+        "count": 1,
+        "average": 2.5045565689966898,
+        "median": 2.5045565689966898
+      },
+      "2026-01-15 16:00": {
+        "count": 1,
+        "average": 3.646128009694423,
+        "median": 3.646128009694423
+      },
+      "2026-01-15 17:00": {
+        "count": 2,
+        "average": 2.8842147075763656,
+        "median": 2.8842147075763656
+      },
+      "2026-01-15 23:00": {
+        "count": 1,
+        "average": 3.2168008067665657,
+        "median": 3.2168008067665657
+      },
+      "2026-01-16 02:00": {
+        "count": 1,
+        "average": 4.836424348498797,
+        "median": 4.836424348498797
+      }
+    }
+  },
+  "user_feedback_analysis": {
+    "total_feedback": 25,
+    "likes": 14,
+    "dislikes": 11,
+    "satisfaction_rate": 56.00000000000001,
+    "like_dislike_ratio": 1.2727272727272727,
+    "feedback_timeline": {
+      "2026-01-12": {
+        "likes": 2,
+        "dislikes": 1
+      },
+      "2026-01-11": {
+        "likes": 0,
+        "dislikes": 2
+      },
+      "2026-01-09": {
+        "likes": 3,
+        "dislikes": 2
+      },
+      "2026-01-14": {
+        "likes": 2,
+        "dislikes": 0
+      },
+      "2026-01-15": {
+        "likes": 0,
+        "dislikes": 3
+      },
+      "2026-01-13": {
+        "likes": 4,
+        "dislikes": 3
+      },
+      "2026-01-10": {
+        "likes": 2,
+        "dislikes": 0
+      },
+      "2026-01-16": {
+        "likes": 1,
+        "dislikes": 0
+      }
+    },
+    "most_liked_topics": [
+      {
+        "topic": "what",
+        "count": 9
+      },
+      {
+        "topic": "student-faculty",
+        "count": 3
+      },
+      {
+        "topic": "ratio?",
+        "count": 3
+      },
+      {
+        "topic": "duration",
+        "count": 2
+      },
+      {
+        "topic": "program?",
+        "count": 2
+      }
+    ],
+    "most_disliked_topics": [
+      {
+        "topic": "what",
+        "count": 5
+      },
+      {
+        "topic": "contact",
+        "count": 3
+      },
+      {
+        "topic": "admissions",
+        "count": 3
+      },
+      {
+        "topic": "office?",
+        "count": 3
+      },
+      {
+        "topic": "programs",
+        "count": 2
+      }
+    ]
+  },
+  "summary": {
+    "accuracy": {
+      "average_accuracy": "39.42%",
+      "grade": "F (Very Poor)",
+      "consistency": "High"
+    },
+    "response_time": {
+      "average": "1.850s",
+      "performance_grade": "Excellent",
+      "consistency": "Medium"
+    },
+    "user_satisfaction": {
+      "satisfaction_rate": "56.00%",
+      "grade": "Needs Improvement",
+      "total_interactions": 25
+    }
+  }
+}

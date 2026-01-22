@@ -36,6 +36,13 @@ const Sidebar = ({ isOpen, onClose, stats, onNavigate }) => {
           <span>Analytics</span>
         </button>
         <button
+          className="nav-item w-full p-4 border-0 bg-transparent text-left rounded-lg cursor-pointer transition-colors duration-200 flex items-center gap-3 mb-3 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 dark:hover:from-purple-900/20 dark:hover:to-pink-900/20 hover:text-purple-600 dark:hover:text-purple-400 border border-transparent hover:border-purple-200 dark:hover:border-purple-500/30"
+          onClick={() => onNavigate('research')}
+        >
+          <span className="text-lg">🔬</span>
+          <span>Research Tools</span>
+        </button>
+        <button
           className="nav-item w-full p-4 border-0 bg-transparent text-left rounded-lg cursor-pointer transition-colors duration-200 flex items-center gap-3 mb-3 text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-messenger-blue dark:hover:text-blue-400"
           onClick={() => onNavigate('settings')}
         >

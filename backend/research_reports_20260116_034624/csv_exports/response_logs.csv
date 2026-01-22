@@ -1,0 +1,51 @@
+timestamp,question,answer,response_time,source,confidence
+2026-01-10T03:55:16.939408,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",3.0053553410074696,llm,0.6117367032547957
+2026-01-15T12:43:16.939408,How can I contact the admissions office?,Contact: admissions@university.edu or +880-2-123456,0.2756616803044059,dataset,0.818646029338322
+2026-01-12T13:05:16.939408,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",3.568893259130659,llm,0.791725334364779
+2026-01-12T07:19:16.939408,When is the next semester starting?,The next semester starts in January 2026.,2.5228677553998367,rag,0.6343997517857802
+2026-01-11T02:39:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,2.223004365639677,rag,0.6968745431395867
+2026-01-12T03:07:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,1.0416331724407062,rag,0.9171076696910878
+2026-01-15T10:03:16.939408,What is the duration of the CSE program?,4 years undergraduate program,0.3253670705586172,dataset,0.8750005456155521
+2026-01-14T19:30:16.939408,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.12372332699920215,dataset,0.7748037695051418
+2026-01-14T03:37:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,1.761950891803546,rag,0.6660066841695236
+2026-01-11T08:58:16.939408,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",4.436043716935018,llm,0.757095310648831
+2026-01-15T10:57:16.939408,How can I contact the admissions office?,Contact: admissions@university.edu or +880-2-123456,0.3564294230250453,dataset,0.8641704912586093
+2026-01-10T14:43:16.939408,When is the next semester starting?,The next semester starts in January 2026.,2.5902904150445876,rag,0.7927944158126407
+2026-01-10T19:12:16.939408,What is the duration of the CSE program?,4 years undergraduate program,0.19326057344386185,dataset,0.9346173270451259
+2026-01-10T09:36:16.939408,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.2082743693457689,dataset,0.6153197715624494
+2026-01-14T16:00:16.939408,When is the next semester starting?,The next semester starts in January 2026.,1.8766737075797661,rag,0.877856773969312
+2026-01-10T21:24:16.939408,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.806272736553636,llm,0.8918239533218596
+2026-01-14T13:04:16.939408,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.1533469939154535,llm,0.6957068610728643
+2026-01-09T12:43:16.939408,When is the next semester starting?,The next semester starts in January 2026.,1.7822079868482896,rag,0.8020566200914779
+2026-01-15T20:37:16.939408,What are the admission requirements?,Minimum GPA of 3.5 in SSC and HSC combined is required for admission.,2.7658370968072763,llm,0.7733359052198042
+2026-01-11T17:31:16.939408,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,2.936891853835988,rag,0.8155306294311985
+2026-01-12T22:56:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,1.6633278536334282,rag,0.8515094576885627
+2026-01-13T09:35:16.939408,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",3.9538266558391273,llm,0.9251615875394242
+2026-01-11T17:13:16.939408,When is the next semester starting?,The next semester starts in January 2026.,2.9890135553009554,rag,0.7195045920329266
+2026-01-13T13:20:16.939408,What is the duration of the CSE program?,4 years undergraduate program,0.11490539343293134,dataset,0.881279619531451
+2026-01-10T10:06:16.939408,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",3.125070948568519,llm,0.72802855252181
+2026-01-12T20:17:16.939408,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.1547632418924362,dataset,0.7247218237964093
+2026-01-11T07:26:16.939408,How can I contact the admissions office?,Contact: admissions@university.edu or +880-2-123456,0.20044691622633315,dataset,0.6765389778229922
+2026-01-12T14:33:16.939408,What are the admission requirements?,Minimum GPA of 3.5 in SSC and HSC combined is required for admission.,4.900396557706808,llm,0.8357706241072064
+2026-01-15T18:09:16.939408,When is the next semester starting?,The next semester starts in January 2026.,1.9237360488587745,rag,0.780335019183904
+2026-01-12T12:10:16.939408,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.29482835138877467,dataset,0.7038615615930917
+2026-01-14T07:32:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,2.696059655503528,rag,0.8573399181182032
+2026-01-10T07:34:16.939408,What are the admission requirements?,Minimum GPA of 3.5 in SSC and HSC combined is required for admission.,4.378230967210335,llm,0.772957812944702
+2026-01-09T07:24:16.939408,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.14877457181177245,dataset,0.6383678446716832
+2026-01-16T02:41:16.939408,What is the address of the university?,"66 Mohakhali, Dhaka-1212, Bangladesh",0.27510811555732967,dataset,0.7773436191681784
+2026-01-14T12:46:16.939408,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.335598660206492,dataset,0.9273878915850686
+2026-01-13T18:30:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,2.9275069278311205,rag,0.8707718507071129
+2026-01-10T04:04:16.939408,When is the next semester starting?,The next semester starts in January 2026.,1.291590162974111,rag,0.7560786017143407
+2026-01-10T03:54:16.939408,What is the duration of the CSE program?,4 years undergraduate program,0.43559898671057073,dataset,0.6375796328861346
+2026-01-14T21:21:16.939408,What programs does the university offer?,"The university offers programs in CSE, EEE, BBA, Law, and Journalism.",2.007597285060072,llm,0.6258926051405573
+2026-01-13T03:38:16.939408,What are the admission requirements?,Minimum GPA of 3.5 in SSC and HSC combined is required for admission.,4.7726266226827185,llm,0.7919647800229783
+2026-01-09T16:32:16.939408,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,2.6118153463449794,rag,0.947230283331475
+2026-01-11T07:11:16.939408,How can I contact the admissions office?,Contact: admissions@university.edu or +880-2-123456,0.17112456485480626,dataset,0.8577683540250096
+2026-01-13T14:59:16.939408,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",2.7317329465875178,llm,0.8369638462495022
+2026-01-10T04:20:16.939408,What is the tuition fee for CSE?,"The tuition fee for CSE is Tk. 589,900 for students with combined GPA 10.",0.39232853815835844,dataset,0.9435941943253823
+2026-01-12T07:16:16.939408,What is the student-faculty ratio?,The student-faculty ratio is approximately 25:1.,1.838232681098017,rag,0.7832371915250675
+2026-01-12T20:09:16.939408,What are the admission requirements?,Minimum GPA of 3.5 in SSC and HSC combined is required for admission.,2.9482861867552805,llm,0.9484796652985155
+2026-01-15T02:16:16.939408,How do I apply for scholarships?,Scholarship applications can be submitted through the student portal with required documents.,2.715286071054873,rag,0.7822562126082322
+2026-01-12T00:53:16.939408,Are there any hostel facilities?,"Yes, the university provides separate hostel facilities for male and female students.",2.8020419861378105,llm,0.6994808215695498
+2026-01-15T13:17:16.939408,When is the next semester starting?,The next semester starts in January 2026.,1.5807999171668166,rag,0.8554266250428593
+2026-01-12T17:05:16.939408,What are the admission requirements?,Minimum GPA of 3.5 in SSC and HSC combined is required for admission.,4.733105403851332,llm,0.8809583858436367

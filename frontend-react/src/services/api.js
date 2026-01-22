@@ -57,6 +57,38 @@ export const chatService = {
       throw error;
     }
   },
+
+  // Get live analytics
+  getLiveAnalytics: async () => {
+    try {
+      const response = await api.get('/analytics/live');
+      return response.data;
+    } catch (error) {
+      console.error('Error getting live analytics:', error);
+      throw error;
+    }
+  },
+};
+
+// Research & Evaluation APIs
+export const generateResearchReport = async () => {
+  try {
+    const response = await api.get('/analytics/report');
+    return response.data;
+  } catch (error) {
+    console.error('Error generating research report:', error);
+    throw error;
+  }
+};
+
+export const exportAnalytics = async () => {
+  try {
+    const response = await api.get('/analytics/export');
+    return response.data;
+  } catch (error) {
+    console.error('Error exporting analytics:', error);
+    throw error;
+  }
 };
 
 export default api;

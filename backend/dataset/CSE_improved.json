@@ -236,5 +236,1508 @@
     "categories": ["contact_info", "cse_program", "departments"],
     "department": "CSE",
     "priority": "medium"
+  },
+  {
+    "question": "Is the B.Sc. in CSE curriculum organized by semesters or tri-semesters (terms)?",
+    "answer": "The provided Green University of Bangladesh (GUB) B.Sc. in CSE syllabus uses a tri-semester (term-based) course distribution: each Level has Term-1, Term-2, and Term-3. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["tri-semester", "term", "semester", "course distribution", "syllabus", "structure", "level", "term-1", "term-2", "term-3"],
+    "question_variations": [
+      "Is CSE offered in trimester or semester system?",
+      "How many terms are there per year in CSE?",
+      "Is it a tri-semester program?",
+      "Does the syllabus follow terms?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "semester_distribution"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-1, Term-1 (Fresher) and how many credits?",
+    "answer": "Level-1, Term-1 includes: EAP 101 English for Academic Purpose I (3.0), PHY 101 Physics I (3.0), CSE 101 Discrete Mathematics (3.0), MAT 101 Differential and Integral Calculus (3.0). Total: 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-1", "fresher", "courses", "credits", "EAP 101", "PHY 101", "CSE 101", "MAT 101"],
+    "question_variations": [
+      "Level 1 Term 1 subjects?",
+      "What do freshmen study in Term-1?",
+      "List Level-1 Term-1 courses with credits",
+      "What is in first term CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Is there any extra English course required for newly admitted students?",
+    "answer": "Yes. The syllabus note says a newly admitted student must take “EAP 009: English for Academic Purpose” if he/she scores below the margin in the English section of the GUB admission test. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EAP 009", "english", "admission test", "below margin", "requirement", "newly admitted", "EAP"],
+    "question_variations": [
+      "When do I need to take EAP 009?",
+      "Is EAP 009 mandatory?",
+      "Who needs EAP 009 at GUB?",
+      "What happens if I score low in English in admission test?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["admission", "english_requirement", "programs_courses"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-1, Term-2 and how many credits?",
+    "answer": "Level-1, Term-2 includes: PHY 103 Physics II (3.0), PHY 104 Physics Lab (1.5), CSE 103 Structured Programming (3.0), CSE 104 Structured Programming Lab (1.5), MAT 103 Ordinary and Partial Differential Equations and Coordinate Geometry (3.0). Total: 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-2", "PHY 103", "PHY 104", "CSE 103", "CSE 104", "MAT 103", "credits"],
+    "question_variations": [
+      "Level 1 Term 2 course list?",
+      "What is in Term-2 for first year CSE?",
+      "Structured Programming is in which term?",
+      "Physics Lab credit in Level-1 Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for MAT 103?",
+    "answer": "MAT 103 (Ordinary and Partial Differential Equations and Coordinate Geometry) has prerequisite MAT 101 (Differential and Integral Calculus). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 103", "prerequisite", "MAT 101", "calculus", "requirements"],
+    "question_variations": [
+      "Do I need MAT 101 before MAT 103?",
+      "MAT 103 prerequisite?",
+      "What do I need to take MAT 103?",
+      "Is calculus required for differential equations course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "mathematics"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What courses are in Level-1, Term-3 and how many credits?",
+    "answer": "Level-1, Term-3 includes: EAP 103 English for Academic Purpose II (2.0), CHE 101 Chemistry (3.0), CHE 102 Chemistry Lab (1.0), CSE 105 Data Structures (3.0), CSE 106 Data Structures Lab (1.5), MAT 105 Linear Algebra and Vector Analysis (3.0). Total: 13.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-3", "EAP 103", "CHE 101", "CHE 102", "CSE 105", "CSE 106", "MAT 105", "credits"],
+    "question_variations": [
+      "Level 1 Term 3 subjects?",
+      "When is Data Structures offered?",
+      "Chemistry Lab credit?",
+      "English for Academic Purpose II credit?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 105 (Data Structures)?",
+    "answer": "CSE 105 (Data Structures) requires CSE 103 (Structured Programming). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 105", "data structures", "prerequisite", "CSE 103", "structured programming"],
+    "question_variations": [
+      "Do I need Structured Programming before Data Structures?",
+      "CSE105 prerequisite?",
+      "What course comes before Data Structures?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "core_cse"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for MAT 105 (Linear Algebra and Vector Analysis)?",
+    "answer": "MAT 105 has prerequisite MAT 101 (Differential and Integral Calculus). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 105", "linear algebra", "vector analysis", "prerequisite", "MAT 101"],
+    "question_variations": [
+      "MAT105 prerequisite?",
+      "Do I need calculus for linear algebra?",
+      "What is required to take MAT 105?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "mathematics"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What courses are in Level-2, Term-1 (Sophomore) and how many credits?",
+    "answer": "Level-2, Term-1 includes: CSE 201 Object Oriented Programming (3.0), CSE 202 Object Oriented Programming Lab (1.5), CSE 203 Digital Logic Design (3.0), CSE 204 Digital Logic Design Lab (1.0), EEE 201 Introduction to Electrical Engineering (3.0), EEE 202 Introduction to Electrical Engineering Lab (1.0). Total: 12.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-2", "term-1", "sophomore", "OOP", "CSE 201", "CSE 203", "EEE 201", "credits"],
+    "question_variations": [
+      "Level 2 Term 1 course list?",
+      "When do we study OOP in CSE?",
+      "Digital Logic Design is in which term?",
+      "EEE 201 is in which level?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_2"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 201 (Object Oriented Programming)?",
+    "answer": "CSE 201 (Object Oriented Programming) requires CSE 103 (Structured Programming). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 201", "OOP", "object oriented programming", "prerequisite", "CSE 103"],
+    "question_variations": [
+      "OOP prerequisite in GUB CSE?",
+      "Do I need Structured Programming before OOP?",
+      "CSE201 requirements?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "core_cse"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-2, Term-2 and how many credits?",
+    "answer": "Level-2, Term-2 includes: GED 201 Functional Bengali (2.0), CSE 205 Algorithms (3.0), CSE 206 Algorithms Lab (1.5), CSE 208 Engineering Drawing (1.5), EEE 203 Electronic Devices and Circuits & Pulse Techniques (3.0), EEE 204 Electronic Devices and Circuits & Pulse Techniques Lab (1.0). Total: 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-2", "term-2", "GED 201", "CSE 205", "algorithms", "CSE 208", "EEE 203", "credits"],
+    "question_variations": [
+      "Level 2 Term 2 subjects?",
+      "When is Algorithms offered?",
+      "Engineering Drawing credit?",
+      "Which term has Functional Bengali?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_2"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 205 (Algorithms)?",
+    "answer": "CSE 205 (Algorithms) requires CSE 105 (Data Structures). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 205", "algorithms", "prerequisite", "CSE 105", "data structures"],
+    "question_variations": [
+      "Do I need Data Structures before Algorithms?",
+      "CSE205 prerequisite?",
+      "What comes before Algorithms in CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "core_cse"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for EEE 203 (Electronic Devices and Circuits & Pulse Techniques)?",
+    "answer": "EEE 203 requires EEE 201 (Introduction to Electrical Engineering). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EEE 203", "prerequisite", "EEE 201", "electronic devices", "circuits", "pulse techniques"],
+    "question_variations": [
+      "EEE203 prerequisite?",
+      "Do I need EEE201 before EEE203?",
+      "Requirement for Electronic Devices and Circuits course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "eee_courses"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What courses are in Level-2, Term-3 and how many credits?",
+    "answer": "Level-2, Term-3 includes: CSE 209 Database System (3.0), CSE 210 Database System Lab (1.5), CSE 211 Computer Architecture (3.0), EEE 205 Electrical Drives and Instrumentation (3.0), MAT 201 Statistics and Complex Variables (3.0). Total: 13.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-2", "term-3", "database", "CSE 209", "CSE 211", "EEE 205", "MAT 201", "credits"],
+    "question_variations": [
+      "Level 2 Term 3 course list?",
+      "When do we study Database System?",
+      "Computer Architecture is in which term?",
+      "Statistics and Complex Variables credit?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_2"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 209 (Database System)?",
+    "answer": "CSE 209 (Database System) requires CSE 105 (Data Structures). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 209", "database system", "prerequisite", "CSE 105", "data structures"],
+    "question_variations": [
+      "Database System prerequisite?",
+      "CSE209 requires which course?",
+      "Do I need Data Structures for DBMS?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "core_cse"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 211 (Computer Architecture)?",
+    "answer": "CSE 211 (Computer Architecture) requires CSE 203 (Digital Logic Design). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 211", "computer architecture", "prerequisite", "CSE 203", "digital logic design"],
+    "question_variations": [
+      "Computer Architecture prerequisite?",
+      "CSE211 prerequisite?",
+      "Do I need Digital Logic Design before Computer Architecture?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "hardware_courses"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for EEE 205 (Electrical Drives and Instrumentation)?",
+    "answer": "EEE 205 requires EEE 203 (Electronic Devices and Circuits & Pulse Techniques). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EEE 205", "prerequisite", "EEE 203", "electrical drives", "instrumentation"],
+    "question_variations": [
+      "EEE205 prerequisite?",
+      "Do I need EEE203 before Electrical Drives and Instrumentation?",
+      "Requirement for EEE 205?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "eee_courses"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What courses are in Level-3, Term-1 (Junior) and what is Optional I?",
+    "answer": "Level-3, Term-1 includes: CSE 301 Web Programming (3.0), CSE 302 Web Programming Lab (1.5), CSE 303 Microprocessors & Microcontrollers (3.0), CSE 304 Microprocessors & Microcontrollers Lab (1.0), plus Optional I (any ONE with corresponding lab, total 4.0 credits: Theory 3.0 + Lab 1.0). Optional I choices: (1) CSE 305 Compiler + CSE 306 Compiler Lab, or (2) CSE 307 Data Communication + CSE 308 Data Communication Lab. Term total: 12.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-3", "term-1", "web programming", "microprocessors", "optional I", "compiler", "data communication", "CSE 301", "CSE 303"],
+    "question_variations": [
+      "What is Optional I in Level-3 Term-1?",
+      "Which electives are available in Level 3 Term 1?",
+      "Compiler or Data Communication option?",
+      "Level 3 Term 1 subject list?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_3", "electives"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 301 (Web Programming)?",
+    "answer": "CSE 301 (Web Programming) requires CSE 209 (Database System). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 301", "web programming", "prerequisite", "CSE 209", "database system"],
+    "question_variations": [
+      "Web Programming prerequisite?",
+      "Do I need Database System before Web Programming?",
+      "CSE301 requires which course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "core_cse"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-3, Term-2 and what are the Social Science I options?",
+    "answer": "Level-3, Term-2 includes: CSE 309 Operating System (3.0), CSE 310 Operating System Lab (1.5), CSE 311 Computer Networking (3.0), CSE 312 Computer Networking Lab (1.5), and Social Science I (any ONE, 3.0 credits): GED 301 Engineering Economics OR GED 303 Sociology. Term total: 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-3", "term-2", "operating system", "networking", "social science I", "GED 301", "GED 303", "credits"],
+    "question_variations": [
+      "What is Social Science I option in CSE?",
+      "Which term has Operating System and Networking?",
+      "Level 3 Term 2 subjects?",
+      "Can I choose Sociology instead of Engineering Economics?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_3", "electives"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-3, Term-3 and what is Optional II?",
+    "answer": "Level-3, Term-3 includes: CSE 313 Software Engineering (3.0), CSE 315 Artificial Intelligence (3.0), CSE 316 Artificial Intelligence Lab (1.5), CSE 324 Integrated Design Project I (1.5), and Optional II (any ONE, 3.0 credits): CSE 317 Mathematical Analysis for Computer Science OR CSE 319 Digital System Design OR CSE 321 Human Computer Interaction OR CSE 323 Computer and Cyber Security. Term total: 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-3", "term-3", "software engineering", "artificial intelligence", "integrated design project", "optional II", "HCI", "cyber security"],
+    "question_variations": [
+      "What is Optional II in Level-3 Term-3?",
+      "Which electives can I take with AI in Level 3 Term 3?",
+      "When is Software Engineering offered?",
+      "Is Cyber Security an optional course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_3", "electives"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the prerequisite for CSE 315 (Artificial Intelligence)?",
+    "answer": "CSE 315 (Artificial Intelligence) requires CSE 201 (Object Oriented Programming). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 315", "artificial intelligence", "prerequisite", "CSE 201", "OOP"],
+    "question_variations": [
+      "AI course prerequisite in CSE?",
+      "Do I need OOP before Artificial Intelligence?",
+      "CSE315 prerequisite?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["prerequisites", "curriculum", "ai_ml"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-4, Term-1 (Senior) and what specialization options are available?",
+    "answer": "Level-4, Term-1 includes: CSE 403 Information System and Design (3.0), CSE 406 Integrated Design Project II (1.5), CSE 400A Capstone Project/Thesis (2.0), Social Science II (3.0) shown as GED 401 Financial and Managerial Accounting (3.0), plus ONE specialization course with lab (4.5 credits: Theory 3.0 + Lab 1.5) from one of four groups: Theoretical Computer Science, Machine Learning and Data Science, Network and Systems, Software Systems. Term total: 14.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-4", "term-1", "senior", "capstone", "CSE 403", "CSE 406", "specialization", "GED 401", "credits"],
+    "question_variations": [
+      "Level 4 Term 1 subjects?",
+      "What are the specialization options in Level-4 Term-1?",
+      "How many credits is the specialization in Term-1?",
+      "Is Financial and Managerial Accounting included?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_4", "specialization"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What specialization courses can I choose in Level-4, Term-1 (with lab)?",
+    "answer": "In Level-4, Term-1 you choose ONE specialization (4.5 credits: Theory 3.0 + Lab 1.5) from these groups:\n1) Theoretical Computer Science: CSE 407 Graph Theory + CSE 408 Graph Theory Lab OR CSE 409 Algorithm Engineering + CSE 410 Algorithm Engineering Lab.\n2) Machine Learning and Data Science: CSE 411 Machine Learning + CSE 412 Machine Learning Lab OR CSE 413 Natural Language Processing + CSE 414 NLP Lab OR CSE 415 Digital Image Processing + CSE 416 DIP Lab.\n3) Network and Systems: CSE 417 Wireless Networks + CSE 418 Wireless Networks Lab OR CSE 419 Embedded Systems + CSE 420 Embedded Systems Lab OR CSE 421 VLSI Design + CSE 422 VLSI Design Lab OR CSE 423 Peripherals and Interfacing + CSE 424 Peripherals and Interfacing Lab.\n4) Software Systems: CSE 425 Mobile Application Development + CSE 426 Mobile Application Development Lab OR CSE 427 Software Design Pattern + CSE 428 Software Design Pattern Lab. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-4", "term-1", "specialization", "graph theory", "algorithm engineering", "machine learning", "NLP", "digital image processing", "wireless networks", "embedded", "VLSI", "mobile app", "design pattern"],
+    "question_variations": [
+      "Which specialization subjects are available in Term-1?",
+      "Can I take Machine Learning in Level-4 Term-1?",
+      "Term-1 specialization list with labs",
+      "What are the senior term-1 specialization groups?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["specialization", "curriculum", "level_4"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-4, Term-2 and what business course options are available?",
+    "answer": "Level-4, Term-2 includes: GED 409 Professional Ethics and Environmental Protection (2.0), GED 411 Bangladesh Studies (2.0), CSE 400B Capstone Project/Thesis (2.0), ONE Business course (3.0) from: GED 403 Business Communication OR GED 405 Industrial and Operational Management OR GED 407 Technology Entrepreneurship, plus ONE specialization course with lab (4.0 credits: Theory 3.0 + Lab 1.0) from the listed specialization groups. Term total: 13.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-4", "term-2", "GED 409", "GED 411", "capstone", "business communication", "entrepreneurship", "specialization", "credits"],
+    "question_variations": [
+      "Level 4 Term 2 subjects?",
+      "What business electives are available in Term-2?",
+      "Is Bangladesh Studies included in CSE?",
+      "How many credits in senior term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_4", "electives", "specialization"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What specialization courses can I choose in Level-4, Term-2 (with lab)?",
+    "answer": "In Level-4, Term-2 you choose ONE specialization (4.0 credits: Theory 3.0 + Lab 1.0) from these groups:\n1) Theoretical Computer Science: CSE 429 Bioinformatics + CSE 430 Bioinformatics Lab OR CSE 431 Computational Geometry + CSE 432 Computational Geometry Lab OR CSE 433 Computer Graphics + CSE 434 Computer Graphics Lab.\n2) Machine Learning and Data Science: CSE 435 Data Mining + CSE 436 Data Mining Lab OR CSE 437 Information Retrieval + CSE 438 Information Retrieval Lab OR CSE 439 Pattern Recognition + CSE 440 Pattern Recognition Lab OR CSE 441 Big Data Analytics + CSE 442 Big Data Analytics Lab.\n3) Network and Systems: CSE 443 Internet of Things + CSE 444 IoT Lab OR CSE 445 Cloud Computing + CSE 446 Cloud Computing Lab OR CSE 447 Simulation and Modeling + CSE 448 Simulation and Modeling Lab OR CSE 449 Robotics + CSE 450 Robotics Lab OR CSE 451 Blockchain + CSE 452 Blockchain Lab.\n4) Software Systems: CSE 453 Software Testing and Quality Assurance + CSE 454 STQA Lab OR CSE 455 Software Maintenance and Management + CSE 456 Software Maintenance and Management Lab. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-4", "term-2", "specialization", "bioinformatics", "computational geometry", "computer graphics", "data mining", "information retrieval", "pattern recognition", "big data", "IoT", "cloud computing", "robotics", "blockchain", "software testing", "software maintenance"],
+    "question_variations": [
+      "Which specialization subjects are available in Level-4 Term-2?",
+      "Is IoT offered as a specialization?",
+      "Do you have Blockchain course and lab?",
+      "What are the ML/Data Science electives in Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["specialization", "curriculum", "level_4"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What courses are in Level-4, Term-3 (final term) and how many credits?",
+    "answer": "Level-4, Term-3 includes: CSE 400C Capstone Project/Thesis (2.0) and CSE 458 Industrial Training (3.0). Total: 5.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-4", "term-3", "final term", "CSE 400C", "capstone", "CSE 458", "industrial training", "credits"],
+    "question_variations": [
+      "What is in the last term of CSE?",
+      "Industrial Training is how many credits?",
+      "Is capstone split into multiple parts?",
+      "Level 4 Term 3 subjects?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_4", "capstone"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "How is the Capstone Project/Thesis distributed across terms in this syllabus?",
+    "answer": "The Capstone Project/Thesis is split into three parts: CSE 400A (2.0 credits) in Level-4 Term-1, CSE 400B (2.0 credits) in Level-4 Term-2, and CSE 400C (2.0 credits) in Level-4 Term-3. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["capstone", "thesis", "CSE 400A", "CSE 400B", "CSE 400C", "credits", "distribution"],
+    "question_variations": [
+      "How many parts is the capstone?",
+      "When do we take CSE 400A/400B/400C?",
+      "Capstone credit breakdown?",
+      "Which terms have thesis/capstone?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["capstone", "curriculum", "level_4"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What are the Integrated Design Project courses in the syllabus?",
+    "answer": "The syllabus includes two Integrated Design Project courses: CSE 324 Integrated Design Project I (1.5 credits) in Level-3 Term-3, and CSE 406 Integrated Design Project II (1.5 credits) in Level-4 Term-1. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["integrated design project", "CSE 324", "CSE 406", "project", "credits"],
+    "question_variations": [
+      "What is Integrated Design Project I and II?",
+      "Which term has CSE 324?",
+      "Which term has CSE 406?",
+      "How many credits are design projects?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "projects"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term includes Operating System and Computer Networking?",
+    "answer": "Operating System (CSE 309) and Computer Networking (CSE 311), along with their labs (CSE 310 and CSE 312), are in Level-3, Term-2. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["operating system", "computer networking", "CSE 309", "CSE 311", "level-3", "term-2"],
+    "question_variations": [
+      "When is OS taught in this syllabus?",
+      "Which term has CSE309?",
+      "Which term has networking course?",
+      "Do OS and Networking come together?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_3"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term includes Database System and its lab?",
+    "answer": "Database System is offered in Level-2, Term-3 as CSE 209 (3.0 credits) and CSE 210 Database System Lab (1.5 credits). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["database", "DBMS", "CSE 209", "CSE 210", "level-2", "term-3", "lab"],
+    "question_variations": [
+      "When do we take DBMS?",
+      "Which term has CSE209 and CSE210?",
+      "Database lab credit?",
+      "DB course semester/term?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_2"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term includes Web Programming and its lab?",
+    "answer": "Web Programming is offered in Level-3, Term-1 as CSE 301 (3.0 credits) and CSE 302 Web Programming Lab (1.5 credits). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["web programming", "CSE 301", "CSE 302", "level-3", "term-1", "lab"],
+    "question_variations": [
+      "When do we study web development?",
+      "Which term has CSE301?",
+      "Web programming lab credit?",
+      "Is web programming in junior year?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_3"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term includes Microprocessors & Microcontrollers and its lab?",
+    "answer": "Microprocessors & Microcontrollers is in Level-3, Term-1 as CSE 303 (3.0 credits) and CSE 304 Lab (1.0 credit). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["microprocessors", "microcontrollers", "CSE 303", "CSE 304", "level-3", "term-1", "lab"],
+    "question_variations": [
+      "Which term has microprocessor course?",
+      "CSE303 is in which term?",
+      "Microcontroller lab credit?",
+      "When do we take CSE 304?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "hardware_courses"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Based on the provided term-wise credits, what is the total number of credits listed in this syllabus?",
+    "answer": "Adding the term totals shown in the provided course distribution gives 144.0 credits (Level-1: 37.5, Level-2: 38.0, Level-3: 36.5, Level-4: 32.0). Please confirm with the department if any additional requirements exist beyond the listed distribution. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment; total computed from the listed term-credit totals)",
+    "keywords": ["total credits", "credit hours", "sum", "144", "graduation", "term totals"],
+    "question_variations": [
+      "How many total credits are in this syllabus?",
+      "Total credit count for the program?",
+      "How many credits to complete CSE based on this list?",
+      "Credit total from term-wise distribution?"
+    ],
+    "confidence_score": 0.85,
+    "categories": ["programs_courses", "curriculum", "credits_summary"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+
+  {
+    "question": "Which term offers EAP 101 (English for Academic Purpose I)?",
+    "answer": "EAP 101 is offered in Level-1, Term-1. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EAP 101", "english", "level-1", "term-1", "course timing"],
+    "question_variations": [
+      "When is EAP 101 offered?",
+      "Which term has English for Academic Purpose I?",
+      "Is EAP 101 in the first term?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is EAP 101 (English for Academic Purpose I)?",
+    "answer": "EAP 101 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EAP 101", "credits", "english", "3.0"],
+    "question_variations": [
+      "EAP 101 credit hours?",
+      "Credit for English for Academic Purpose I?",
+      "Is EAP 101 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers PHY 101 (Physics I)?",
+    "answer": "PHY 101 is offered in Level-1, Term-1. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["PHY 101", "physics", "level-1", "term-1", "course timing"],
+    "question_variations": [
+      "When is Physics I taken?",
+      "Which term has PHY 101?",
+      "Is PHY 101 in the first term?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is PHY 101 (Physics I)?",
+    "answer": "PHY 101 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["PHY 101", "credits", "physics", "3.0"],
+    "question_variations": [
+      "PHY 101 credit?",
+      "Credit hours for Physics I?",
+      "Is PHY 101 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers CSE 101 (Discrete Mathematics)?",
+    "answer": "CSE 101 is offered in Level-1, Term-1. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 101", "discrete mathematics", "level-1", "term-1"],
+    "question_variations": [
+      "When do students take Discrete Mathematics?",
+      "Which term has CSE 101?",
+      "Is CSE 101 in Level-1 Term-1?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is CSE 101 (Discrete Mathematics)?",
+    "answer": "CSE 101 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 101", "credits", "discrete mathematics", "3.0"],
+    "question_variations": [
+      "CSE 101 credit hours?",
+      "How many credits for Discrete Mathematics?",
+      "Is CSE101 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers MAT 101 (Differential and Integral Calculus)?",
+    "answer": "MAT 101 is offered in Level-1, Term-1. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 101", "calculus", "level-1", "term-1"],
+    "question_variations": [
+      "When do we take MAT 101?",
+      "Which term has Differential and Integral Calculus?",
+      "Is MAT 101 in the first term?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is MAT 101 (Differential and Integral Calculus)?",
+    "answer": "MAT 101 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 101", "credits", "calculus", "3.0"],
+    "question_variations": [
+      "MAT 101 credit hours?",
+      "Credit for Differential and Integral Calculus?",
+      "Is MAT101 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many total credits are in Level-1, Term-1?",
+    "answer": "Level-1, Term-1 totals 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-1", "total credits", "12.0"],
+    "question_variations": [
+      "Total credits in Level 1 Term 1?",
+      "How many credits is first term?",
+      "Level-1 Term-1 credit total?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["term_credits", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Are all Level-1, Term-1 courses 3-credit courses?",
+    "answer": "Yes. In Level-1, Term-1 each listed course is 3.0 credits (EAP 101, PHY 101, CSE 101, MAT 101). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-1", "3.0 credits", "EAP 101", "PHY 101", "CSE 101", "MAT 101"],
+    "question_variations": [
+      "Do all first-term courses have equal credits?",
+      "Are all Level-1 Term-1 subjects 3 credits?",
+      "Is there any lab in Level-1 Term-1?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["term_credits", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Which term offers PHY 103 (Physics II)?",
+    "answer": "PHY 103 is offered in Level-1, Term-2. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["PHY 103", "physics II", "level-1", "term-2"],
+    "question_variations": [
+      "When is Physics II taken?",
+      "Which term has PHY 103?",
+      "Is PHY103 in Level-1 Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is PHY 103 (Physics II)?",
+    "answer": "PHY 103 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["PHY 103", "credits", "physics II", "3.0"],
+    "question_variations": [
+      "PHY 103 credit hours?",
+      "Credit for Physics II?",
+      "Is PHY103 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers PHY 104 (Physics Lab)?",
+    "answer": "PHY 104 (Physics Lab) is offered in Level-1, Term-2. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["PHY 104", "physics lab", "level-1", "term-2"],
+    "question_variations": [
+      "When is Physics Lab offered?",
+      "Which term has PHY 104?",
+      "Is PHY104 in Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "labs", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is PHY 104 (Physics Lab)?",
+    "answer": "PHY 104 carries 1.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["PHY 104", "credits", "physics lab", "1.5"],
+    "question_variations": [
+      "Physics Lab credit?",
+      "PHY104 credit hours?",
+      "Is PHY 104 a 1.5 credit lab?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum", "labs"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers CSE 103 (Structured Programming)?",
+    "answer": "CSE 103 is offered in Level-1, Term-2. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 103", "structured programming", "level-1", "term-2"],
+    "question_variations": [
+      "When do students take Structured Programming?",
+      "Which term has CSE 103?",
+      "Is CSE103 in first year Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "core_cse", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is CSE 103 (Structured Programming)?",
+    "answer": "CSE 103 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 103", "credits", "structured programming", "3.0"],
+    "question_variations": [
+      "CSE103 credit hours?",
+      "Credit for Structured Programming?",
+      "Is CSE 103 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum", "core_cse"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers CSE 104 (Structured Programming Lab)?",
+    "answer": "CSE 104 is offered in Level-1, Term-2. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 104", "structured programming lab", "level-1", "term-2"],
+    "question_variations": [
+      "When is Structured Programming Lab taken?",
+      "Which term has CSE104?",
+      "Is CSE 104 in Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "labs", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is CSE 104 (Structured Programming Lab)?",
+    "answer": "CSE 104 carries 1.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 104", "credits", "lab", "1.5"],
+    "question_variations": [
+      "CSE104 credit hours?",
+      "Credit for Structured Programming Lab?",
+      "Is CSE104 a 1.5-credit lab?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum", "labs"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers MAT 103 (Ordinary and Partial Differential Equations and Coordinate Geometry)?",
+    "answer": "MAT 103 is offered in Level-1, Term-2. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 103", "differential equations", "coordinate geometry", "level-1", "term-2"],
+    "question_variations": [
+      "When do we take MAT103?",
+      "Which term has Ordinary and Partial Differential Equations?",
+      "Is MAT 103 in Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "mathematics", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is MAT 103?",
+    "answer": "MAT 103 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 103", "credits", "3.0", "mathematics"],
+    "question_variations": [
+      "MAT103 credit hours?",
+      "Credit for MAT 103?",
+      "Is MAT 103 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum", "mathematics"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many total credits are in Level-1, Term-2?",
+    "answer": "Level-1, Term-2 totals 12.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-2", "total credits", "12.0"],
+    "question_variations": [
+      "Total credits in Level 1 Term 2?",
+      "How many credits is second term in Level-1?",
+      "Level-1 Term-2 credit total?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["term_credits", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "What is the main programming course listed in Level-1, Term-2?",
+    "answer": "The main programming course in Level-1, Term-2 is CSE 103 Structured Programming (with CSE 104 as the lab). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["level-1", "term-2", "programming", "CSE 103", "CSE 104"],
+    "question_variations": [
+      "Which course teaches programming in Level-1 Term-2?",
+      "What is the coding course in Term-2?",
+      "Is Structured Programming in Term-2?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["programs_courses", "curriculum", "level_1", "core_cse"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers EAP 103 (English for Academic Purpose II)?",
+    "answer": "EAP 103 is offered in Level-1, Term-3. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EAP 103", "english", "level-1", "term-3"],
+    "question_variations": [
+      "When is EAP 103 offered?",
+      "Which term has English for Academic Purpose II?",
+      "Is EAP103 in Level-1 Term-3?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is EAP 103 (English for Academic Purpose II)?",
+    "answer": "EAP 103 carries 2.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["EAP 103", "credits", "2.0", "english"],
+    "question_variations": [
+      "EAP103 credit hours?",
+      "Credit for English for Academic Purpose II?",
+      "Is EAP 103 a 2-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers CHE 101 (Chemistry)?",
+    "answer": "CHE 101 is offered in Level-1, Term-3. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CHE 101", "chemistry", "level-1", "term-3"],
+    "question_variations": [
+      "When is Chemistry taken in CSE?",
+      "Which term has CHE101?",
+      "Is CHE 101 in Term-3?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "level_1"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "How many credits is CHE 101 (Chemistry)?",
+    "answer": "CHE 101 carries 3.0 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CHE 101", "credits", "chemistry", "3.0"],
+    "question_variations": [
+      "CHE101 credit hours?",
+      "Chemistry credit?",
+      "Is CHE 101 a 3-credit course?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Which term offers CHE 102 (Chemistry Lab)?",
+    "answer": "CHE 102 (Chemistry Lab) is offered in Level-1, Term-3. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CHE 102", "chemistry lab", "level-1", "term-3"],
+    "question_variations": [
+      "When is Chemistry Lab offered?",
+      "Which term has CHE 102?",
+      "Is CHE102 in Term-3?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "labs", "level_1"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "How many credits is CHE 102 (Chemistry Lab)?",
+    "answer": "CHE 102 carries 1.0 credit. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CHE 102", "credits", "lab", "1.0"],
+    "question_variations": [
+      "CHE102 credit hours?",
+      "Credit for Chemistry Lab?",
+      "Is CHE 102 a 1-credit lab?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum", "labs"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Which term offers CSE 106 (Data Structures Lab)?",
+    "answer": "CSE 106 is offered in Level-1, Term-3 along with CSE 105 (Data Structures). (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 106", "data structures lab", "level-1", "term-3"],
+    "question_variations": [
+      "When do we take Data Structures Lab?",
+      "Which term has CSE106?",
+      "Is CSE106 in Term-3?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "labs", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How many credits is CSE 106 (Data Structures Lab)?",
+    "answer": "CSE 106 carries 1.5 credits. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["CSE 106", "credits", "data structures lab", "1.5"],
+    "question_variations": [
+      "CSE106 credit hours?",
+      "Credit for Data Structures Lab?",
+      "Is CSE 106 a 1.5-credit lab?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_credits", "curriculum", "labs"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which term offers MAT 105 (Linear Algebra and Vector Analysis)?",
+    "answer": "MAT 105 is offered in Level-1, Term-3. (Source: user-provided GUB CSE syllabus, Spring 2020 enactment)",
+    "keywords": ["MAT 105", "linear algebra", "vector analysis", "level-1", "term-3"],
+    "question_variations": [
+      "When do we take MAT105?",
+      "Which term has Linear Algebra and Vector Analysis?",
+      "Is MAT 105 in Term-3?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["course_schedule", "curriculum", "mathematics", "level_1"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  
+
+  {
+    "question": "Who is the Chairperson of the CSE Department at Green University of Bangladesh?",
+    "answer": "The Chairperson of the CSE Department is Dr. Muhammad Aminur Rahaman (Code: DAMR). Office Room: F-121. Official email: chairman@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["chairperson", "chairman", "cse", "head of department", "Dr. Muhammad Aminur Rahaman", "DAMR", "F-121", "email"],
+    "question_variations": [
+      "Who is the head of CSE department?",
+      "CSE chairperson name?",
+      "Who is the chairman of CSE at GUB?",
+      "How can I contact the CSE chairperson?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is the Dean of the Faculty of Science and Engineering (FSE) from the CSE department list?",
+    "answer": "Prof. Dr. Md Saiful Azad is listed as Professor, CSE & Dean, FSE, GUB (Code: SA). Office Room: A-202. Official email: dean.fse@green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["dean", "FSE", "faculty of science and engineering", "Md Saiful Azad", "SA", "A-202", "email"],
+    "question_variations": [
+      "Who is the Dean of FSE at GUB?",
+      "Dean FSE email?",
+      "Is there a dean listed from CSE?",
+      "How to contact the Dean of FSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is the Associate Chairperson for Academic & Students' Affairs in the CSE Department?",
+    "answer": "Mr. Syed Ahsanul Kabir is listed as Associate Professor & Assoc. Chairperson (Academic & students' affairs) (Code: SAK). Office Room: F-129. Official email: kabir@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["associate chairperson", "academic", "students affairs", "Syed Ahsanul Kabir", "SAK", "F-129", "email"],
+    "question_variations": [
+      "Who is the associate chairperson (academic) in CSE?",
+      "Academic & students affairs contact in CSE?",
+      "SAK faculty details?",
+      "Associate chairperson academic email?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is the Associate Chairperson for Research & OBE in the CSE Department?",
+    "answer": "Dr. Muhammad Abul Hasan is listed as Associate Professor & Assoc. Chairperson (Research & OBE) (Code: DMAH). Office Room: F-106. Official email: muhammad.hasan@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["associate chairperson", "research", "OBE", "Muhammad Abul Hasan", "DMAH", "F-106", "email"],
+    "question_variations": [
+      "Who is associate chairperson (research & OBE) in CSE?",
+      "Research & OBE contact in CSE?",
+      "DMAH faculty details?",
+      "Associate chairperson research email?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is the Exam Controller mentioned in the CSE teacher list?",
+    "answer": "Dr. Md. Mostafijur Rahman is listed as Associate Professor, CSE and Exam Controller, GUB (Code: DMR). Office Room: A-307. Official email: mostafijur@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["exam controller", "mostafijur", "DMR", "A-307", "cse", "email"],
+    "question_variations": [
+      "Who is the exam controller at GUB?",
+      "Exam controller email?",
+      "DMR faculty details?",
+      "How can I contact the exam controller?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is the Director of IT mentioned in the CSE teacher list?",
+    "answer": "Dr. Md. Faiz Al Faisal is listed as Associate Professor & Director of IT, GUB (Code: DFA). Office Room: F-131. Official email: faisal@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["director of IT", "IT director", "Faiz Al Faisal", "DFA", "F-131", "email"],
+    "question_variations": [
+      "Who is the IT director at GUB?",
+      "Director of IT email?",
+      "DFA faculty details?",
+      "How do I contact the Director of IT?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "What is the official group email for the CSE faculty?",
+    "answer": "The teacher list mentions the CSE faculty group mail as: faculty@cse.green.edu.bd. You can use this address to reach the department/faculty when an individual contact is unavailable. (Source: user-provided CSE department teacher list)",
+    "keywords": ["group mail", "faculty email", "cse", "faculty@cse.green.edu.bd", "contact", "email"],
+    "question_variations": [
+      "CSE faculty group email?",
+      "How do I email the CSE department faculty?",
+      "Is there a group mail for CSE teachers?",
+      "CSE department email for faculty?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["contact_info", "faculty_directory"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "How many teachers/staff are listed in the main CSE department list, and how many adjunct and study-leave members are listed?",
+    "answer": "From the numbering in the provided list: Main CSE department list includes 74 entries (Sl. No. 1 to 74). Adjunct Faculty Members list includes 3 entries. On Study leave faculty members list includes 24 entries. (Source: user-provided CSE department teacher list; counts taken from the serial numbers shown)",
+    "keywords": ["how many", "total", "count", "faculty", "staff", "adjunct", "study leave", "74", "3", "24"],
+    "question_variations": [
+      "How many CSE teachers are listed?",
+      "Total faculty count in the list?",
+      "How many adjunct faculty are there?",
+      "How many are on study leave?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "department_info"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Who are the Adjunct Faculty Members listed for the CSE Department?",
+    "answer": "Adjunct Faculty Members listed are: (1) Prof. Dr. Md. Abdur Razzaque — Professor, CSE, DU (Code: AR), Room A-503, Email: razzaque@green.edu.bd; (2) Prof. Dr. Md. Zahidul Islam — Professor, CSE, IU (Code: DZI), Room A-506, Email: zahid@cse.green.edu.bd; (3) Dr. T M Shahriar Sazzad — Assistant Professor, Dept. of CSE, MIST (Code: TM SS), Email: shahriar@cse.mist.ac.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["adjunct", "adjunct faculty", "Razzaque", "Zahidul Islam", "Shahriar Sazzad", "DU", "IU", "MIST", "AR", "DZI"],
+    "question_variations": [
+      "List the adjunct teachers of CSE",
+      "Who are adjunct faculty in CSE GUB?",
+      "Adjunct faculty list and emails?",
+      "Any external/adjunct professors in CSE?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "adjunct_faculty", "contact_info"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Which faculty members are listed as being on study leave?",
+    "answer": "The provided list shows these faculty members on study leave: Ms. Sumaiya Kabir (Part-time), Mr. Misbah Ul Hoque (In USA), Tamim Al Mahmud (In Spain), Ms. Jakia Sultana (In USA), Mr. Md. Ashaduzzaman (In USA), Mr. Shihabuzzaman (In USA), Mr. Shanto Roy (In USA), Mr. Mehedi Hassan (In USA), Mr. Md. Mahin (In USA), Mr. Md. Yeakub Hassan (In USA), Mr. Arnab Rahman Chowdhury (In USA), Mr. Ohiduzzaman Shuvo (Canada), Mr. Md. Safial Islam Ayon (Garmany), Mr. Saklain Zaman (In USA), Mr. Md. Mozaharul Mottalib (In USA), Ms. Zeseya Sharmin (In Australia), Ms. Rabeya Tus Sadia (In USA), Mr. Md. Atik Ahamed (In USA), Mr. Md. Fazle Rasul (In USA), Mr. Mehrab Zaman Chowdhury (In USA), S.M. Rashidul Hasan Nijhum (In USA), Meherunnesa Tania (In USA), Md. Shahidul Islam (Mathematics) (In USA), Ms. Fairus Shaiara (Canada). (Source: user-provided CSE department teacher list)",
+    "keywords": ["study leave", "on leave", "faculty on leave", "USA", "Canada", "Spain", "Australia", "CSE", "teacher"],
+    "question_variations": [
+      "Who is on study leave in CSE department?",
+      "Study leave faculty list?",
+      "Any teachers currently on leave?",
+      "Which faculty are abroad on study leave?"
+    ],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "study_leave"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "CSE Department teacher/staff directory (names, codes, rooms, and emails)",
+    "answer": "Directory note: Phone numbers are not included in this chatbot dataset. Use official emails below; if an individual email is missing, contact the group mail: faculty@cse.green.edu.bd.\n\nMain list (Sl. 1–74):\n1) DAMR | Dr. Muhammad Aminur Rahaman | Chairperson | Room F-121 | chairman@cse.green.edu.bd\n2) MMSU | Mohammad Shorif Uddin | Professor, CSE | Room A-401 | vc@green.edu.bd\n3) DMI | Prof. Dr. Md. Monirul Islam | Distinguished Professor | Room F-103 | (use faculty@cse.green.edu.bd)\n4) SA | Prof. Dr. Md Saiful Azad | Professor, CSE & Dean, FSE | Room A-202 | dean.fse@green.edu.bd\n5) DAH | Prof. Dr. Md. Ahsan Habib Tareq | Professor | Room A-506 | mahabib@cse.green.edu.bd\n6) SAK | Mr. Syed Ahsanul Kabir | Associate Professor & Assoc. Chairperson (Academic & students' affairs) | Room F-129 | kabir@cse.green.edu.bd\n7) DMR | Dr. Md. Mostafijur Rahman | Associate Professor, CSE and Exam Controller | Room A-307 | mostafijur@cse.green.edu.bd\n8) DMAH | Dr. Muhammad Abul Hasan | Associate Professor & Assoc. Chairperson (Research & OBE) | Room F-106 | muhammad.hasan@cse.green.edu.bd\n9) DFA | Dr. Md. Faiz Al Faisal | Associate Professor & Director of IT | Room F-131 | faisal@cse.green.edu.bd\n10) UR | Ms. Umme Ruman | Assistant Professor (Mathematics) | Room A-403 | ruman@cse.green.edu.bd\n11) MSA | Ms. Shamima Akter | Assistant Professor & Asst. Proctor | Room A-403 | shamima_akter@cse.green.edu.bd\n12) MSM | Md. Solaiman Mia | Assistant Professor & Asst. Director, Student Affairs | Room A-403 | solaiman@cse.green.edu.bd\n13) SI | Ms. Shamima Islam | Assistant Professor & PC (Mathematics) | Room A-403 | shamima@cse.green.edu.bd\n14) JI | Mr. Md. Jahidul Islam | Assistant Professor | Room A-403 | jahid@cse.green.edu.bd\n15) FAS | Ms. Farhana Akter Sunny | Assistant Professor | Room A-403 | farhana@cse.green.edu.bd\n16) SAF | Ms. Sadia Afroze | Assistant Professor | Room A-403 | sadia@cse.green.edu.bd\n17) MMI | Mr. Md. Monirul Islam | Assistant Professor (Mathematics) | Room A-510 | monirul@cse.green.edu.bd\n18) JA | Mr. Jargis Ahmed | Assistant Professor & PC(D) | Room F-136 | jargis@cse.green.edu.bd\n19) ESC | Mohammad Ehsan Shahmi Chowdhury | Assistant Professor & PC(D) | Room A-510 | ehsan@cse.green.edu.bd\n20) SAM | Ms. Sharmin Alam | Sr. Lecturer (Mathematics) | Room A-403 | sharmin@cse.green.edu.bd\n21) HKR | Mr. Humayan Kabir Rana | Sr. Lecturer | Room A-510 | humayan@cse.green.edu.bd\n22) SIT | Ms. Samiha Islam Tanni | Lecturer (Mathematics) | Room A-403 | samiha@cse.green.edu.bd\n23) RI | Mr. Md. Robiul Islam | Lecturer (Mathematics) | Room A-510 | robiul@cse.green.edu.bd\n24) MBS | Ms. Babe Sultana | Lecturer | Room A-510 | babe@cse.green.edu.bd\n25) UH | Ms. Umme Habiba | Lecturer | Room A-510 | umme@cse.green.edu.bd\n26) RK | Ms. Rokeya Khatun | Lecturer | Room A-510 | rokeya@cse.green.edu.bd\n27) TT | Ms. Tanpia Tasnim | Lecturer & PC (E) | Room F-135 | tanpia@cse.green.edu.bd\n28) FN | Ms. Feroza Naznin | Lecturer | Room A-510 | feroza@cse.green.edu.bd\n29) PR | Mr. Palash Roy | Lecturer & PC(D) | Room A-510 | palash@cse.green.edu.bd\n30) FTJ | Ms. Fatema Tuj Johora | Lecturer | Room A-510 | fatema@cse.green.edu.bd\n31) AZ | Md. Atikuzzaman | Lecturer | Room A-608 | atik@cse.green.edu.bd\n32) PH | Md. Parvez Hossain | Lecturer | Room A-510 | parvez@cse.green.edu.bd\n33) ARR | Md. Abu Rumman Refat | Lecturer & PC(D) | Room A-510 | refat@cse.green.edu.bd\n34) RH | Md. Riad Hassan | Lecturer & PC(D) | Room A-510 | riad@cse.green.edu.bd\n35) MFA | Ms. Fatema Akter | Lecturer | Room A-510 | fatema_akter@cse.green.edu.bd\n36) MMQ | Mr. Mozdaher Abdul Quader | Lecturer | Room A-510 | quader@cse.green.edu.bd\n37) NP | Mr. Md. Naimul Pathan | Lecturer | Room A-608 | naimul@cse.green.edu.bd\n38) NS | Mr. Md. Nazmus Shakib | Lecturer | Room A-608 | nazmus_shakib@cse.green.edu.bd\n39) RP | Mr. Md. Rajibul Palas | Lecturer | Room A-608 | rajibul@cse.green.edu.bd\n40) SH | Md. Shihab Hossain | Lecturer | Room A-608 | shihab@cse.green.edu.bd\n41) JTT | Ms. Jarin Tasnim Tonvi | Lecturer | Room A-608 | jarin@cse.green.edu.bd\n42) WT | Ms. Wahia Tasnim | Lecturer | Room A-608 | wahia@cse.green.edu.bd\n43) SW | Mr. K.M Shadman Wadith | Lecturer | Room A-608 | shadman@cse.green.edu.bd\n44) FIF | Md. Fahimul Islam Fahim | Lecturer | Room A-608 | fahimul@cse.green.edu.bd\n45) MRA | Mr. Mahbubur Rahman | Lecturer & PC(D) | Room A-510 | mahbubur@cse.green.edu.bd\n46) FAJ | Ms. Farjana Akter Jui | Lecturer | Room A-608 | jui@cse.green.edu.bd\n47) MRK | Ms. Rabea Khatun | Lecturer | Room A-608 | rabea@cse.green.edu.bd\n48) SSN | Ms. Sagufta Sabah Nakshi | Lecturer | Room A-608 | sagufta@cse.green.edu.bd\n49) MMM | Ms. Maisha Muntaha | Lecturer | Room A-608 | maisha@cse.green.edu.bd\n50) MRO | Ms. Mahjabin Rahman Oishe | Lecturer | Room A-608 | oishe@cse.green.edu.bd\n51) TTZ | Ms. Tasnim Tayiba Zannat | Lecturer | Room A-608 | zannat@cse.green.edu.bd\n52) SFR | Mr. Sheikh Fazle Rabbi | Lecturer | Room A-608 | rabbi@cse.green.edu.bd\n53) MAQ | Mr. Montaser Abdul Quader | Lecturer | Room A-510 | montaser@cse.green.edu.bd\n54) ZH | Md. Zahidul Hasan | Lecturer | Room A-608 | zahidul_hasan@cse.green.edu.bd\n55) SHA | Mr. Shoab Alam | Lecturer | Room A-501 | shoab@cse.green.edu.bd\n56) MK | Mr. Muhaimen Khan | Lecturer | Room A-206 | muhaimen@cse.green.edu.bd\n57) SHM | Md. Sabbir Hosen Mamun | Lecturer | Room A-510 | mamun@cse.green.edu.bd\n58) SR | Mr. Sharifur Rahman | Lecturer | Room A-608 | sharifur@cse.green.edu.bd\n59) SIB | Md. Saiful Islam Bhuiyan | Lecturer | Room A-608 | saiful_islam@cse.green.ac.bd\n60) FM | Mr. Farhan Mahmud | Lecturer | Room A-608 | fmahmud@cse.green.edu.bd\n61) SHN | Mr. Sakhaouth Hossan | Lecturer | Room A-510 | sakhaouth@cse.green.edu.bd\n62) AIF | Mr. Abdullah Al Farhad | Lecturer (C) | Room A-608 | farhad@cse.green.edu.bd\n63) MR | Mr. Mamunur Rahman | Lecturer Lab (C) | Room A-510 | rahman@cse.green.edu.bd\n64) RHC | Ms. Rusmita Halim Chaity | Lecturer Lab (C) | Room A-510 | chaity@cse.green.edu.bd\n65) SG | Mr. Sudip Ghoshal | Lecturer Lab (C) | Room A-510 | sudip@cse.green.edu.bd\n66) KHE | Mr. Kazi Hasnayeen Emad | Lecturer Lab (C) | Room A-510 | emad@cse.green.edu.bd\n67) RA | Mr. Romzan Alom | Lecturer Lab (C) | Room A-510 | romzan@cse.green.edu.bd\n68) (N/A) | Ms. Suraiya Akhter | Jr. DCO | Room F-138 | suraiya.jo.cse@green.edu.bd\n69) (N/A) | Mr. Abdul Fattah | Intern (DCO) | Room F-138 | (use faculty@cse.green.edu.bd)\n70) (N/A) | Mr. Alamgir Hossen | Lab Tec. | N/A | alamgir.labs@green.edu.bd\n71) (N/A) | Mr. Sajib Mia | Lab Tec. | N/A | sajib.labs@green.edu.bd\n72) (N/A) | Md. Mosharof Hosen | Lab Tec. | N/A | mosharof.labs@green.edu.bd\n73) (N/A) | Mr. Shakil Ahmed | Lab Tec. | N/A | shakil.labs@cse.green.edu.bd\n74) (N/A) | Mr. Abir Mridha | Lab Tec. (C) | N/A | mridha.labs@green.edu.bd\n\n(Source: user-provided CSE department teacher list)",
+    "keywords": ["teacher list", "faculty list", "directory", "CSE", "emails", "rooms", "codes", "contact", "Green University of Bangladesh"],
+    "question_variations": [
+      "Give me the CSE teacher list",
+      "Show CSE faculty directory",
+      "CSE department teachers and emails",
+      "CSE faculty room and email list"
+    ],
+    "confidence_score": 0.95,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+
+  {
+    "question": "Who is Mohammad Shorif Uddin (MMSU) and how can I contact him?",
+    "answer": "Mohammad Shorif Uddin (Code: MMSU) is listed as Professor, CSE. Office Room: A-401. Official email: vc@green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MMSU", "Mohammad Shorif Uddin", "Professor", "CSE", "A-401", "vc@green.edu.bd"],
+    "question_variations": ["MMSU faculty details?", "Mohammad Shorif Uddin office room and email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is Prof. Dr. Md. Monirul Islam (DMI) in the CSE list?",
+    "answer": "Prof. Dr. Md. Monirul Islam (Code: DMI) is listed as Distinguished Professor. Office Room: F-103. Email is not listed; use faculty@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["DMI", "Md. Monirul Islam", "Distinguished Professor", "F-103", "faculty@cse.green.edu.bd"],
+    "question_variations": ["DMI contact info?", "How to email Prof. Dr. Md. Monirul Islam (DMI)?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is Prof. Dr. Md Saiful Azad (SA) and how can I contact him?",
+    "answer": "Prof. Dr. Md Saiful Azad (Code: SA) is listed as Professor, CSE & Dean, FSE, GUB. Office Room: A-202. Official email: dean.fse@green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SA", "Md Saiful Azad", "Dean FSE", "Professor CSE", "A-202", "dean.fse@green.edu.bd"],
+    "question_variations": ["SA faculty details?", "Dean FSE office room and email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "Who is Prof. Dr. Md. Ahsan Habib Tareq (DAH) and what is his email?",
+    "answer": "Prof. Dr. Md. Ahsan Habib Tareq (Code: DAH) is listed as Professor. Office Room: A-506. Official email: mahabib@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["DAH", "Ahsan Habib Tareq", "Professor", "A-506", "mahabib@cse.green.edu.bd"],
+    "question_variations": ["DAH contact info?", "Ahsan Habib Tareq office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "How can I contact Mr. Syed Ahsanul Kabir (SAK)?",
+    "answer": "Mr. Syed Ahsanul Kabir (Code: SAK) is listed as Associate Professor & Assoc. Chairperson (Academic & students' affairs). Office Room: F-129. Official email: kabir@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SAK", "Syed Ahsanul Kabir", "associate professor", "F-129", "kabir@cse.green.edu.bd"],
+    "question_variations": ["SAK email address?", "SAK office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "How can I contact Dr. Md. Mostafijur Rahman (DMR)?",
+    "answer": "Dr. Md. Mostafijur Rahman (Code: DMR) is listed as Associate Professor, CSE and Exam Controller, GUB. Office Room: A-307. Official email: mostafijur@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["DMR", "Mostafijur Rahman", "Exam Controller", "A-307", "mostafijur@cse.green.edu.bd"],
+    "question_variations": ["DMR email?", "Mostafijur Rahman office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "How can I contact Dr. Muhammad Abul Hasan (DMAH)?",
+    "answer": "Dr. Muhammad Abul Hasan (Code: DMAH) is listed as Associate Professor & Assoc. Chairperson (Research & OBE). Office Room: F-106. Official email: muhammad.hasan@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["DMAH", "Muhammad Abul Hasan", "Research", "OBE", "F-106", "muhammad.hasan@cse.green.edu.bd"],
+    "question_variations": ["DMAH email?", "Research & OBE chairperson contact?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+  {
+    "question": "How can I contact Dr. Md. Faiz Al Faisal (DFA)?",
+    "answer": "Dr. Md. Faiz Al Faisal (Code: DFA) is listed as Associate Professor & Director of IT, GUB. Office Room: F-131. Official email: faisal@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["DFA", "Faiz Al Faisal", "Director of IT", "F-131", "faisal@cse.green.edu.bd"],
+    "question_variations": ["DFA email?", "Director of IT room number?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "administration", "contact_info"],
+    "department": "CSE",
+    "priority": "high"
+  },
+
+  {
+    "question": "Who is Ms. Umme Ruman (UR) and what is her contact email?",
+    "answer": "Ms. Umme Ruman (Code: UR) is listed as Assistant Professor (Mathematics). Office Room: A-403. Official email: ruman@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["UR", "Umme Ruman", "Mathematics", "A-403", "ruman@cse.green.edu.bd"],
+    "question_variations": ["UR faculty email?", "Umme Ruman office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Who is Ms. Shamima Akter (MSA) and where is her office?",
+    "answer": "Ms. Shamima Akter (Code: MSA) is listed as Assistant Professor & Asst. Proctor. Office Room: A-403. Official email: shamima_akter@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MSA", "Shamima Akter", "Assistant Professor", "Asst. Proctor", "A-403", "shamima_akter@cse.green.edu.bd"],
+    "question_variations": ["MSA contact info?", "Shamima Akter email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info", "administration"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Who is Md. Solaiman Mia (MSM) and how can I contact him?",
+    "answer": "Md. Solaiman Mia (Code: MSM) is listed as Assistant Professor & Asst. Director, Student Affairs. Office Room: A-403. Official email: solaiman@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MSM", "Solaiman Mia", "Student Affairs", "A-403", "solaiman@cse.green.edu.bd"],
+    "question_variations": ["MSM email?", "Assistant Director Student Affairs contact?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info", "administration"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Who is Ms. Shamima Islam (SI) and what is her email?",
+    "answer": "Ms. Shamima Islam (Code: SI) is listed as Assistant Professor & PC (Mathematics). Office Room: A-403. Official email: shamima@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SI", "Shamima Islam", "Mathematics", "A-403", "shamima@cse.green.edu.bd"],
+    "question_variations": ["SI contact info?", "PC (Mathematics) email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "medium"
+  },
+  {
+    "question": "Who is Mr. Md. Jahidul Islam (JI) and how can I contact him?",
+    "answer": "Mr. Md. Jahidul Islam (Code: JI) is listed as Assistant Professor. Office Room: A-403. Official email: jahid@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["JI", "Jahidul Islam", "Assistant Professor", "A-403", "jahid@cse.green.edu.bd"],
+    "question_variations": ["JI email?", "Md. Jahidul Islam office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Ms. Farhana Akter Sunny (FAS) and what is her email?",
+    "answer": "Ms. Farhana Akter Sunny (Code: FAS) is listed as Assistant Professor. Office Room: A-403. Official email: farhana@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["FAS", "Farhana Akter Sunny", "Assistant Professor", "A-403", "farhana@cse.green.edu.bd"],
+    "question_variations": ["FAS contact info?", "Farhana Sunny email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Ms. Sadia Afroze (SAF) and where is her office?",
+    "answer": "Ms. Sadia Afroze (Code: SAF) is listed as Assistant Professor. Office Room: A-403. Official email: sadia@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SAF", "Sadia Afroze", "Assistant Professor", "A-403", "sadia@cse.green.edu.bd"],
+    "question_variations": ["SAF email?", "Sadia Afroze room number?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Mr. Md. Monirul Islam (MMI) and what is his email?",
+    "answer": "Mr. Md. Monirul Islam (Code: MMI) is listed as Assistant Professor (Mathematics). Office Room: A-510. Official email: monirul@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MMI", "Md. Monirul Islam", "Mathematics", "A-510", "monirul@cse.green.edu.bd"],
+    "question_variations": ["MMI contact info?", "Md. Monirul Islam (MMI) room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Jargis Ahmed (JA) and how can I contact him?",
+    "answer": "Mr. Jargis Ahmed (Code: JA) is listed as Assistant Professor & PC(D). Office Room: F-136. Official email: jargis@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["JA", "Jargis Ahmed", "PC(D)", "F-136", "jargis@cse.green.edu.bd"],
+    "question_variations": ["JA email?", "Jargis Ahmed office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mohammad Ehsan Shahmi Chowdhury (ESC) and what is his email?",
+    "answer": "Mohammad Ehsan Shahmi Chowdhury (Code: ESC) is listed as Assistant Professor & PC(D). Office Room: A-510. Official email: ehsan@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["ESC", "Ehsan Shahmi Chowdhury", "Assistant Professor", "PC(D)", "A-510", "ehsan@cse.green.edu.bd"],
+    "question_variations": ["ESC contact info?", "Ehsan Chowdhury email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Ms. Sharmin Alam (SAM) and where is her office?",
+    "answer": "Ms. Sharmin Alam (Code: SAM) is listed as Sr. Lecturer (Mathematics). Office Room: A-403. Official email: sharmin@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SAM", "Sharmin Alam", "Sr. Lecturer", "Mathematics", "A-403", "sharmin@cse.green.edu.bd"],
+    "question_variations": ["SAM email?", "Sharmin Alam office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Humayan Kabir Rana (HKR) and what is his email?",
+    "answer": "Mr. Humayan Kabir Rana (Code: HKR) is listed as Sr. Lecturer. Office Room: A-510. Official email: humayan@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["HKR", "Humayan Kabir Rana", "Sr. Lecturer", "A-510", "humayan@cse.green.edu.bd"],
+    "question_variations": ["HKR contact info?", "Humayan Kabir Rana room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Ms. Samiha Islam Tanni (SIT) and how can I contact her?",
+    "answer": "Ms. Samiha Islam Tanni (Code: SIT) is listed as Lecturer (Mathematics). Office Room: A-403. Official email: samiha@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SIT", "Samiha Islam Tanni", "Lecturer", "Mathematics", "A-403", "samiha@cse.green.edu.bd"],
+    "question_variations": ["SIT email?", "SIT office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Md. Robiul Islam (RI) and what is his email?",
+    "answer": "Mr. Md. Robiul Islam (Code: RI) is listed as Lecturer (Mathematics). Office Room: A-510. Official email: robiul@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["RI", "Robiul Islam", "Lecturer", "Mathematics", "A-510", "robiul@cse.green.edu.bd"],
+    "question_variations": ["RI contact info?", "Robiul Islam room and email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Ms. Babe Sultana (MBS) and how can I contact her?",
+    "answer": "Ms. Babe Sultana (Code: MBS) is listed as Lecturer. Office Room: A-510. Official email: babe@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MBS", "Babe Sultana", "Lecturer", "A-510", "babe@cse.green.edu.bd"],
+    "question_variations": ["MBS email?", "Babe Sultana office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Ms. Umme Habiba (UH) and what is her email?",
+    "answer": "Ms. Umme Habiba (Code: UH) is listed as Lecturer. Office Room: A-510. Official email: umme@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["UH", "Umme Habiba", "Lecturer", "A-510", "umme@cse.green.edu.bd"],
+    "question_variations": ["UH contact info?", "Umme Habiba email address?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Ms. Rokeya Khatun (RK) and where is her office?",
+    "answer": "Ms. Rokeya Khatun (Code: RK) is listed as Lecturer. Office Room: A-510. Official email: rokeya@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["RK", "Rokeya Khatun", "Lecturer", "A-510", "rokeya@cse.green.edu.bd"],
+    "question_variations": ["RK email?", "Rokeya Khatun office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Ms. Tanpia Tasnim (TT) and what is her email?",
+    "answer": "Ms. Tanpia Tasnim (Code: TT) is listed as Lecturer & PC (E). Office Room: F-135. Official email: tanpia@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["TT", "Tanpia Tasnim", "Lecturer", "PC (E)", "F-135", "tanpia@cse.green.edu.bd"],
+    "question_variations": ["TT contact info?", "Tanpia Tasnim room number?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Ms. Feroza Naznin (FN) and how can I contact her?",
+    "answer": "Ms. Feroza Naznin (Code: FN) is listed as Lecturer. Office Room: A-510. Official email: feroza@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["FN", "Feroza Naznin", "Lecturer", "A-510", "feroza@cse.green.edu.bd"],
+    "question_variations": ["FN email?", "Feroza Naznin office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Palash Roy (PR) and what is his email?",
+    "answer": "Mr. Palash Roy (Code: PR) is listed as Lecturer & PC(D). Office Room: A-510. Official email: palash@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["PR", "Palash Roy", "Lecturer", "PC(D)", "A-510", "palash@cse.green.edu.bd"],
+    "question_variations": ["PR contact info?", "Palash Roy email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Ms. Fatema Tuj Johora (FTJ) and where is her office?",
+    "answer": "Ms. Fatema Tuj Johora (Code: FTJ) is listed as Lecturer. Office Room: A-510. Official email: fatema@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["FTJ", "Fatema Tuj Johora", "Lecturer", "A-510", "fatema@cse.green.edu.bd"],
+    "question_variations": ["FTJ email?", "Fatema Tuj Johora office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Md. Atikuzzaman (AZ) and what is his email?",
+    "answer": "Md. Atikuzzaman (Code: AZ) is listed as Lecturer. Office Room: A-608. Official email: atik@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["AZ", "Atikuzzaman", "Lecturer", "A-608", "atik@cse.green.edu.bd"],
+    "question_variations": ["AZ contact info?", "Atikuzzaman room and email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Md. Parvez Hossain (PH) and where is his office?",
+    "answer": "Md. Parvez Hossain (Code: PH) is listed as Lecturer. Office Room: A-510. Official email: parvez@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["PH", "Parvez Hossain", "Lecturer", "A-510", "parvez@cse.green.edu.bd"],
+    "question_variations": ["PH email?", "Parvez Hossain office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Md. Abu Rumman Refat (ARR) and what is his email?",
+    "answer": "Md. Abu Rumman Refat (Code: ARR) is listed as Lecturer & PC(D). Office Room: A-510. Official email: refat@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["ARR", "Abu Rumman Refat", "Lecturer", "PC(D)", "A-510", "refat@cse.green.edu.bd"],
+    "question_variations": ["ARR contact info?", "Refat email address?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Md. Riad Hassan (RH) and how can I contact him?",
+    "answer": "Md. Riad Hassan (Code: RH) is listed as Lecturer & PC(D). Office Room: A-510. Official email: riad@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["RH", "Riad Hassan", "Lecturer", "PC(D)", "A-510", "riad@cse.green.edu.bd"],
+    "question_variations": ["RH email?", "Riad Hassan office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Ms. Fatema Akter (MFA) and what is her email?",
+    "answer": "Ms. Fatema Akter (Code: MFA) is listed as Lecturer. Office Room: A-510. Official email: fatema_akter@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MFA", "Fatema Akter", "Lecturer", "A-510", "fatema_akter@cse.green.edu.bd"],
+    "question_variations": ["MFA contact info?", "Fatema Akter email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Mozdaher Abdul Quader (MMQ) and where is his office?",
+    "answer": "Mr. Mozdaher Abdul Quader (Code: MMQ) is listed as Lecturer. Office Room: A-510. Official email: quader@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["MMQ", "Mozdaher Abdul Quader", "Lecturer", "A-510", "quader@cse.green.edu.bd"],
+    "question_variations": ["MMQ email?", "Mozdaher Quader office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+
+  {
+    "question": "Who is Mr. Md. Naimul Pathan (NP) and what is his email?",
+    "answer": "Mr. Md. Naimul Pathan (Code: NP) is listed as Lecturer. Office Room: A-608. Official email: naimul@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["NP", "Naimul Pathan", "Lecturer", "A-608", "naimul@cse.green.edu.bd"],
+    "question_variations": ["NP contact info?", "Naimul Pathan email address?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Md. Nazmus Shakib (NS) and where is his office?",
+    "answer": "Mr. Md. Nazmus Shakib (Code: NS) is listed as Lecturer. Office Room: A-608. Official email: nazmus_shakib@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["NS", "Nazmus Shakib", "Lecturer", "A-608", "nazmus_shakib@cse.green.edu.bd"],
+    "question_variations": ["NS email?", "Nazmus Shakib office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Mr. Md. Rajibul Palas (RP) and what is his email?",
+    "answer": "Mr. Md. Rajibul Palas (Code: RP) is listed as Lecturer. Office Room: A-608. Official email: rajibul@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["RP", "Rajibul Palas", "Lecturer", "A-608", "rajibul@cse.green.edu.bd"],
+    "question_variations": ["RP contact info?", "Rajibul Palas email?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
+  },
+  {
+    "question": "Who is Md. Shihab Hossain (SH) and how can I contact him?",
+    "answer": "Md. Shihab Hossain (Code: SH) is listed as Lecturer. Office Room: A-608. Official email: shihab@cse.green.edu.bd. (Source: user-provided CSE department teacher list)",
+    "keywords": ["SH", "Shihab Hossain", "Lecturer", "A-608", "shihab@cse.green.edu.bd"],
+    "question_variations": ["SH email?", "Shihab Hossain office room?"],
+    "confidence_score": 1.0,
+    "categories": ["faculty_directory", "contact_info"],
+    "department": "CSE",
+    "priority": "low"
   }
+
 ]

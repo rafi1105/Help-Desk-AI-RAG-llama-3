@@ -1,0 +1,1629 @@
+{
+  "report_generated": "2026-01-16T02:18:58.586179",
+  "data_period": {
+    "start": "2026-01-03T22:05:25.338004",
+    "end": "2026-01-11T10:05:25.338331"
+  },
+  "accuracy_evaluation": {
+    "total_evaluated": 50,
+    "overall_metrics": {
+      "mean_accuracy": 0.38939018344724935,
+      "median_accuracy": 0.3834755604595377,
+      "std_accuracy": 0.05860825324303488,
+      "min_accuracy": 0.28087419582950224,
+      "max_accuracy": 0.4866521917001201
+    },
+    "semantic_similarity": {
+      "mean": 0.5739239568387948,
+      "median": 0.5734011179676901
+    },
+    "bleu_score": {
+      "mean": 0.0,
+      "median": 0.0
+    },
+    "f1_score": {
+      "mean": 0.5327353357057714,
+      "median": 0.5515202702702704
+    },
+    "grade_distribution": {
+      "F (Very Poor)": 50
+    },
+    "detailed_results": [
+      {
+        "timestamp": "2026-01-03T22:05:25.338004",
+        "question": "What is the tuition fee for CSE?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.5390701676625342,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.3157894736842105,
+        "f1_score": 0.45283018867924535,
+        "overall_accuracy": 0.3514771236687873,
+        "matched_keywords": [
+          "students",
+          "for",
+          "with",
+          "tuition",
+          "(all",
+          "gpa",
+          "the",
+          "fee",
+          "tk.",
+          "is",
+          "combined",
+          "10"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-01T01:05:25.338033",
+        "question": "How long is the CSE program?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.6843724147341712,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.6111111111111112,
+        "f1_score": 0.7096774193548387,
+        "overall_accuracy": 0.4866521917001201,
+        "matched_keywords": [
+          "4-year",
+          "the",
+          "consisting",
+          "program",
+          "in",
+          "a",
+          "is",
+          "undergraduate",
+          "semesters.",
+          "8",
+          "of"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-04T08:05:25.338043",
+        "question": "What are the admission requirements?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.5053734521647446,
+        "bleu_score": 0.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.4,
+        "f1_score": 0.5405405405405406,
+        "overall_accuracy": 0.36431154302806,
+        "matched_keywords": [
+          "test,",
+          "performance",
+          "minimum",
+          "gpa",
+          "english",
+          "admission",
+          "and",
+          "in",
+          "hsc,",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-09T01:05:25.338049",
+        "question": "What programs does Green University offer?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.5392996814367829,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.27586206896551724,
+        "f1_score": 0.3902439024390244,
+        "overall_accuracy": 0.33279304330642046,
+        "matched_keywords": [
+          "offers",
+          "english,",
+          "textile",
+          "law,",
+          "and",
+          "university",
+          "engineering,",
+          "green"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T01:05:25.338055",
+        "question": "How can I get a scholarship?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6261875207914063,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.4583333333333333,
+        "f1_score": 0.5945945945945945,
+        "overall_accuracy": 0.4288533866949409,
+        "matched_keywords": [
+          "are",
+          "students",
+          "on",
+          "for",
+          "each",
+          "top",
+          "scholarships",
+          "merit-based",
+          "semester",
+          "5%",
+          "based"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-07T16:05:25.338062",
+        "question": "What is the BBA program fee?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5243638841627274,
+        "bleu_score": 0.0,
+        "precision": 0.75,
+        "recall": 0.45,
+        "f1_score": 0.5625000000000001,
+        "overall_accuracy": 0.378495553665091,
+        "matched_keywords": [
+          "costs.",
+          "reduce",
+          "the",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "varies.",
+          "program",
+          "to"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-06T03:05:25.338068",
+        "question": "What facilities does the university have?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.4450426324308984,
+        "bleu_score": 0.0,
+        "precision": 0.5454545454545454,
+        "recall": 0.25,
+        "f1_score": 0.34285714285714286,
+        "overall_accuracy": 0.28087419582950224,
+        "matched_keywords": [
+          "computer",
+          "sports",
+          "modern",
+          "and",
+          "university",
+          "facilities,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-31T23:05:25.338077",
+        "question": "When does admission start?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6530060642998923,
+        "bleu_score": 0.0,
+        "precision": 0.9166666666666666,
+        "recall": 0.4782608695652174,
+        "f1_score": 0.6285714285714286,
+        "overall_accuracy": 0.4497738542913855,
+        "matched_keywords": [
+          "for",
+          "website",
+          "check",
+          "the",
+          "admission",
+          "office",
+          "or",
+          "01775234234",
+          "please",
+          "contact",
+          "at"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T09:05:25.338083",
+        "question": "What is the fee for EEE department?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.6075025544985972,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.38095238095238093,
+        "f1_score": 0.4848484848484849,
+        "overall_accuracy": 0.3884555672539844,
+        "matched_keywords": [
+          "for",
+          "the",
+          "top",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "program",
+          "performers."
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-08T07:05:25.338090",
+        "question": "What is the textile engineering fee?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6150211962061933,
+        "bleu_score": 0.0,
+        "precision": 1.0,
+        "recall": 0.45,
+        "f1_score": 0.6206896551724138,
+        "overall_accuracy": 0.4322153750342015,
+        "matched_keywords": [
+          "engineering",
+          "per",
+          "textile",
+          "semester.",
+          "the",
+          "fee",
+          "is",
+          "bdt",
+          "70,000"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-30T02:05:25.338096",
+        "question": "What is the tuition fee for CSE?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.5390701676625342,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.3157894736842105,
+        "f1_score": 0.45283018867924535,
+        "overall_accuracy": 0.3514771236687873,
+        "matched_keywords": [
+          "students",
+          "for",
+          "with",
+          "tuition",
+          "(all",
+          "gpa",
+          "the",
+          "fee",
+          "tk.",
+          "is",
+          "combined",
+          "10"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-16T19:05:25.338102",
+        "question": "How long is the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6843724147341712,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.6111111111111112,
+        "f1_score": 0.7096774193548387,
+        "overall_accuracy": 0.4866521917001201,
+        "matched_keywords": [
+          "4-year",
+          "the",
+          "consisting",
+          "program",
+          "in",
+          "a",
+          "is",
+          "undergraduate",
+          "semesters.",
+          "8",
+          "of"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-25T05:05:25.338108",
+        "question": "What are the admission requirements?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5053734521647446,
+        "bleu_score": 0.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.4,
+        "f1_score": 0.5405405405405406,
+        "overall_accuracy": 0.36431154302806,
+        "matched_keywords": [
+          "test,",
+          "performance",
+          "minimum",
+          "gpa",
+          "english",
+          "admission",
+          "and",
+          "in",
+          "hsc,",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-15T05:05:25.338114",
+        "question": "What programs does Green University offer?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.5392996814367829,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.27586206896551724,
+        "f1_score": 0.3902439024390244,
+        "overall_accuracy": 0.33279304330642046,
+        "matched_keywords": [
+          "offers",
+          "english,",
+          "textile",
+          "law,",
+          "and",
+          "university",
+          "engineering,",
+          "green"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-23T08:05:25.338119",
+        "question": "How can I get a scholarship?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6261875207914063,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.4583333333333333,
+        "f1_score": 0.5945945945945945,
+        "overall_accuracy": 0.4288533866949409,
+        "matched_keywords": [
+          "are",
+          "students",
+          "on",
+          "for",
+          "each",
+          "top",
+          "scholarships",
+          "merit-based",
+          "semester",
+          "5%",
+          "based"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-18T12:05:25.338125",
+        "question": "What is the BBA program fee?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.5243638841627274,
+        "bleu_score": 0.0,
+        "precision": 0.75,
+        "recall": 0.45,
+        "f1_score": 0.5625000000000001,
+        "overall_accuracy": 0.378495553665091,
+        "matched_keywords": [
+          "costs.",
+          "reduce",
+          "the",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "varies.",
+          "program",
+          "to"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-23T08:05:25.338131",
+        "question": "What facilities does the university have?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.4450426324308984,
+        "bleu_score": 0.0,
+        "precision": 0.5454545454545454,
+        "recall": 0.25,
+        "f1_score": 0.34285714285714286,
+        "overall_accuracy": 0.28087419582950224,
+        "matched_keywords": [
+          "computer",
+          "sports",
+          "modern",
+          "and",
+          "university",
+          "facilities,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-04T15:05:25.338137",
+        "question": "When does admission start?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6530060642998923,
+        "bleu_score": 0.0,
+        "precision": 0.9166666666666666,
+        "recall": 0.4782608695652174,
+        "f1_score": 0.6285714285714286,
+        "overall_accuracy": 0.4497738542913855,
+        "matched_keywords": [
+          "for",
+          "website",
+          "check",
+          "the",
+          "admission",
+          "office",
+          "or",
+          "01775234234",
+          "please",
+          "contact",
+          "at"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-31T09:05:25.338143",
+        "question": "What is the fee for EEE department?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6075025544985972,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.38095238095238093,
+        "f1_score": 0.4848484848484849,
+        "overall_accuracy": 0.3884555672539844,
+        "matched_keywords": [
+          "for",
+          "the",
+          "top",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "program",
+          "performers."
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-07T18:05:25.338148",
+        "question": "What is the textile engineering fee?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6150211962061933,
+        "bleu_score": 0.0,
+        "precision": 1.0,
+        "recall": 0.45,
+        "f1_score": 0.6206896551724138,
+        "overall_accuracy": 0.4322153750342015,
+        "matched_keywords": [
+          "engineering",
+          "per",
+          "textile",
+          "semester.",
+          "the",
+          "fee",
+          "is",
+          "bdt",
+          "70,000"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-25T19:05:25.338154",
+        "question": "What is the tuition fee for CSE?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5390701676625342,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.3157894736842105,
+        "f1_score": 0.45283018867924535,
+        "overall_accuracy": 0.3514771236687873,
+        "matched_keywords": [
+          "students",
+          "for",
+          "with",
+          "tuition",
+          "(all",
+          "gpa",
+          "the",
+          "fee",
+          "tk.",
+          "is",
+          "combined",
+          "10"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-20T14:05:25.338160",
+        "question": "How long is the CSE program?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6843724147341712,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.6111111111111112,
+        "f1_score": 0.7096774193548387,
+        "overall_accuracy": 0.4866521917001201,
+        "matched_keywords": [
+          "4-year",
+          "the",
+          "consisting",
+          "program",
+          "in",
+          "a",
+          "is",
+          "undergraduate",
+          "semesters.",
+          "8",
+          "of"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T11:05:25.338165",
+        "question": "What are the admission requirements?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5053734521647446,
+        "bleu_score": 0.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.4,
+        "f1_score": 0.5405405405405406,
+        "overall_accuracy": 0.36431154302806,
+        "matched_keywords": [
+          "test,",
+          "performance",
+          "minimum",
+          "gpa",
+          "english",
+          "admission",
+          "and",
+          "in",
+          "hsc,",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-01T09:05:25.338171",
+        "question": "What programs does Green University offer?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.5392996814367829,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.27586206896551724,
+        "f1_score": 0.3902439024390244,
+        "overall_accuracy": 0.33279304330642046,
+        "matched_keywords": [
+          "offers",
+          "english,",
+          "textile",
+          "law,",
+          "and",
+          "university",
+          "engineering,",
+          "green"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-28T03:05:25.338176",
+        "question": "How can I get a scholarship?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6261875207914063,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.4583333333333333,
+        "f1_score": 0.5945945945945945,
+        "overall_accuracy": 0.4288533866949409,
+        "matched_keywords": [
+          "are",
+          "students",
+          "on",
+          "for",
+          "each",
+          "top",
+          "scholarships",
+          "merit-based",
+          "semester",
+          "5%",
+          "based"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-30T22:05:25.338182",
+        "question": "What is the BBA program fee?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.5243638841627274,
+        "bleu_score": 0.0,
+        "precision": 0.75,
+        "recall": 0.45,
+        "f1_score": 0.5625000000000001,
+        "overall_accuracy": 0.378495553665091,
+        "matched_keywords": [
+          "costs.",
+          "reduce",
+          "the",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "varies.",
+          "program",
+          "to"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-24T11:05:25.338188",
+        "question": "What facilities does the university have?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.4450426324308984,
+        "bleu_score": 0.0,
+        "precision": 0.5454545454545454,
+        "recall": 0.25,
+        "f1_score": 0.34285714285714286,
+        "overall_accuracy": 0.28087419582950224,
+        "matched_keywords": [
+          "computer",
+          "sports",
+          "modern",
+          "and",
+          "university",
+          "facilities,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-27T15:05:25.338193",
+        "question": "When does admission start?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6530060642998923,
+        "bleu_score": 0.0,
+        "precision": 0.9166666666666666,
+        "recall": 0.4782608695652174,
+        "f1_score": 0.6285714285714286,
+        "overall_accuracy": 0.4497738542913855,
+        "matched_keywords": [
+          "for",
+          "website",
+          "check",
+          "the",
+          "admission",
+          "office",
+          "or",
+          "01775234234",
+          "please",
+          "contact",
+          "at"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-18T01:05:25.338200",
+        "question": "What is the fee for EEE department?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6075025544985972,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.38095238095238093,
+        "f1_score": 0.4848484848484849,
+        "overall_accuracy": 0.3884555672539844,
+        "matched_keywords": [
+          "for",
+          "the",
+          "top",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "program",
+          "performers."
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-28T09:05:25.338206",
+        "question": "What is the textile engineering fee?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6150211962061933,
+        "bleu_score": 0.0,
+        "precision": 1.0,
+        "recall": 0.45,
+        "f1_score": 0.6206896551724138,
+        "overall_accuracy": 0.4322153750342015,
+        "matched_keywords": [
+          "engineering",
+          "per",
+          "textile",
+          "semester.",
+          "the",
+          "fee",
+          "is",
+          "bdt",
+          "70,000"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-10T01:05:25.338212",
+        "question": "What is the tuition fee for CSE?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.5390701676625342,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.3157894736842105,
+        "f1_score": 0.45283018867924535,
+        "overall_accuracy": 0.3514771236687873,
+        "matched_keywords": [
+          "students",
+          "for",
+          "with",
+          "tuition",
+          "(all",
+          "gpa",
+          "the",
+          "fee",
+          "tk.",
+          "is",
+          "combined",
+          "10"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-07T02:05:25.338218",
+        "question": "How long is the CSE program?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6843724147341712,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.6111111111111112,
+        "f1_score": 0.7096774193548387,
+        "overall_accuracy": 0.4866521917001201,
+        "matched_keywords": [
+          "4-year",
+          "the",
+          "consisting",
+          "program",
+          "in",
+          "a",
+          "is",
+          "undergraduate",
+          "semesters.",
+          "8",
+          "of"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-22T08:05:25.338225",
+        "question": "What are the admission requirements?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.5053734521647446,
+        "bleu_score": 0.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.4,
+        "f1_score": 0.5405405405405406,
+        "overall_accuracy": 0.36431154302806,
+        "matched_keywords": [
+          "test,",
+          "performance",
+          "minimum",
+          "gpa",
+          "english",
+          "admission",
+          "and",
+          "in",
+          "hsc,",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-20T20:05:25.338232",
+        "question": "What programs does Green University offer?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5392996814367829,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.27586206896551724,
+        "f1_score": 0.3902439024390244,
+        "overall_accuracy": 0.33279304330642046,
+        "matched_keywords": [
+          "offers",
+          "english,",
+          "textile",
+          "law,",
+          "and",
+          "university",
+          "engineering,",
+          "green"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-31T16:05:25.338237",
+        "question": "How can I get a scholarship?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6261875207914063,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.4583333333333333,
+        "f1_score": 0.5945945945945945,
+        "overall_accuracy": 0.4288533866949409,
+        "matched_keywords": [
+          "are",
+          "students",
+          "on",
+          "for",
+          "each",
+          "top",
+          "scholarships",
+          "merit-based",
+          "semester",
+          "5%",
+          "based"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-04T03:05:25.338244",
+        "question": "What is the BBA program fee?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.5243638841627274,
+        "bleu_score": 0.0,
+        "precision": 0.75,
+        "recall": 0.45,
+        "f1_score": 0.5625000000000001,
+        "overall_accuracy": 0.378495553665091,
+        "matched_keywords": [
+          "costs.",
+          "reduce",
+          "the",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "varies.",
+          "program",
+          "to"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-18T05:05:25.338251",
+        "question": "What facilities does the university have?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.4450426324308984,
+        "bleu_score": 0.0,
+        "precision": 0.5454545454545454,
+        "recall": 0.25,
+        "f1_score": 0.34285714285714286,
+        "overall_accuracy": 0.28087419582950224,
+        "matched_keywords": [
+          "computer",
+          "sports",
+          "modern",
+          "and",
+          "university",
+          "facilities,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-03T07:05:25.338257",
+        "question": "When does admission start?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6530060642998923,
+        "bleu_score": 0.0,
+        "precision": 0.9166666666666666,
+        "recall": 0.4782608695652174,
+        "f1_score": 0.6285714285714286,
+        "overall_accuracy": 0.4497738542913855,
+        "matched_keywords": [
+          "for",
+          "website",
+          "check",
+          "the",
+          "admission",
+          "office",
+          "or",
+          "01775234234",
+          "please",
+          "contact",
+          "at"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-05T04:05:25.338264",
+        "question": "What is the fee for EEE department?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6075025544985972,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.38095238095238093,
+        "f1_score": 0.4848484848484849,
+        "overall_accuracy": 0.3884555672539844,
+        "matched_keywords": [
+          "for",
+          "the",
+          "top",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "program",
+          "performers."
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-22T20:05:25.338271",
+        "question": "What is the textile engineering fee?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.6150211962061933,
+        "bleu_score": 0.0,
+        "precision": 1.0,
+        "recall": 0.45,
+        "f1_score": 0.6206896551724138,
+        "overall_accuracy": 0.4322153750342015,
+        "matched_keywords": [
+          "engineering",
+          "per",
+          "textile",
+          "semester.",
+          "the",
+          "fee",
+          "is",
+          "bdt",
+          "70,000"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-05T20:05:25.338278",
+        "question": "What is the tuition fee for CSE?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.5390701676625342,
+        "bleu_score": 0.0,
+        "precision": 0.8,
+        "recall": 0.3157894736842105,
+        "f1_score": 0.45283018867924535,
+        "overall_accuracy": 0.3514771236687873,
+        "matched_keywords": [
+          "students",
+          "for",
+          "with",
+          "tuition",
+          "(all",
+          "gpa",
+          "the",
+          "fee",
+          "tk.",
+          "is",
+          "combined",
+          "10"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T19:05:25.338284",
+        "question": "How long is the CSE program?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6843724147341712,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.6111111111111112,
+        "f1_score": 0.7096774193548387,
+        "overall_accuracy": 0.4866521917001201,
+        "matched_keywords": [
+          "4-year",
+          "the",
+          "consisting",
+          "program",
+          "in",
+          "a",
+          "is",
+          "undergraduate",
+          "semesters.",
+          "8",
+          "of"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-05T16:05:25.338290",
+        "question": "What are the admission requirements?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5053734521647446,
+        "bleu_score": 0.0,
+        "precision": 0.8333333333333334,
+        "recall": 0.4,
+        "f1_score": 0.5405405405405406,
+        "overall_accuracy": 0.36431154302806,
+        "matched_keywords": [
+          "test,",
+          "performance",
+          "minimum",
+          "gpa",
+          "english",
+          "admission",
+          "and",
+          "in",
+          "hsc,",
+          "ssc"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-09T05:05:25.338295",
+        "question": "What programs does Green University offer?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.5392996814367829,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.27586206896551724,
+        "f1_score": 0.3902439024390244,
+        "overall_accuracy": 0.33279304330642046,
+        "matched_keywords": [
+          "offers",
+          "english,",
+          "textile",
+          "law,",
+          "and",
+          "university",
+          "engineering,",
+          "green"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-26T20:05:25.338301",
+        "question": "How can I get a scholarship?",
+        "source": "rag",
+        "evaluated": true,
+        "semantic_similarity": 0.6261875207914063,
+        "bleu_score": 0.0,
+        "precision": 0.8461538461538461,
+        "recall": 0.4583333333333333,
+        "f1_score": 0.5945945945945945,
+        "overall_accuracy": 0.4288533866949409,
+        "matched_keywords": [
+          "are",
+          "students",
+          "on",
+          "for",
+          "each",
+          "top",
+          "scholarships",
+          "merit-based",
+          "semester",
+          "5%",
+          "based"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-18T18:05:25.338306",
+        "question": "What is the BBA program fee?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.5243638841627274,
+        "bleu_score": 0.0,
+        "precision": 0.75,
+        "recall": 0.45,
+        "f1_score": 0.5625000000000001,
+        "overall_accuracy": 0.378495553665091,
+        "matched_keywords": [
+          "costs.",
+          "reduce",
+          "the",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "varies.",
+          "program",
+          "to"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-31T21:05:25.338312",
+        "question": "What facilities does the university have?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.4450426324308984,
+        "bleu_score": 0.0,
+        "precision": 0.5454545454545454,
+        "recall": 0.25,
+        "f1_score": 0.34285714285714286,
+        "overall_accuracy": 0.28087419582950224,
+        "matched_keywords": [
+          "computer",
+          "sports",
+          "modern",
+          "and",
+          "university",
+          "facilities,"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-10T11:05:25.338318",
+        "question": "When does admission start?",
+        "source": "llm",
+        "evaluated": true,
+        "semantic_similarity": 0.6530060642998923,
+        "bleu_score": 0.0,
+        "precision": 0.9166666666666666,
+        "recall": 0.4782608695652174,
+        "f1_score": 0.6285714285714286,
+        "overall_accuracy": 0.4497738542913855,
+        "matched_keywords": [
+          "for",
+          "website",
+          "check",
+          "the",
+          "admission",
+          "office",
+          "or",
+          "01775234234",
+          "please",
+          "contact",
+          "at"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2025-12-26T18:05:25.338325",
+        "question": "What is the fee for EEE department?",
+        "source": "dataset",
+        "evaluated": true,
+        "semantic_similarity": 0.6075025544985972,
+        "bleu_score": 0.0,
+        "precision": 0.6666666666666666,
+        "recall": 0.38095238095238093,
+        "f1_score": 0.4848484848484849,
+        "overall_accuracy": 0.3884555672539844,
+        "matched_keywords": [
+          "for",
+          "the",
+          "top",
+          "fee",
+          "scholarships",
+          "merit-based",
+          "program",
+          "performers."
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      },
+      {
+        "timestamp": "2026-01-11T10:05:25.338331",
+        "question": "What is the textile engineering fee?",
+        "source": "dataset_formatted",
+        "evaluated": true,
+        "semantic_similarity": 0.6150211962061933,
+        "bleu_score": 0.0,
+        "precision": 1.0,
+        "recall": 0.45,
+        "f1_score": 0.6206896551724138,
+        "overall_accuracy": 0.4322153750342015,
+        "matched_keywords": [
+          "engineering",
+          "per",
+          "textile",
+          "semester.",
+          "the",
+          "fee",
+          "is",
+          "bdt",
+          "70,000"
+        ],
+        "accuracy_grade": "F (Very Poor)"
+      }
+    ]
+  },
+  "response_time_analysis": {
+    "total_responses": 50,
+    "average_response_time": 2.6308053991287292,
+    "median_response_time": 2.710684709237933,
+    "min_response_time": 0.6051609876431667,
+    "max_response_time": 4.94455973650875,
+    "std_deviation": 1.359568945523329,
+    "total_time": 131.54026995643648,
+    "percentiles": {
+      "p50": 2.710684709237933,
+      "p75": 3.7693915591546707,
+      "p90": 4.4830977240818894,
+      "p95": 4.664321289383157,
+      "p99": 4.913697824281423
+    },
+    "distribution": {
+      "under_1s": 7,
+      "1s_to_2s": 14,
+      "2s_to_5s": 29,
+      "5s_to_10s": 0,
+      "over_10s": 0
+    },
+    "by_source": {
+      "llm": {
+        "count": 13,
+        "average": 3.272469445497834,
+        "median": 3.4642218333101793
+      },
+      "rag": {
+        "count": 8,
+        "average": 1.7055324115584747,
+        "median": 1.4552988860867586
+      },
+      "dataset_formatted": {
+        "count": 12,
+        "average": 2.846364822286957,
+        "median": 3.4128139213665385
+      },
+      "dataset": {
+        "count": 17,
+        "average": 2.4233841179443143,
+        "median": 2.663315331698982
+      }
+    },
+    "trends": {
+      "2025-12-16 19:00": {
+        "count": 1,
+        "average": 2.663315331698982,
+        "median": 2.663315331698982
+      },
+      "2025-12-18 01:00": {
+        "count": 1,
+        "average": 4.075177431088824,
+        "median": 4.075177431088824
+      },
+      "2025-12-18 05:00": {
+        "count": 1,
+        "average": 1.3386981507787523,
+        "median": 1.3386981507787523
+      },
+      "2025-12-18 12:00": {
+        "count": 1,
+        "average": 0.8892000107635873,
+        "median": 0.8892000107635873
+      },
+      "2025-12-18 18:00": {
+        "count": 1,
+        "average": 4.139245259871701,
+        "median": 4.139245259871701
+      },
+      "2025-12-20 14:00": {
+        "count": 1,
+        "average": 2.7239203340901965,
+        "median": 2.7239203340901965
+      },
+      "2025-12-20 20:00": {
+        "count": 1,
+        "average": 0.6051609876431667,
+        "median": 0.6051609876431667
+      },
+      "2025-12-22 08:00": {
+        "count": 1,
+        "average": 4.26362442040282,
+        "median": 4.26362442040282
+      },
+      "2025-12-22 20:00": {
+        "count": 1,
+        "average": 2.358851216398148,
+        "median": 2.358851216398148
+      },
+      "2025-12-23 08:00": {
+        "count": 2,
+        "average": 1.229250878347646,
+        "median": 1.229250878347646
+      },
+      "2025-12-24 11:00": {
+        "count": 1,
+        "average": 1.017922096186724,
+        "median": 1.017922096186724
+      },
+      "2025-12-25 05:00": {
+        "count": 1,
+        "average": 2.8502732647803297,
+        "median": 2.8502732647803297
+      },
+      "2025-12-25 19:00": {
+        "count": 1,
+        "average": 1.4263256879307802,
+        "median": 1.4263256879307802
+      },
+      "2025-12-26 18:00": {
+        "count": 1,
+        "average": 4.94455973650875,
+        "median": 4.94455973650875
+      },
+      "2025-12-26 20:00": {
+        "count": 1,
+        "average": 0.9274469047832467,
+        "median": 0.9274469047832467
+      },
+      "2025-12-27 15:00": {
+        "count": 1,
+        "average": 1.6129584087884445,
+        "median": 1.6129584087884445
+      },
+      "2025-12-28 03:00": {
+        "count": 1,
+        "average": 1.011098199483575,
+        "median": 1.011098199483575
+      },
+      "2025-12-28 09:00": {
+        "count": 1,
+        "average": 2.7455100970056567,
+        "median": 2.7455100970056567
+      },
+      "2025-12-30 02:00": {
+        "count": 1,
+        "average": 4.525095103412701,
+        "median": 4.525095103412701
+      },
+      "2025-12-30 22:00": {
+        "count": 1,
+        "average": 1.5489856129650375,
+        "median": 1.5489856129650375
+      },
+      "2025-12-31 09:00": {
+        "count": 1,
+        "average": 3.2225840877946546,
+        "median": 3.2225840877946546
+      },
+      "2025-12-31 16:00": {
+        "count": 1,
+        "average": 1.5614693938278645,
+        "median": 1.5614693938278645
+      },
+      "2025-12-31 21:00": {
+        "count": 1,
+        "average": 2.6974490843856698,
+        "median": 2.6974490843856698
+      },
+      "2025-12-31 23:00": {
+        "count": 1,
+        "average": 3.728915740814723,
+        "median": 3.728915740814723
+      },
+      "2026-01-01 01:00": {
+        "count": 1,
+        "average": 3.4306652890005918,
+        "median": 3.4306652890005918
+      },
+      "2026-01-01 09:00": {
+        "count": 1,
+        "average": 0.9721550873276013,
+        "median": 0.9721550873276013
+      },
+      "2026-01-03 07:00": {
+        "count": 1,
+        "average": 1.8754203971387198,
+        "median": 1.8754203971387198
+      },
+      "2026-01-03 22:00": {
+        "count": 1,
+        "average": 4.137264580210012,
+        "median": 4.137264580210012
+      },
+      "2026-01-04 03:00": {
+        "count": 1,
+        "average": 3.4642218333101793,
+        "median": 3.4642218333101793
+      },
+      "2026-01-04 08:00": {
+        "count": 1,
+        "average": 3.765320676707242,
+        "median": 3.765320676707242
+      },
+      "2026-01-04 15:00": {
+        "count": 1,
+        "average": 4.564224363801049,
+        "median": 4.564224363801049
+      },
+      "2026-01-05 04:00": {
+        "count": 1,
+        "average": 0.8154269517284839,
+        "median": 0.8154269517284839
+      },
+      "2026-01-05 16:00": {
+        "count": 1,
+        "average": 1.6558377557141986,
+        "median": 1.6558377557141986
+      },
+      "2026-01-05 20:00": {
+        "count": 1,
+        "average": 3.3189140047235433,
+        "median": 3.3189140047235433
+      },
+      "2026-01-06 03:00": {
+        "count": 1,
+        "average": 4.245125882408578,
+        "median": 4.245125882408578
+      },
+      "2026-01-07 02:00": {
+        "count": 1,
+        "average": 4.7462187739503365,
+        "median": 4.7462187739503365
+      },
+      "2026-01-07 16:00": {
+        "count": 1,
+        "average": 2.727952573722647,
+        "median": 2.727952573722647
+      },
+      "2026-01-07 18:00": {
+        "count": 1,
+        "average": 0.6130215251351947,
+        "median": 0.6130215251351947
+      },
+      "2026-01-08 07:00": {
+        "count": 1,
+        "average": 1.4031950591352134,
+        "median": 1.4031950591352134
+      },
+      "2026-01-09 01:00": {
+        "count": 1,
+        "average": 0.9720217647856899,
+        "median": 0.9720217647856899
+      },
+      "2026-01-09 05:00": {
+        "count": 1,
+        "average": 2.6684313710347807,
+        "median": 2.6684313710347807
+      },
+      "2026-01-10 01:00": {
+        "count": 1,
+        "average": 1.798988319091916,
+        "median": 1.798988319091916
+      },
+      "2026-01-10 11:00": {
+        "count": 1,
+        "average": 4.881576242167266,
+        "median": 4.881576242167266
+      },
+      "2026-01-11 10:00": {
+        "count": 1,
+        "average": 3.7707485199704807,
+        "median": 3.7707485199704807
+      },
+      "2026-01-11 11:00": {
+        "count": 1,
+        "average": 3.8203021145373253,
+        "median": 3.8203021145373253
+      },
+      "2026-01-11 19:00": {
+        "count": 1,
+        "average": 3.229918745503901,
+        "median": 3.229918745503901
+      },
+      "2026-01-15 01:00": {
+        "count": 1,
+        "average": 4.478431348600688,
+        "median": 4.478431348600688
+      },
+      "2026-01-15 05:00": {
+        "count": 1,
+        "average": 3.603043754938422,
+        "median": 3.603043754938422
+      },
+      "2026-01-15 09:00": {
+        "count": 1,
+        "average": 1.2455547036927774,
+        "median": 1.2455547036927774
+      }
+    }
+  },
+  "user_feedback_analysis": {
+    "total_feedback": 15,
+    "likes": 5,
+    "dislikes": 10,
+    "satisfaction_rate": 33.33333333333333,
+    "like_dislike_ratio": 0.5,
+    "feedback_timeline": {
+      "2025-09-03": {
+        "likes": 1,
+        "dislikes": 0
+      },
+      "2025-11-04": {
+        "likes": 1,
+        "dislikes": 0
+      },
+      "2025-11-05": {
+        "likes": 2,
+        "dislikes": 7
+      },
+      "2025-12-30": {
+        "likes": 1,
+        "dislikes": 3
+      }
+    },
+    "most_liked_topics": [
+      {
+        "topic": "textile",
+        "count": 2
+      },
+      {
+        "topic": "department",
+        "count": 2
+      },
+      {
+        "topic": "semester",
+        "count": 2
+      }
+    ],
+    "most_disliked_topics": [
+      {
+        "topic": "textile",
+        "count": 6
+      },
+      {
+        "topic": "department",
+        "count": 4
+      },
+      {
+        "topic": "semester",
+        "count": 3
+      },
+      {
+        "topic": "what",
+        "count": 2
+      },
+      {
+        "topic": "structure",
+        "count": 2
+      }
+    ]
+  },
+  "summary": {
+    "accuracy": {
+      "average_accuracy": "38.94%",
+      "grade": "F (Very Poor)",
+      "consistency": "High"
+    },
+    "response_time": {
+      "average": "2.631s",
+      "performance_grade": "Good",
+      "consistency": "Medium"
+    },
+    "user_satisfaction": {
+      "satisfaction_rate": "33.33%",
+      "grade": "Needs Improvement",
+      "total_interactions": 15
+    }
+  }
+}
